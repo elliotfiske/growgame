@@ -3,7 +3,7 @@
         player.getComponent('ColoredSprite').setSheet('img/sawman-all.png', 20, 20);
         player.getComponent('Player').updateAnim('IDLE');
 
-    window.Level = Juicy.State.extend({
+    window.Level = Level.extend({
         constructor: function(options) {
             options = options || {};
 
@@ -24,7 +24,6 @@
 
             // State variables
             this.loaded = false;
-            this.gateOpen = false;
             this.updateFunc = null;
             this.objects = [];
             this.speechTime = options.speechTime || 2;
@@ -56,28 +55,11 @@
             // Create Background
             if (options.backdrop !== false) {
                 this.backdrop = new Juicy.Entity(this, ['ColoredSprite']);
-                this.backdrop.getComponent('ColoredSprite').setSheet('img/backdrop.png', 160, 144);
+                this.backdrop.getComponent('ColoredSprite').setSheet('img/title-bg.png', 160, 144);
             }
 
             // Particle Manager
             this.particles = new Juicy.Entity(this, ['ParticleManager']);
-
-            // Countdown until game starts
-            if (options.countdown !== false) {
-                this._countdown = options.countdown - 0.01;
-                this.countdownText = this.ui.addText({
-                    text: '' + Math.floor(options.countdown),
-                    font: 'BIG',
-                    position: Juicy.Point.create(80, 40),
-                    center: true,
-                    brightness: 3,
-                    animate: 'SLIDE',
-                    delayPerCharacter: 0
-                });
-            }
-            else {
-                this._countdown = false;
-            }
 
             // Camera info
             this.watching = this.player;
@@ -110,97 +92,11 @@
         },
 
         cleanup: function() {
-            this.tile_manager.cleanup();
             music.stop(this.song);
-            this.tiles = null;
         },
-
-        load: function(piece) {
-            var cleanupProgress = this.tile_manager.cleanupLastManager();
-            if (cleanupProgress < 1) {
-                return cleanupProgress;
-            }
-
-            for (var i = 0; i < this.tile_manager.width / this.tile_manager.chunk_width; i ++) {
-                if (this.loadedChunkRow === this.game_height + 1) {
-                    this.tile_manager.buildChunk(i, this.loadedChunkRow, 'solid');
-                }
-                else if (this.loadedChunkRow < 2) {
-                    this.tile_manager.buildChunk(i, this.loadedChunkRow, 'empty');
-                }
-                else {
-                    this.tile_manager.buildChunk(i, this.loadedChunkRow);
-                }
-            }
-
-            return (++this.loadedChunkRow / (this.game_height + 2));
-        },
-
+        f
         init: function() {
-            var self = this;
-            if (!this.loaded) {
-                this.loadedChunkRow = 0;
-                this.game.setState(new LoadingState(this, {
-                    // Pre-build chunks down to self.game_height!!
-                    load: this.load.bind(this)
-                }));
-            }
-            else {
-                this.timeout(function() {
-                    self.esc.remove = true
-                }, 5);
-            }
-
             music.play(this.song);
-        },
-
-        say: function(dialog) {
-            dialog = this.speech[dialog];
-            if (!dialog) {
-                this.updateFunc = null;
-                return;
-            }
-
-            sfx.play('quack');
-            this.ivan_message.set(dialog);
-
-            if (dialog.execute) {
-                dialog.execute.call(this);
-            }
-
-
-            if (dialog.next) {
-                var self = this;
-                var next = dialog.next;
-                if (next && typeof(next) === 'string') {
-                    var nextDialog = next;
-                    next = function() {
-                        self.say(nextDialog);
-                    };
-                }
-
-                this.timeout(function() {
-                    next.call(self);
-                }, dialog.time || this.speechTime);
-            }
-            else if (dialog.nextKey) {
-                var next = dialog.nextKey;
-                if (next && typeof(next) === 'string') {
-                    var nextDialog = next;
-                    var self = this;
-                    next = function() {
-                        self.say(nextDialog);
-                    };
-                }
-
-                this.updateFunc = function() { return false; };
-                var self = this;
-                this.game.on('key', dialog.keys || ['SPACE'], function() {
-                    self.key_SPACE = false;
-
-                    next.call(self);
-                });
-            }
         },
 
         gameOver: function() {
@@ -259,65 +155,25 @@
             this.particles.update(dt);
             this.ui_entity.update(dt);
 
-            if (this._countdown !== false) {
-                if (this._countdown > 0) {
-                    var nextCountdown = this._countdown - dt;
-
-                    if (Math.ceil(nextCountdown) !== Math.ceil(this._countdown)) {
-                        this.countdownText.setText(Math.ceil(nextCountdown) + '');
-                    }
-
-                    this._countdown = nextCountdown;
-                    if (this._countdown <= 0) {
-                        this.countdownText.set({
-                            delayPerCharacter: 0,
-                            text: 'GO',
-                            center: true,
-                            animate: 'NONE'
-                        });
-                        sfx.play('jump');
-                    }
-
-                    shouldUpdate = false; // Don't update game yet
-                }
-                else if (this._countdown > -0.5) {
-                    this._countdown -= dt;
-
-                    if (this._countdown <= -0.5) {
-                        this.countdownText.remove = true;
-                    }
-                }
-            }
-
             if (this.updateFunc) {
                 shouldUpdate = this.updateFunc(dt, game);
             }
 
-            if (typeof(shouldUpdate) === 'undefined' || shouldUpdate) {
-                this.player.update(dt);
+            // Main update callers
+            this.player.update(dt);
 
-                if (this.player.position.x < 0) this.player.position.x = 0;
-                if (this.player.position.x + this.player.width > this.tile_manager.width) {
-                    this.player.position.x = this.tile_manager.width - this.player.width;
-                }
-
-                for (var i = 0; i < this.objects.length; i ++) {
-                    this.objects[i].update(dt);
-                }
-
-                this.camera.dx = 8;
-                this.camera.dy = 20;
-                this.watching = this.player;
+            if (this.player.position.x < 0) this.player.position.x = 0;
+            if (this.player.position.x + this.player.width > this.tile_manager.width) {
+                this.player.position.x = this.tile_manager.width - this.player.width;
             }
-            else {
-                var alwaysUpdate = ['ColoredSprite', 'Follower'];
 
-                for (var n = 0; n < alwaysUpdate.length; n ++) {
-                    for (var i = 0; i < this.objects.length; i ++) {
-                        this.objects[i].update(dt, alwaysUpdate[n]);
-                    }
-                }
+            for (var i = 0; i < this.objects.length; i ++) {
+                this.objects[i].update(dt);
             }
+
+            this.camera.dx = 8;
+            this.camera.dy = 20;
+            this.watching = this.player;
 
             for (var i = 0; i < this.objects.length; i ++) {
                 if (this.objects[i].remove) {
@@ -355,8 +211,6 @@
             }
             context.translate(-Math.round(this.camera.x + 2 * Math.sin(this.shake * 100)), -Math.round(this.camera.y));
 
-            this.tiles.render(context, this.camera.x, this.camera.y, this.game.width, this.game.height);
-
             this.particles.render(context);
             
             for (var i = 0; i < this.objects.length; i ++) {
@@ -365,21 +219,6 @@
             this.player.render(context);
 
             context.restore();
-
-            if (this.showEnergy) {
-                var pEnergy = this.player.getComponent('Digger').energy;
-                var pMaxEnergy = this.player.getComponent('Digger').max_energy;
-                context.fillStyle = Palette.getStyle('LOW');
-                context.fillRect(0, 0, 160, 17);
-
-                context.fillStyle = Palette.getStyle('DARK');
-                context.fillRect(1, 1, 68, 15);
-                context.fillRect(72, 1, 90, 15);
-                context.drawImage(this.energy, 74, 3);
-                for (var i = 0; i < pEnergy * 9 / pMaxEnergy; i ++) {
-                    context.drawImage(this.healthBar, 87 + i * 8, 3);
-                }
-            }
 
             // Draw UI independent of Camera
             this.ui_entity.render(context);

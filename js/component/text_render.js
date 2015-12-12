@@ -181,7 +181,6 @@
             for (var c = 0; c < this.text.length; c++) {
                 var charCode = this.text.charCodeAt(c);
 
-
                 if (charCode != 32) {
                     var animFrame = this.characterAnim[c];
 
