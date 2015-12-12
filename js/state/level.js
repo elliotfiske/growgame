@@ -47,7 +47,8 @@
             player.position = new Juicy.Point(16, 240);
             player.state = this;
             player.target = false;
-            this.player.getComponent('Sprite').setSheet('img/mainchar.png', 32, 32);
+            this.player.getComponent('Sprite').setSheet('img/mainchar.png', 15, 27);
+            this.player.getComponent('Sprite').scale = 2;
 
             // Create Background
             if (options.backdrop !== false) {

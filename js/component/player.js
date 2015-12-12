@@ -84,25 +84,26 @@ Juicy.Component.create('Player', {
     physics.dx = 0;
     if (input.keyDown('UP')) {
         physics.dy = -speed;
+        // this.updateAnim('UP');
     }
     if (input.keyDown('DOWN')) {
         physics.dy = speed;
+        // this.updateAnim('DOWN');
     }
     if (input.keyDown('LEFT')) {
         physics.dx = -speed;
-        this.entity.getComponent('Sprite').flipped = false;
+        // this.updateAnim('LEFT');
     }  
     if (input.keyDown('RIGHT')) {
         physics.dx = speed;
-        this.entity.getComponent('Sprite').flipped = true;
+        // this.updateAnim('RIGHT');
     }
-     
-    if (physics.dx !== 0)
-        this.direction = physics.dx > 0 ? 1 : -1;
 
-      // Test colliding with objects
-      var objects = this.entity.state.objects;
-      for (var i = 0; i < objects.length; i ++) {
+    this.updateAnim(input.inputStackTop());
+
+    // Test colliding with objects
+    var objects = this.entity.state.objects;
+    for (var i = 0; i < objects.length; i ++) {
          var object = objects[i];
 
          if (this.entity.transform.testCollision(object.transform)) {
@@ -122,7 +123,8 @@ Juicy.Component.create('Player', {
          }
       }
 
-      this.entity.getComponent('Sprite').advanceAnimation(Math.abs(physics.dx));
+      var dist = Math.sqrt(physics.dx*physics.dx + physics.dy*physics.dy);
+      this.entity.getComponent('Sprite').advanceAnimation(dist * 0.07);
    },
 
    updateAnim: function(newDirection) {
@@ -136,20 +138,21 @@ Juicy.Component.create('Player', {
         sprite.flipped = false;
         if (this.direction == 'IDLE') {
             this.entity.visualTransform.scale.x = 1;
-            sprite.runAnimation(12, 23, 0.16, true);
+            sprite.runAnimation(0, 0, 0.16, true);
         }
         else if (this.direction == 'LEFT') {
-            sprite.runAnimation(8, 11, 0.016, true);
+            sprite.runAnimation(4, 7, -1, true);
             sprite.flipped = true;
         }
         else if (this.direction == 'RIGHT') {
-            sprite.runAnimation(8, 11, 0.016, true);
+            sprite.runAnimation(4, 7, -1, true);
+
         }
         else if (this.direction == 'DOWN') {
-            sprite.runAnimation(0, 3, 0.016, true);
+            sprite.runAnimation(2, 3, -1, true);
         }
         else if (this.direction == 'UP') {
-            sprite.runAnimation(4, 7, 0.016, true);
+            sprite.runAnimation(0, 1, -1, true);
         }
    },
 });

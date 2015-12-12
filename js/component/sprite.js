@@ -101,6 +101,7 @@ Juicy.Component.create('Sprite', {
 
     goNextFrame: function() {
         this.sprite ++;
+        console.log("Advancing frame to " + this.sprite)
 
         this.timeleft = this.frametime;
 
