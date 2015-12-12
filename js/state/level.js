@@ -1,18 +1,14 @@
 (function() {
-    var player = new Juicy.Entity(this, ['ColoredSprite', 'Player', 'Digger', 'Physics', 'Animations']);   
-        player.getComponent('ColoredSprite').setSheet('img/sawman-all.png', 20, 20);
+    var player = new Juicy.Entity(this, ['Sprite', 'Player', 'Physics', 'Animations']);
         player.getComponent('Player').updateAnim('IDLE');
 
-    window.Level = Level.extend({
+    window.Level = Juicy.State.extend({
         constructor: function(options) {
             options = options || {};
 
             if (typeof(options.countdown) === 'undefined') {
                 options.countdown = options.countdown || 3;
             }
-
-            this.healthBar = Palette.loadImage('img/health_bar.png');
-            this.energy = Palette.loadImage('img/energy.png');
 
             // Initialize variables
             var self = this;
@@ -51,11 +47,12 @@
             player.position = new Juicy.Point(16, 240);
             player.state = this;
             player.target = false;
+            this.player.getComponent('Sprite').setSheet('img/mainchar.png', 32, 32);
 
             // Create Background
             if (options.backdrop !== false) {
-                this.backdrop = new Juicy.Entity(this, ['ColoredSprite']);
-                this.backdrop.getComponent('ColoredSprite').setSheet('img/title-bg.png', 160, 144);
+                this.backdrop = new Juicy.Entity(this, ['Sprite']);
+                this.backdrop.getComponent('Sprite').setSheet('img/screen1.png', 500, 1200);
             }
 
             // Particle Manager
@@ -94,7 +91,7 @@
         cleanup: function() {
             music.stop(this.song);
         },
-        f
+        
         init: function() {
             music.play(this.song);
         },

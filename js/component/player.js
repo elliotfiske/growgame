@@ -5,25 +5,13 @@ Juicy.Component.create('Player', {
       this.cooldown = 0;
       this.doingRecoil = false;
       this.invincible = 0;
-      this.jumpSound = newBuzzSound( "audio/fx_jump", {
-         formats: [ "wav"]
-      });
-      this.hitSound = newBuzzSound( "audio/fx_playerdmg", {
-         formats: [ "wav"]
-      });
-      this.powerupSound = newBuzzSound( "audio/fx_powerup", {
-         formats: [ "wav"]
-      });
-      this.dodgeSound = newBuzzSound( "audio/fx_dodge", {
-         formats: [ "wav"]
-      });
 
       this.powerups = {};
 
       this.health = 4;
       this.maxhealth = 4;
 
-      this.speed = 14;
+      this.speed = 120;
       this.damage = 30;
 
       this.bigHurt = false;
@@ -71,8 +59,8 @@ Juicy.Component.create('Player', {
          });
       }
 
-      this.entity.scene.gui.getComponent('GUI').setPowerBars(bars, Powerup.getColor(powers));
-      this.entity.scene.gui.getComponent('GUI').setHealth(this.health, this.maxhealth);
+      this.entity.state.gui.getComponent('GUI').setPowerBars(bars, Powerup.getColor(powers));
+      this.entity.state.gui.getComponent('GUI').setHealth(this.health, this.maxhealth);
    },
    setPowerup: function(name, mana) {
       if (this.powerups[name] && this.powerups[name] >= mana) {
@@ -81,41 +69,6 @@ Juicy.Component.create('Player', {
       else {
          this.powerups[name] = mana;
       }
-
-      this.updateGUI();
-   },
-   throwBook: function() {
-
-      var booklet = new Booklet(this.entity.scene);
-      booklet.transform.position.x = this.entity.transform.position.x;
-      booklet.transform.position.y = this.entity.transform.position.y + 0.1;
-
-      var powers = Object.keys(this.powerups);
-      for (var i = 0; i < powers.length; i ++) {
-         this.powerups[powers[i]] --;
-         if (this.powerups[powers[i]] <= 0)
-            delete this.powerups[powers[i]];
-      }
-
-      if (this.rouletteEnabled) {
-         this.roulette--;
-         if (this.roulette <= 0) {
-            var pows = ["ice", "fire", "explosive"];
-            this.roulette = 3;
-            var randPowerup = pows[Math.floor(Math.random() * pows.length)];
-            powers.push(randPowerup);
-         }
-      }
-
-      var comp = booklet.getComponent('Booklet');
-
-      comp.damage = this.damage * (this.bigHurt ? (4 - this.health)*0.7 : 1);
-      comp.poison = this.venomous;
-
-      comp.dx = this.direction * 100;
-      comp.setPowers(powers);
-
-      this.entity.scene.addObject(booklet);
 
       this.updateGUI();
    },
@@ -132,7 +85,7 @@ Juicy.Component.create('Player', {
     if (input.keyDown('UP')) {
         physics.dy = -speed;
     }
-    if (input.keyDown('UP')) {
+    if (input.keyDown('DOWN')) {
         physics.dy = speed;
     }
     if (input.keyDown('LEFT')) {
@@ -146,10 +99,9 @@ Juicy.Component.create('Player', {
      
     if (physics.dx !== 0)
         this.direction = physics.dx > 0 ? 1 : -1;
-  }
 
       // Test colliding with objects
-      var objects = this.entity.scene.objects;
+      var objects = this.entity.state.objects;
       for (var i = 0; i < objects.length; i ++) {
          var object = objects[i];
 
@@ -171,5 +123,33 @@ Juicy.Component.create('Player', {
       }
 
       this.entity.getComponent('Sprite').advanceAnimation(Math.abs(physics.dx));
+   },
+
+   updateAnim: function(newDirection) {
+        if (this.direction == newDirection) {
+            return;
+        }
+
+        this.direction = newDirection;
+
+        var sprite = this.entity.getComponent('Sprite');
+        sprite.flipped = false;
+        if (this.direction == 'IDLE') {
+            this.entity.visualTransform.scale.x = 1;
+            sprite.runAnimation(12, 23, 0.16, true);
+        }
+        else if (this.direction == 'LEFT') {
+            sprite.runAnimation(8, 11, 0.016, true);
+            sprite.flipped = true;
+        }
+        else if (this.direction == 'RIGHT') {
+            sprite.runAnimation(8, 11, 0.016, true);
+        }
+        else if (this.direction == 'DOWN') {
+            sprite.runAnimation(0, 3, 0.016, true);
+        }
+        else if (this.direction == 'UP') {
+            sprite.runAnimation(4, 7, 0.016, true);
+        }
    },
 });

@@ -40,8 +40,8 @@
       image-rendering: pixelated;
       -ms-interpolation-mode: nearest-neighbor;
       border: 1px solid #ddd;
-      width: 640px;
-      height: 576px;
+      width: 400px;
+      height: 700px;
       margin: 0 auto;
    }
    </style>
@@ -50,47 +50,33 @@
 
    <div class="container">
       <!-- Main stage for rendering game scenes -->
-      <canvas id="game-canvas" width="320" height="144" fixed></canvas><br />
+      <canvas id="game-canvas" width="400" height="700" fixed></canvas><br />
    </div>
 
    <!-- Libraries -->
    <script src="lib/juicy.full.js"></script>
 
    <!-- main.js loads everything it needs -->
-   <script src="js/dynamic_palette.js"></script>
-   <script src="js/palette.js"></script>
    <script src="js/component/particles.js"></script>
    <script src="js/component/sprite.js"></script>
-   <script src="js/place_names.js"></script>
    <script src="js/component/text_render.js"></script>
    <script src="js/component/boss.js"></script>
    <script src="js/component/ui.js"></script>
    <script src="js/component/animations.js"></script>
-   <script src="js/component/enemy.js"></script>
    <script src="js/component/goal.js"></script>
    <script src="js/component/cutscene.js"></script>
    <script src="js/component/expiring.js"></script>
-   <script src="js/component/follower.js"></script>
-   <script src="js/component/colored_sprite.js"></script>
    <script src="js/component/player.js"></script>
-   <script src="js/component/digger.js"></script>
    <script src="js/component/physics.js"></script>
    <script src="js/component/gate.js"></script>
-   <script src="js/component/bird.js"></script>
-   <script src="js/component/tile_manager.js"></script>
+   <script src="js/component/level_tiles.js"></script>
    <script src="js/state/title_screen.js"></script>
    <script src="js/state/pause.js"></script>
-   <script src="js/state/palette_selector.js"></script>
    <script src="js/state/options.js"></script>
    <script src="js/state/loading.js"></script>
    <script src="js/state/level.js"></script>
    <script src="js/state/level_home.js"></script>
-   <script src="js/state/level_boss.js"></script>
-   <script src="js/state/level_city.js"></script>
-   <script src="js/state/level_infinite.js"></script>
-   <script src="js/state/level_preboss.js"></script>
    <script src="js/state/win_screen.js"></script>
-   <script src="js/state/level_tutorial.js"></script>
    <script src="main.js"></script>
 
    <script src="memory-stats.js"></script>

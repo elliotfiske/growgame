@@ -6,9 +6,6 @@
 
         var image = new Image();
             image.src = src;
-            image.onload = function() {
-                Palette.applyPalette(this, font);
-            };
 
         this.name = name;
         this.pad = 1;
@@ -139,11 +136,11 @@
             // Draw background for text
             if (this.showBackground) {
                 if (this.brightness > 0) {
-                    context.fillStyle = Palette.getStyle('DARK');
+                    context.fillStyle = "white";
                     context.fillRect(drawPosition.x - this.font.pad, drawPosition.y - this.font.pad, this.text.length * this.font.width + this.font.pad, this.font.height + this.font.pad);
                 }
                 else {
-                    context.fillStyle = Palette.getStyle('LIGHT');
+                    context.fillStyle = "grey";
                     context.fillRect(drawPosition.x - this.font.pad, drawPosition.y - this.font.pad, this.text.length * this.font.width + this.font.pad, this.font.height + this.font.pad);
                 }
             }

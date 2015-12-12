@@ -1,4 +1,4 @@
-Juicy.Component.create('LevelTiles', {
+Juicy.Component.create('TileManager', {
    SECTION_HEIGHT: 30,
    SECTION_WIDTH: 40,
    SPAWN: 0,
@@ -32,16 +32,20 @@ Juicy.Component.create('LevelTiles', {
       return false;
    },
    
+   /**
+    * Return character associated with tile at (x, y)
+    */
    getTile: function(x, y) {
       var sector_x = Math.floor(x / this.SECTION_WIDTH);
       var sector_y = Math.floor(y / this.SECTION_HEIGHT);
 
-      var config = this.tiles[sector_x][sector_y];
-      var tile_x = x % this.SECTION_WIDTH;
-      var tile_y = y % this.SECTION_HEIGHT;
+//       var config = this.tiles[sector_x][sector_y];
+//       var tile_x = x % this.SECTION_WIDTH;
+//       var tile_y = y % this.SECTION_HEIGHT;
 
-      return config[tile_x + tile_y * this.SECTION_WIDTH];
+      return " ";
    },
+
    isTileBlocking: function(x, y) {
       if (x < 0 || x >= this.width || y < 0 || y >= this.height) return true;
       return this.getTile(x, y) !== this.EMPTY && this.getTile(x, y) !== this.SPIKE;
@@ -472,21 +476,21 @@ Juicy.Component.create('LevelTiles', {
       var self = this;
       
       this.tileImg = new Image();
-      this.tileImg.src = 'img/tile.png';
+      this.tileImg.src = 'img/spike.png';
       this.tileImg.onload = function() {
          self.tile1rdy = true;
          self.renderCanvas();
       }
       
       this.tileImg2 = new Image();
-      this.tileImg2.src = 'img/tile2.png';
+      this.tileImg2.src = 'img/spike.png';
       this.tileImg2.onload = function() {
          self.tile2rdy = true;
          self.renderCanvas();
       };
       
       this.bg = new Image();
-      this.bg.src = 'img/bg.png';
+      this.bg.src = 'img/spike.png';
       this.bg.onload = function() {
          self.bgRdy = true;
          self.renderCanvas();
@@ -500,7 +504,7 @@ Juicy.Component.create('LevelTiles', {
       }
       
       this.heartImg = new Image();
-      this.heartImg.src = 'img/heart.png';
+      this.heartImg.src = 'img/spike.png';
       this.heartImg.onload = function() {
          self.heartRdy = true;
          self.renderCanvas();

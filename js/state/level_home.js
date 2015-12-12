@@ -1,6 +1,5 @@
 (function() {
-    var player = new Juicy.Entity(this, ['ColoredSprite', 'Player', 'Digger', 'Physics', 'Animations']);   
-        player.getComponent('ColoredSprite').setSheet('img/sawman-all.png', 20, 20);
+    var player = new Juicy.Entity(this, ['Sprite', 'Player', 'Physics', 'Animations']);   
         player.getComponent('Player').updateAnim('IDLE');
 
     window.HomeLevel = Level.extend({
@@ -52,56 +51,12 @@
             }
 
             music.play(this.song);
+
+            this.box = new Juicy.Entity(this, ['Sprite']);
+            this.box.getComponent('Sprite').setSheet('img/dialog.png', 466, 144);
+            this.box.position = new Juicy.Point(17, 638);
         },
 
-        say: function(dialog) {
-            dialog = this.speech[dialog];
-            if (!dialog) {
-                this.updateFunc = null;
-                return;
-            }
-
-            sfx.play('quack');
-            this.ivan_message.set(dialog);
-
-            if (dialog.execute) {
-                dialog.execute.call(this);
-            }
-
-
-            if (dialog.next) {
-                var self = this;
-                var next = dialog.next;
-                if (next && typeof(next) === 'string') {
-                    var nextDialog = next;
-                    next = function() {
-                        self.say(nextDialog);
-                    };
-                }
-
-                this.timeout(function() {
-                    next.call(self);
-                }, dialog.time || this.speechTime);
-            }
-            else if (dialog.nextKey) {
-                var next = dialog.nextKey;
-                if (next && typeof(next) === 'string') {
-                    var nextDialog = next;
-                    var self = this;
-                    next = function() {
-                        self.say(nextDialog);
-                    };
-                }
-
-                this.updateFunc = function() { return false; };
-                var self = this;
-                this.game.on('key', dialog.keys || ['SPACE'], function() {
-                    self.key_SPACE = false;
-
-                    next.call(self);
-                });
-            }
-        },
 
         gameOver: function() {
             var timeout = 2;
@@ -230,17 +185,13 @@
         
         updateCamera: function(dt) {
             // Update Camera
+            
             var center = this.watching.center();
-            var dx = (center.x - this.game.width / 2) - (this.camera.x + this.camera.offset_x);
             var dy = (center.y - this.game.height / 2) - (this.camera.y + this.camera.offset_y);
 
-            this.camera.x += dx * this.camera.dx * dt;
             this.camera.y += dy * this.camera.dy * dt;
-            if (this.camera.x < 0) 
-                this.camera.x = 0;
-            if (this.camera.x + this.game.width > this.tile_manager.width) {
-                this.camera.x = this.tile_manager.width - this.game.width;
-            }
+            
+            this.camera.x = 0;
 
             return 
         },
@@ -248,10 +199,10 @@
         render: function(context) {
             context.save();
             if (this.backdrop) {
-                // context.save();
-                // context.translate(-Math.round(this.camera.x / 200), 0);
+                context.save();
+                context.translate(-this.camera.x, -this.camera.y);
                 this.backdrop.render(context);
-                // context.restore();
+                context.restore();
             }
             context.translate(-Math.round(this.camera.x + 2 * Math.sin(this.shake * 100)), -Math.round(this.camera.y));
 
@@ -266,31 +217,9 @@
 
             context.restore();
 
-            if (this.showEnergy) {
-                var pEnergy = this.player.getComponent('Digger').energy;
-                var pMaxEnergy = this.player.getComponent('Digger').max_energy;
-                context.fillStyle = Palette.getStyle('LOW');
-                context.fillRect(0, 0, 160, 17);
-
-                context.fillStyle = Palette.getStyle('DARK');
-                context.fillRect(1, 1, 68, 15);
-                context.fillRect(72, 1, 90, 15);
-                context.drawImage(this.energy, 74, 3);
-                for (var i = 0; i < pEnergy * 9 / pMaxEnergy; i ++) {
-                    context.drawImage(this.healthBar, 87 + i * 8, 3);
-                }
-            }
-
             // Draw UI independent of Camera
             this.ui_entity.render(context);
-        },
-
-        placeName: function() {
-            return COOL_NAME();
-        },
-
-        subtitle: function() {
-           return COOL_PLACE_SUBTITLE(); 
+            this.box.render(context);
         },
     });
 })();

@@ -1,4 +1,4 @@
-Juicy.Game.init(document.getElementById('game-canvas'), 160, 144, {
+Juicy.Game.init(document.getElementById('game-canvas'), 400, 700, {
     LEFT: 37,
     UP: 38,
     RIGHT: 39,

@@ -20,9 +20,9 @@ var Level = Juicy.State.extend({
          this.player.transform.height = 1.8;
       }
 
-      var name = window.name; // set the name from a textbox before the game or some shiiiii
+      var name = window.name; // set the name from a textbox before the game or some stuuuufff
 
-      this.player.getComponent('Sprite').setSheet('./art/wizz-sheet.png', 21 * 3, 31 * 3);
+      this.player.getComponent('Sprite').setSheet('./img/mainchar.png', 32, 32);
       this.player.getComponent('Sprite').scale = 1.5;
       this.player.getComponent('Sprite').last_sprite = 3;
       this.player.getComponent('Sprite').repeat = true;

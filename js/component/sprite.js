@@ -130,7 +130,7 @@ Juicy.Component.create('Sprite', {
 
         var dx = arguments[5] || arguments[1] || 0;
         var dy = arguments[6] || arguments[2] || 0;
-        var dwidth = arguments[7] || arguments[3] || this.entity.width;
+        var dwidth = arguments[7]  || arguments[3] || this.entity.width;
         var dheight = arguments[8] || arguments[4] || this.entity.height;
 
         var scaleAdjustX = (dwidth * this.scale - dwidth) / 2;

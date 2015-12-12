@@ -59,7 +59,7 @@ Juicy.Component.create('ParticleManager', {
 
     render: function(context) {
         for (var i = 0; i < this.particles.length; i++) {
-            context.fillStyle = "rgba(" + Palette.get(this.particles[i].color).join(',') + ")"; 
+            context.fillStyle = "rgba(0,255,0,1)"; 
             context.fillRect(Math.round(this.particles[i].x), Math.round(this.particles[i].y), this.particles[i].size, this.particles[i].size);
         }
     },
