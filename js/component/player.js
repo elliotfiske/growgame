@@ -138,7 +138,7 @@ Juicy.Component.create('Player', {
         sprite.flipped = false;
         if (this.direction == 'IDLE') {
             this.entity.visualTransform.scale.x = 1;
-            sprite.runAnimation(0, 0, 0.16, true);
+            sprite.runAnimation(8, 9, 0.9, true);
         }
         else if (this.direction == 'LEFT') {
             sprite.runAnimation(4, 7, -1, true);

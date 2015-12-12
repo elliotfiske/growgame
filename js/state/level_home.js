@@ -53,8 +53,8 @@
             music.play(this.song);
 
             this.box = new Juicy.Entity(this, ['Sprite']);
-            this.box.getComponent('Sprite').setSheet('img/dialog.png', 466, 144);
-            this.box.position = new Juicy.Point(17, 638);
+            this.box.getComponent('Sprite').setSheet('img/dialog.png', 362, 151);
+            this.box.position = new Juicy.Point(17, 530);
         },
 
 
