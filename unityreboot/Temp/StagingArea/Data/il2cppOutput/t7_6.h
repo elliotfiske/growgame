@@ -15,5 +15,4 @@
 
 struct  t7_6  : public t5_75
 {
-	int32_t f2;
 };

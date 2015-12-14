@@ -25,7 +25,7 @@
 #define m1_8989(__this, method) (( bool (*) (t1_1267 *, const MethodInfo*))m1_8932_gshared)(__this, method)
 #define m1_8990(__this, method) (( t1_1265  (*) (t1_1267 *, const MethodInfo*))m1_8933_gshared)(__this, method)
 #define m1_8991(__this, method) (( int32_t (*) (t1_1267 *, const MethodInfo*))m1_8934_gshared)(__this, method)
-#define m1_8992(__this, method) (( t5_156 * (*) (t1_1267 *, const MethodInfo*))m1_8935_gshared)(__this, method)
+#define m1_8992(__this, method) (( t5_158 * (*) (t1_1267 *, const MethodInfo*))m1_8935_gshared)(__this, method)
 #define m1_8993(__this, method) (( void (*) (t1_1267 *, const MethodInfo*))m1_8936_gshared)(__this, method)
 #define m1_8994(__this, method) (( void (*) (t1_1267 *, const MethodInfo*))m1_8937_gshared)(__this, method)
 #define m1_8995(__this, method) (( void (*) (t1_1267 *, const MethodInfo*))m1_8938_gshared)(__this, method)

@@ -11,8 +11,15 @@
 #include <stdint.h>
 
 
-#include "t5_85.h"
+#include "t1_1.h"
+#include "t1_24.h"
 
-struct  t5_119  : public t5_85
+struct  t5_119  : public t1_1
 {
+	t1_24 f0;
+};
+// Native definition for marshalling of: UnityEngine.TrackedReference
+struct t5_119_marshaled
+{
+	intptr_t f0;
 };

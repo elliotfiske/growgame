@@ -12,11 +12,26 @@
 #include <assert.h>
 #include <exception>
 
+struct t5_253;
+struct t5_259;
+struct t1_29;
+struct t1_18;
+struct t1_1;
+struct t5_211;
 
 #include "codegen/il2cpp-codegen.h"
-#include "t5_265MD.h"
 
-#define m5_1444(__this, p0, p1, method) (( void (*) (t5_253 *, t1_1 *, t1_24, const MethodInfo*))m5_1456_gshared)(__this, p0, p1, method)
-#define m5_1598(__this, p0, method) (( void (*) (t5_253 *, t6_151 *, const MethodInfo*))m5_1457_gshared)(__this, p0, method)
-#define m5_1599(__this, p0, p1, p2, method) (( t1_1 * (*) (t5_253 *, t6_151 *, t1_36 *, t1_1 *, const MethodInfo*))m5_1458_gshared)(__this, p0, p1, p2, method)
-#define m5_1600(__this, p0, method) (( void (*) (t5_253 *, t1_1 *, const MethodInfo*))m5_1459_gshared)(__this, p0, method)
+extern "C" void m5_1428_gshared (t5_253 * __this, const MethodInfo* method);
+#define m5_1428(__this, method) (( void (*) (t5_253 *, const MethodInfo*))m5_1428_gshared)(__this, method)
+extern "C" void m5_1410_gshared (t5_253 * __this, t5_259 * p0, const MethodInfo* method);
+#define m5_1410(__this, p0, method) (( void (*) (t5_253 *, t5_259 *, const MethodInfo*))m5_1410_gshared)(__this, p0, method)
+extern "C" void m5_1577_gshared (t5_253 * __this, t5_259 * p0, const MethodInfo* method);
+#define m5_1577(__this, p0, method) (( void (*) (t5_253 *, t5_259 *, const MethodInfo*))m5_1577_gshared)(__this, p0, method)
+extern "C" t1_29 * m5_1578_gshared (t5_253 * __this, t1_18* p0, t1_1 * p1, const MethodInfo* method);
+#define m5_1578(__this, p0, p1, method) (( t1_29 * (*) (t5_253 *, t1_18*, t1_1 *, const MethodInfo*))m5_1578_gshared)(__this, p0, p1, method)
+extern "C" t5_211 * m5_1579_gshared (t5_253 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method);
+#define m5_1579(__this, p0, p1, method) (( t5_211 * (*) (t5_253 *, t1_1 *, t1_29 *, const MethodInfo*))m5_1579_gshared)(__this, p0, p1, method)
+extern "C" t5_211 * m5_1580_gshared (t1_1 * __this , t5_259 * p0, const MethodInfo* method);
+#define m5_1580(__this , p0, method) (( t5_211 * (*) (t1_1 * , t5_259 *, const MethodInfo*))m5_1580_gshared)(__this , p0, method)
+extern "C" void m5_1430_gshared (t5_253 * __this, bool p0, const MethodInfo* method);
+#define m5_1430(__this, p0, method) (( void (*) (t5_253 *, bool, const MethodInfo*))m5_1430_gshared)(__this, p0, method)

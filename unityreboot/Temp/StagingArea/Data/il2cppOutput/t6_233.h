@@ -11,14 +11,14 @@
 #include <stdint.h>
 
 struct t3_172;
-struct t5_304;
+struct t5_306;
 
 #include "t1_1.h"
 
 struct  t6_233  : public t1_1
 {
 	t3_172 * f0;
-	t5_304 * f1;
-	t5_304 * f2;
+	t5_306 * f1;
+	t5_306 * f2;
 	int32_t f3;
 };

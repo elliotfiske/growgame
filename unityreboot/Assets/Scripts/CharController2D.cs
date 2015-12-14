@@ -11,7 +11,7 @@ public class CharController2D : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		var horiz = Input.GetAxisRaw ("Horizontal");
 		var vert = Input.GetAxisRaw ("Vertical");
 

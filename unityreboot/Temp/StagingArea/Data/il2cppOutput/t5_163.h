@@ -11,14 +11,10 @@
 #include <stdint.h>
 
 
-#include "t1_1.h"
-#include "t5_127.h"
+#include "t1_31.h"
+#include "t5_163.h"
 
-struct  t5_163  : public t1_1
+struct  t5_163 
 {
-	bool f0;
-	bool f1;
-	t5_127  f2;
-	float f3;
-	t5_127  f4;
+	int32_t f1;
 };

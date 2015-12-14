@@ -11,8 +11,17 @@
 #include <stdint.h>
 
 
-#include "t5_117.h"
+#include "t1_2.h"
 
-struct  t5_116  : public t5_117
+struct  t5_116 
 {
+	int32_t f0;
+	int32_t f1;
+	int32_t f2;
+	float f3;
+	float f4;
+	float f5;
+	float f6;
+	int32_t f7;
+	int32_t f8;
 };

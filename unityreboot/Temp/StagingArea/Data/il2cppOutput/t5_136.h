@@ -10,12 +10,13 @@
 
 #include <stdint.h>
 
+struct t1_35;
+struct t1_36;
+struct t1_1;
 
-#include "t1_2.h"
+#include "t1_27.h"
+#include "t1_25.h"
 
-struct  t5_136 
+struct  t5_136  : public t1_27
 {
-	int32_t f0;
-	int32_t f1;
-	float f2;
 };

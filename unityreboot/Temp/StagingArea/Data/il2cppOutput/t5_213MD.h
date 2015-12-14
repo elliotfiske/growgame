@@ -13,22 +13,15 @@
 #include <exception>
 
 struct t5_213;
-struct t5_5;
-struct t5_5_marshaled;
-struct t1_18;
-struct t5_208;
-struct t5_209;
-struct t5_216;
-struct t1_29;
+struct t1_1;
+struct t1_35;
+struct t1_36;
 
 #include "codegen/il2cpp-codegen.h"
-#include "t5_207.h"
+#include "t1_24.h"
 
-extern "C" void m5_1299 (t5_213 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_5 * m5_1300 (t5_213 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t1_18* m5_1301 (t5_213 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m5_1302 (t5_213 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_208 * m5_1303 (t5_213 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m5_1304 (t5_213 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_209 * m5_1305 (t5_213 * __this, t5_216 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_209 * m5_1306 (t1_1 * __this , t5_5 * p0, t1_29 * p1, t5_208 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1365 (t5_213 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1366 (t5_213 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_t5_213(Il2CppObject* delegate);
+extern "C" t1_1 * m5_1367 (t5_213 * __this, t1_36 * p0, t1_1 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1368 (t5_213 * __this, t1_1 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

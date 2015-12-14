@@ -11,24 +11,8 @@
 #include <stdint.h>
 
 
-#include "t1_2.h"
+#include "t5_119.h"
 
-struct  t5_118 
+struct  t5_118  : public t5_119
 {
-	int32_t f0;
-	int32_t f1;
-	int32_t f2;
-	float f3;
-	bool f4;
-	int32_t f5;
-};
-// Native definition for marshalling of: UnityEngine.AnimatorTransitionInfo
-struct t5_118_marshaled
-{
-	int32_t f0;
-	int32_t f1;
-	int32_t f2;
-	float f3;
-	int32_t f4;
-	int32_t f5;
 };

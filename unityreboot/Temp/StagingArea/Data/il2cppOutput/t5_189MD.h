@@ -12,6 +12,8 @@
 #include <assert.h>
 #include <exception>
 
+struct t5_189;
 
 #include "codegen/il2cpp-codegen.h"
 
+extern "C" void m5_1241 (t5_189 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

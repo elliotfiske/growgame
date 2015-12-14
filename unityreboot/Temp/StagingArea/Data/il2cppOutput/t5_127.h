@@ -11,12 +11,8 @@
 #include <stdint.h>
 
 
-#include "t1_2.h"
+#include "t5_126.h"
 
-struct  t5_127 
+struct  t5_127  : public t5_126
 {
-	float f0;
-	float f1;
-	float f2;
-	float f3;
 };

@@ -10,18 +10,11 @@
 
 #include <stdint.h>
 
-struct t5_195;
-struct t5_196;
 
-#include "t1_1.h"
+#include "t1_31.h"
+#include "t5_194.h"
 
-struct  t5_194  : public t1_1
+struct  t5_194 
 {
-};
-struct t5_194_SFs{
-	bool f0;
-	t5_195* f1;
-	t5_195* f2;
-	t5_195* f3;
-	t5_196* f4;
+	int32_t f1;
 };

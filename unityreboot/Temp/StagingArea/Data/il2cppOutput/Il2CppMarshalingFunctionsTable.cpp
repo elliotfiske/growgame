@@ -74,21 +74,21 @@ extern "C" void t5_5_marshal_cleanup ();
 extern "C" void t5_10_marshal ();
 extern "C" void t5_10_marshal_back ();
 extern "C" void t5_10_marshal_cleanup ();
-extern "C" void t5_118_marshal ();
-extern "C" void t5_118_marshal_back ();
-extern "C" void t5_118_marshal_cleanup ();
 extern "C" void t5_120_marshal ();
 extern "C" void t5_120_marshal_back ();
 extern "C" void t5_120_marshal_cleanup ();
 extern "C" void t5_122_marshal ();
 extern "C" void t5_122_marshal_back ();
 extern "C" void t5_122_marshal_cleanup ();
-extern "C" void t5_145_marshal ();
-extern "C" void t5_145_marshal_back ();
-extern "C" void t5_145_marshal_cleanup ();
-extern "C" void t5_117_marshal ();
-extern "C" void t5_117_marshal_back ();
-extern "C" void t5_117_marshal_cleanup ();
+extern "C" void t5_124_marshal ();
+extern "C" void t5_124_marshal_back ();
+extern "C" void t5_124_marshal_cleanup ();
+extern "C" void t5_147_marshal ();
+extern "C" void t5_147_marshal_back ();
+extern "C" void t5_147_marshal_cleanup ();
+extern "C" void t5_119_marshal ();
+extern "C" void t5_119_marshal_back ();
+extern "C" void t5_119_marshal_cleanup ();
 extern const Il2CppMarshalingFunctions g_MarshalingFunctions[27] = 
 {
 	{ t1_91_marshal, t1_91_marshal_back, t1_91_marshal_cleanup },
@@ -112,10 +112,10 @@ extern const Il2CppMarshalingFunctions g_MarshalingFunctions[27] =
 	{ t5_79_marshal, t5_79_marshal_back, t5_79_marshal_cleanup },
 	{ t5_5_marshal, t5_5_marshal_back, t5_5_marshal_cleanup },
 	{ t5_10_marshal, t5_10_marshal_back, t5_10_marshal_cleanup },
-	{ t5_118_marshal, t5_118_marshal_back, t5_118_marshal_cleanup },
 	{ t5_120_marshal, t5_120_marshal_back, t5_120_marshal_cleanup },
 	{ t5_122_marshal, t5_122_marshal_back, t5_122_marshal_cleanup },
-	{ t5_145_marshal, t5_145_marshal_back, t5_145_marshal_cleanup },
-	{ t5_117_marshal, t5_117_marshal_back, t5_117_marshal_cleanup },
+	{ t5_124_marshal, t5_124_marshal_back, t5_124_marshal_cleanup },
+	{ t5_147_marshal, t5_147_marshal_back, t5_147_marshal_cleanup },
+	{ t5_119_marshal, t5_119_marshal_back, t5_119_marshal_cleanup },
 	NULL,
 };

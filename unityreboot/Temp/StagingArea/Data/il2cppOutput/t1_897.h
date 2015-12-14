@@ -13,7 +13,7 @@
 struct t1_173;
 struct t1_1003;
 struct t1_212;
-struct t5_165;
+struct t5_167;
 struct t1_1005;
 struct t1_190;
 struct t1_1273;
@@ -25,7 +25,7 @@ struct  t1_897  : public t1_1
 	t1_173* f4;
 	t1_1003* f5;
 	t1_212* f6;
-	t5_165* f7;
+	t5_167* f7;
 	int32_t f8;
 	int32_t f9;
 	int32_t f10;

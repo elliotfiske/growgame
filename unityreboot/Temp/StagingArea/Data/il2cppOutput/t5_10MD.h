@@ -17,7 +17,7 @@ struct t5_10_marshaled;
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void m5_618 (t5_10 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_619 (t5_10 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void t5_10_marshal(const t5_10& unmarshaled, t5_10_marshaled& marshaled);
 extern "C" void t5_10_marshal_back(const t5_10_marshaled& marshaled, t5_10& unmarshaled);
 extern "C" void t5_10_marshal_cleanup(t5_10_marshaled& marshaled);

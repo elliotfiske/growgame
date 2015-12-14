@@ -11,8 +11,8 @@
 #include <stdint.h>
 
 
-#include "t1_1.h"
+#include "t1_155.h"
 
-struct  t5_155  : public t1_1
+struct  t5_155  : public t1_155
 {
 };

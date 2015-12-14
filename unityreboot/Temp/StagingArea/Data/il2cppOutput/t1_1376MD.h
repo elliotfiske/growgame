@@ -24,7 +24,7 @@
 #define m1_10991(__this, method) (( t1_1 * (*) (t1_1376 *, const MethodInfo*))m1_6281_gshared)(__this, method)
 #define m1_10992(__this, method) (( bool (*) (t1_1376 *, const MethodInfo*))m1_6282_gshared)(__this, method)
 #define m1_10993(__this, method) (( t1_1374  (*) (t1_1376 *, const MethodInfo*))m1_6283_gshared)(__this, method)
-#define m1_10994(__this, method) (( t5_132 * (*) (t1_1376 *, const MethodInfo*))m1_6284_gshared)(__this, method)
+#define m1_10994(__this, method) (( t5_134 * (*) (t1_1376 *, const MethodInfo*))m1_6284_gshared)(__this, method)
 #define m1_10995(__this, method) (( t1_953 * (*) (t1_1376 *, const MethodInfo*))m1_6285_gshared)(__this, method)
 #define m1_10996(__this, method) (( void (*) (t1_1376 *, const MethodInfo*))m1_6286_gshared)(__this, method)
 #define m1_10997(__this, method) (( void (*) (t1_1376 *, const MethodInfo*))m1_6287_gshared)(__this, method)

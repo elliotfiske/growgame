@@ -13,7 +13,7 @@
 struct t5_59;
 struct t6_103;
 struct t6_102;
-struct t5_144;
+struct t5_146;
 
 #include "t6_76.h"
 
@@ -27,5 +27,5 @@ struct  t6_89  : public t6_76
 	t6_102 * f24;
 	bool f25;
 	int32_t f26;
-	t5_144* f27;
+	t5_146* f27;
 };

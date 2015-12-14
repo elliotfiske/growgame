@@ -10,18 +10,9 @@
 
 #include <stdint.h>
 
-struct t5_94;
-struct t5_92;
-struct t5_95;
 
-#include "t1_1.h"
-#include "t5_35.h"
+#include "t5_17.h"
 
-struct  t5_93  : public t1_1
+struct  t5_93  : public t5_17
 {
-	t5_35  f0;
-	t5_35  f1;
-	t5_94 * f2;
-	t5_92 * f3;
-	t5_95* f4;
 };

@@ -11,11 +11,8 @@
 #include <stdint.h>
 
 
-#include "t1_1.h"
+#include "t1_43.h"
 
-struct  t5_171  : public t1_1
+struct  t5_171  : public t1_43
 {
-	float f0;
-	float f1;
-	bool f2;
 };

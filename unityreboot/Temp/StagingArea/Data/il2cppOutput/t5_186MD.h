@@ -12,9 +12,10 @@
 #include <assert.h>
 #include <exception>
 
-struct t1_1;
+struct t5_186;
 struct t1_18;
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" t1_1 * m5_1236 (t1_1 * __this , t1_1 * p0, t1_18* p1, t1_1 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1225 (t5_186 * __this, t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1226 (t5_186 * __this, t1_18* p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;

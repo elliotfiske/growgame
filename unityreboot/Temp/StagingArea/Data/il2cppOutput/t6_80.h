@@ -10,7 +10,7 @@
 
 #include <stdint.h>
 
-struct t5_140;
+struct t5_142;
 struct t1_930;
 struct t1_931;
 
@@ -23,7 +23,7 @@ struct  t6_80  : public t6_32
 	bool f3;
 	int32_t f4;
 	t5_33  f5;
-	t5_140 * f6;
+	t5_142 * f6;
 	t1_930 * f7;
 };
 struct t6_80_SFs{

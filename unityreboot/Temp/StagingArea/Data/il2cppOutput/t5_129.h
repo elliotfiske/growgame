@@ -11,10 +11,12 @@
 #include <stdint.h>
 
 
-#include "t1_31.h"
-#include "t5_129.h"
+#include "t1_2.h"
 
 struct  t5_129 
 {
-	int32_t f1;
+	float f0;
+	float f1;
+	float f2;
+	float f3;
 };

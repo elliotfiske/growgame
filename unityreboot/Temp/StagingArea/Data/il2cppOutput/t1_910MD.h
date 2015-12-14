@@ -22,4 +22,4 @@
 #define m1_9000(__this, method) (( void (*) (t1_910 *, const MethodInfo*))m1_5674_gshared)(__this, method)
 #define m1_9001(__this, method) (( void (*) (t1_910 *, const MethodInfo*))m1_5675_gshared)(__this, method)
 #define m1_5491(__this, method) (( bool (*) (t1_910 *, const MethodInfo*))m1_5676_gshared)(__this, method)
-#define m1_5490(__this, method) (( t5_159 * (*) (t1_910 *, const MethodInfo*))m1_5677_gshared)(__this, method)
+#define m1_5490(__this, method) (( t5_161 * (*) (t1_910 *, const MethodInfo*))m1_5677_gshared)(__this, method)

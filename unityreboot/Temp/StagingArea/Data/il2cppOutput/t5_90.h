@@ -10,19 +10,9 @@
 
 #include <stdint.h>
 
-struct t5_91;
-struct t5_92;
 
 #include "t1_1.h"
-#include "t5_35.h"
 
 struct  t5_90  : public t1_1
 {
-	t5_91 * f0;
-	t5_92 * f1;
-	t5_35  f2;
-	t5_35  f3;
-	t5_35  f4;
-	float f5;
-	int32_t f6;
 };

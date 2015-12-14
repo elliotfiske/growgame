@@ -12,23 +12,10 @@
 
 
 #include "t1_2.h"
-#include "t5_35.h"
-#include "t5_36.h"
 #include "t5_34.h"
-#include "t5_41.h"
-#include "t5_137.h"
 
 struct  t5_137 
 {
-	t5_35  f0;
-	t5_35  f1;
-	t5_36  f2;
-	t5_34  f3;
-	t5_34  f4;
-	t5_41  f5;
-};
-struct t5_137_SFs{
-	t5_36  f6;
-	t5_41  f7;
-	t5_137  f8;
+	t5_34  f0;
+	float f1;
 };

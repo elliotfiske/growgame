@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 struct t6_228;
-struct t5_299;
+struct t5_301;
 
 #include "t1_1.h"
 
@@ -20,5 +20,5 @@ struct  t6_193  : public t1_1
 };
 struct t6_193_SFs{
 	t6_228 * f0;
-	t5_299 * f1;
+	t5_301 * f1;
 };

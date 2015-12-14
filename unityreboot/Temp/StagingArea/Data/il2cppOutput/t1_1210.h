@@ -10,7 +10,7 @@
 
 #include <stdint.h>
 
-struct t5_87;
+struct t5_88;
 struct t1_35;
 struct t1_36;
 struct t1_1;

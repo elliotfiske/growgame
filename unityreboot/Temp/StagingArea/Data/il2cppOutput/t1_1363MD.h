@@ -22,4 +22,4 @@
 #define m1_10818(__this, method) (( void (*) (t1_1363 *, const MethodInfo*))m1_5674_gshared)(__this, method)
 #define m1_10819(__this, method) (( void (*) (t1_1363 *, const MethodInfo*))m1_5675_gshared)(__this, method)
 #define m1_10820(__this, method) (( bool (*) (t1_1363 *, const MethodInfo*))m1_5676_gshared)(__this, method)
-#define m1_10821(__this, method) (( t5_140 * (*) (t1_1363 *, const MethodInfo*))m1_5677_gshared)(__this, method)
+#define m1_10821(__this, method) (( t5_142 * (*) (t1_1363 *, const MethodInfo*))m1_5677_gshared)(__this, method)

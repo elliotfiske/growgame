@@ -14,15 +14,15 @@
 
 struct t5_68;
 struct t5_26;
-struct t5_196;
+struct t5_198;
 struct t5_82;
 
 #include "codegen/il2cpp-codegen.h"
 #include "t5_38.h"
-#include "t5_189.h"
+#include "t5_191.h"
 #include "t5_35.h"
 #include "t5_42.h"
-#include "t5_97.h"
+#include "t5_98.h"
 
 extern "C" float m5_385 (t5_68 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" float m5_386 (t5_68 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -45,7 +45,7 @@ extern "C" t5_42  m5_402 (t5_68 * __this, t5_35  p0, const MethodInfo* method) I
 extern "C" void m5_403 (t1_1 * __this , t5_68 * p0, t5_35 * p1, t5_42 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" t5_68 * m5_404 (t1_1 * __this , const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" int32_t m5_405 (t1_1 * __this , const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m5_406 (t1_1 * __this , t5_196* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m5_406 (t1_1 * __this , t5_198* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m5_407 (t1_1 * __this , t5_68 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m5_408 (t1_1 * __this , t5_68 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m5_409 (t1_1 * __this , t5_68 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

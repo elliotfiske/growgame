@@ -14,9 +14,9 @@
 
 
 #include "codegen/il2cpp-codegen.h"
-#include "t5_265MD.h"
+#include "t5_267MD.h"
 
-#define m5_1545(__this, p0, p1, method) (( void (*) (t5_287 *, t1_1 *, t1_24, const MethodInfo*))m5_1456_gshared)(__this, p0, p1, method)
-#define m5_1546(__this, p0, method) (( void (*) (t5_287 *, t6_5 *, const MethodInfo*))m5_1457_gshared)(__this, p0, method)
-#define m5_1547(__this, p0, p1, p2, method) (( t1_1 * (*) (t5_287 *, t6_5 *, t1_36 *, t1_1 *, const MethodInfo*))m5_1458_gshared)(__this, p0, p1, p2, method)
-#define m5_1548(__this, p0, method) (( void (*) (t5_287 *, t1_1 *, const MethodInfo*))m5_1459_gshared)(__this, p0, method)
+#define m5_1541(__this, p0, p1, method) (( void (*) (t5_287 *, t1_1 *, t1_24, const MethodInfo*))m5_1461_gshared)(__this, p0, p1, method)
+#define m5_1542(__this, p0, method) (( void (*) (t5_287 *, t1_905 *, const MethodInfo*))m5_1462_gshared)(__this, p0, method)
+#define m5_1543(__this, p0, p1, p2, method) (( t1_1 * (*) (t5_287 *, t1_905 *, t1_36 *, t1_1 *, const MethodInfo*))m5_1463_gshared)(__this, p0, p1, p2, method)
+#define m5_1544(__this, p0, method) (( void (*) (t5_287 *, t1_1 *, const MethodInfo*))m5_1464_gshared)(__this, p0, method)

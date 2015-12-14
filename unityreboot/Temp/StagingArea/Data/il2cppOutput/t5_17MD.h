@@ -17,7 +17,7 @@ struct t5_54;
 struct t5_82;
 struct t1_37;
 struct t1_18;
-struct t5_234;
+struct t5_236;
 struct t1_1;
 struct t1_905;
 
@@ -33,12 +33,12 @@ extern "C" void m5_525 (t5_17 * __this, t1_37 * p0, t1_24 p1, const MethodInfo* 
 extern "C" t5_17 * m5_526 (t5_17 * __this, t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" t5_17 * m5_527 (t5_17 * __this, t1_37 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" t5_17 * m5_528 (t5_17 * __this, t1_37 * p0, bool p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_234* m5_529 (t5_17 * __this, t1_37 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_234* m5_530 (t5_17 * __this, t1_37 * p0, bool p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_236* m5_529 (t5_17 * __this, t1_37 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_236* m5_530 (t5_17 * __this, t1_37 * p0, bool p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" t5_17 * m5_531 (t5_17 * __this, t1_37 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_234* m5_532 (t5_17 * __this, t1_37 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_234* m5_533 (t5_17 * __this, t1_37 * p0, bool p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_234* m5_534 (t5_17 * __this, t1_37 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_236* m5_532 (t5_17 * __this, t1_37 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_236* m5_533 (t5_17 * __this, t1_37 * p0, bool p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_236* m5_534 (t5_17 * __this, t1_37 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m5_535 (t5_17 * __this, t1_37 * p0, t1_1 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m5_536 (t5_17 * __this, t1_37 * p0, t1_905 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" t1_18* m5_537 (t5_17 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

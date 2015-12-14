@@ -12,17 +12,16 @@
 #include <assert.h>
 #include <exception>
 
-struct t5_102;
-struct t5_103;
-struct t5_54;
+struct t5_239;
 
 #include "codegen/il2cpp-codegen.h"
-#include "t5_101.h"
 #include "t5_34.h"
+#include "t5_102.h"
 
-extern "C" t5_34  m5_714 (t5_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_34  m5_715 (t5_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" float m5_716 (t5_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_102 * m5_717 (t5_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_103 * m5_718 (t5_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_54 * m5_719 (t5_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_708 (t1_1 * __this , const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_709 (t1_1 * __this , t5_34  p0, t5_34  p1, float p2, int32_t p3, float p4, float p5, t5_102 * p6, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_710 (t1_1 * __this , t5_34 * p0, t5_34 * p1, float p2, int32_t p3, float p4, float p5, t5_102 * p6, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_102  m5_711 (t1_1 * __this , t5_34  p0, t5_34  p1, float p2, int32_t p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_102  m5_712 (t1_1 * __this , t5_34  p0, t5_34  p1, float p2, int32_t p3, float p4, float p5, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_239* m5_713 (t1_1 * __this , t5_34  p0, t5_34  p1, float p2, int32_t p3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_239* m5_714 (t1_1 * __this , t5_34 * p0, t5_34 * p1, float p2, int32_t p3, float p4, float p5, const MethodInfo* method) IL2CPP_METHOD_ATTR;

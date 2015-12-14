@@ -10,13 +10,11 @@
 
 #include <stdint.h>
 
-struct t5_82;
-struct t5_68;
 
-#include "t1_2.h"
+#include "t1_31.h"
+#include "t5_193.h"
 
 struct  t5_193 
 {
-	t5_82 * f0;
-	t5_68 * f1;
+	int32_t f1;
 };

@@ -10,20 +10,13 @@
 
 #include <stdint.h>
 
-struct t5_5;
-struct t5_5_marshaled;
-struct t1_18;
-struct t5_208;
+struct t1_35;
+struct t1_36;
+struct t1_1;
 
-#include "t1_1.h"
-#include "t5_207.h"
-#include "t5_212.h"
+#include "t1_27.h"
+#include "t1_25.h"
 
-struct  t5_213  : public t1_1
+struct  t5_213  : public t1_27
 {
-	t5_5 * f0;
-	t1_18* f1;
-	int32_t f2;
-	t5_208 * f3;
-	int32_t f4;
 };

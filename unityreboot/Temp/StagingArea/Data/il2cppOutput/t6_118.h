@@ -13,7 +13,7 @@
 struct t5_53;
 struct t6_114;
 struct t6_117;
-struct t5_144;
+struct t5_146;
 
 #include "t6_3.h"
 #include "t6_115.h"
@@ -59,5 +59,5 @@ struct  t6_118  : public t6_3
 	t5_53 * f34;
 	t5_53 * f35;
 	t5_49  f36;
-	t5_144* f37;
+	t5_146* f37;
 };

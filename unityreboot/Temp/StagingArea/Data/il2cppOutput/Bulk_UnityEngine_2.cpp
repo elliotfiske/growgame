@@ -13,32 +13,33 @@
 #include <limits>
 #include <assert.h>
 
+struct t5_212;
+struct t1_1;
+struct t1_29;
 struct t5_213;
+struct t1_170;
+struct t5_215;
 struct t5_5;
 struct t5_5_marshaled;
 struct t1_18;
-struct t5_208;
-struct t5_209;
+struct t5_210;
+struct t5_211;
+struct t5_218;
 struct t5_216;
-struct t1_29;
-struct t5_214;
-struct t5_215;
-struct t1_1;
-struct t1_170;
+struct t5_217;
 struct t1_37;
 struct t1_41;
-struct t5_217;
-struct t5_211;
 struct t5_219;
-struct t5_220;
-struct t5_71;
 struct t5_221;
-struct t1_43;
 struct t5_222;
+struct t5_71;
 struct t5_223;
+struct t1_43;
 struct t5_224;
+struct t5_225;
 struct t5_226;
-struct t5_153;
+struct t5_228;
+struct t5_155;
 struct t1_28;
 struct t1_35;
 struct t1_36;
@@ -46,54 +47,60 @@ struct t1_36;
 #include "class-internals.h"
 #include "codegen/il2cpp-codegen.h"
 #include "t1_33.h"
-#include "t5_213.h"
-#include "t5_213MD.h"
-#include "t1_25.h"
-#include "t5_208MD.h"
-#include "t1_1MD.h"
-#include "t5_208.h"
 #include "t5_212.h"
+#include "t5_212MD.h"
+#include "t1_25.h"
 #include "t1_1.h"
-#include "t5_5.h"
-#include "t1_18.h"
-#include "t5_207.h"
-#include "t1_23.h"
-#include "t5_5MD.h"
-#include "t1_18MD.h"
-#include "t5_209.h"
-#include "t5_216.h"
-#include "t5_216MD.h"
-#include "t5_239MD.h"
-#include "t5_240MD.h"
-#include "t5_241MD.h"
-#include "t5_242MD.h"
-#include "t5_210MD.h"
 #include "t1_29.h"
-#include "t1_20.h"
-#include "t5_239.h"
-#include "t1_4.h"
-#include "t5_240.h"
-#include "t5_241.h"
-#include "t5_242.h"
-#include "t5_210.h"
+#include "t5_211MD.h"
 #include "t1_37MD.h"
-#include "t1_281MD.h"
+#include "t5_229MD.h"
+#include "t1_28MD.h"
+#include "t5_211.h"
+#include "t5_213.h"
 #include "t1_37.h"
-#include "t1_281.h"
 #include "t1_40.h"
+#include "t1_28.h"
 #include "mscorlib_ArrayTypes.h"
+#include "t5_213MD.h"
+#include "t1_23.h"
 #include "t5_214.h"
 #include "t5_214MD.h"
+#include "t5_215.h"
+#include "t5_215MD.h"
+#include "t5_210MD.h"
+#include "t1_1MD.h"
+#include "t5_210.h"
+#include "t5_5.h"
+#include "t1_18.h"
+#include "t5_209.h"
+#include "t5_5MD.h"
+#include "t1_18MD.h"
+#include "t5_218.h"
+#include "t5_218MD.h"
+#include "t5_241MD.h"
+#include "t5_242MD.h"
+#include "t5_243MD.h"
+#include "t5_244MD.h"
+#include "t1_20.h"
+#include "t5_241.h"
+#include "t1_4.h"
+#include "t5_242.h"
+#include "t5_243.h"
+#include "t5_244.h"
+#include "t1_281MD.h"
+#include "t1_281.h"
+#include "t5_216.h"
+#include "t5_216MD.h"
 #include "t1_898MD.h"
 #include "t1_898.h"
-#include "t5_215.h"
+#include "t5_217.h"
 #include "t1_914MD.h"
-#include "t5_215MD.h"
+#include "t5_217MD.h"
 #include "t1_914.h"
 #include "t1_899MD.h"
 #include "t1_899.h"
 #include "t1_915MD.h"
-#include "t5_209MD.h"
 #include "t1_915.h"
 #include "t1_24.h"
 #include "t1_369.h"
@@ -103,42 +110,37 @@ struct t1_36;
 #include "t1_208.h"
 #include "t1_208MD.h"
 #include "t1_369MD.h"
-#include "t5_217.h"
-#include "t5_217MD.h"
-#include "t5_211.h"
-#include "t5_218.h"
-#include "t5_218MD.h"
 #include "t5_219.h"
 #include "t5_219MD.h"
-#include "t1_3MD.h"
-#include "t1_3.h"
 #include "t5_220.h"
 #include "t5_220MD.h"
+#include "t5_221.h"
+#include "t5_221MD.h"
+#include "t1_3MD.h"
+#include "t1_3.h"
+#include "t5_222.h"
+#include "t5_222MD.h"
 #include "t5_71.h"
 #include "t5_71MD.h"
 #include "t5_8.h"
 #include "t1_43.h"
-#include "t5_222.h"
-#include "t5_222MD.h"
-#include "t5_223.h"
-#include "t5_223MD.h"
 #include "t5_224.h"
 #include "t5_224MD.h"
 #include "t5_225.h"
 #include "t5_225MD.h"
 #include "t5_226.h"
 #include "t5_226MD.h"
-#include "t1_31.h"
-#include "t1_31MD.h"
-#include "t5_153.h"
-#include "t5_153MD.h"
-#include "t1_155MD.h"
-#include "t1_155.h"
 #include "t5_227.h"
 #include "t5_227MD.h"
-#include "t1_28.h"
-#include "t1_28MD.h"
-#include "t5_211MD.h"
+#include "t5_228.h"
+#include "t5_228MD.h"
+#include "t1_31.h"
+#include "t1_31MD.h"
+#include "t5_155.h"
+#include "t5_155MD.h"
+#include "t1_155MD.h"
+#include "t1_155.h"
+#include "t5_229.h"
 #include "t1_36.h"
 
 #ifdef __clang__
@@ -146,54 +148,150 @@ struct t1_36;
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern TypeInfo* t5_208_TI_var;
-extern "C" void m5_1299 (t5_213 * __this, const MethodInfo* method)
+extern const Il2CppType* t5_213_0_0_0_var;
+extern TypeInfo* t1_37_TI_var;
+extern TypeInfo* t5_213_TI_var;
+extern "C" void m5_1299 (t5_212 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		t5_208_TI_var = il2cpp_codegen_type_info_from_index(917);
+		t5_213_0_0_0_var = il2cpp_codegen_type_from_index(916);
+		t1_37_TI_var = il2cpp_codegen_type_info_from_index(3);
+		t5_213_TI_var = il2cpp_codegen_type_info_from_index(916);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		t5_208 * L_0 = (t5_208 *)il2cpp_codegen_object_new (t5_208_TI_var);
-		m5_1282(L_0, NULL);
+		t1_1 * L_0 = p0;
+		t1_29 * L_1 = p1;
+		m5_1297(__this, L_0, L_1, NULL);
+		t5_213 * L_2 = (__this->f0);
+		t1_29 * L_3 = p1;
+		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
+		t1_37 * L_4 = m1_894(NULL, LoadTypeToken(t5_213_0_0_0_var), NULL);
+		t1_1 * L_5 = p0;
+		t1_28 * L_6 = m5_1363(NULL, L_3, L_4, L_5, NULL);
+		t1_28 * L_7 = m1_698(NULL, L_2, ((t5_213 *)CastclassSealed(L_6, t5_213_TI_var)), NULL);
+		__this->f0 = ((t5_213 *)CastclassSealed(L_7, t5_213_TI_var));
+		return;
+	}
+}
+extern TypeInfo* t5_213_TI_var;
+extern "C" void m5_1300 (t5_212 * __this, t5_213 * p0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		t5_213_TI_var = il2cpp_codegen_type_info_from_index(916);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		m5_1296(__this, NULL);
+		t5_213 * L_0 = (__this->f0);
+		t5_213 * L_1 = p0;
+		t1_28 * L_2 = m1_698(NULL, L_0, L_1, NULL);
+		__this->f0 = ((t5_213 *)CastclassSealed(L_2, t5_213_TI_var));
+		return;
+	}
+}
+extern "C" void m5_1301 (t5_212 * __this, t1_170* p0, const MethodInfo* method)
+{
+	{
+		t5_213 * L_0 = (__this->f0);
+		bool L_1 = m5_1298(NULL, L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		t5_213 * L_2 = (__this->f0);
+		m5_1366(L_2, NULL);
+	}
+
+IL_001b:
+	{
+		return;
+	}
+}
+extern "C" bool m5_1302 (t5_212 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method)
+{
+	int32_t G_B3_0 = 0;
+	{
+		t5_213 * L_0 = (__this->f0);
+		t1_1 * L_1 = m1_679(L_0, NULL);
+		t1_1 * L_2 = p0;
+		if ((!(((t1_1*)(t1_1 *)L_1) == ((t1_1*)(t1_1 *)L_2))))
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		t5_213 * L_3 = (__this->f0);
+		t1_29 * L_4 = m5_1364(NULL, L_3, NULL);
+		t1_29 * L_5 = p1;
+		G_B3_0 = ((((t1_1*)(t1_29 *)L_4) == ((t1_1*)(t1_29 *)L_5))? 1 : 0);
+		goto IL_0022;
+	}
+
+IL_0021:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0022:
+	{
+		return G_B3_0;
+	}
+}
+extern TypeInfo* t5_210_TI_var;
+extern "C" void m5_1303 (t5_215 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		t5_210_TI_var = il2cpp_codegen_type_info_from_index(917);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		t5_210 * L_0 = (t5_210 *)il2cpp_codegen_object_new (t5_210_TI_var);
+		m5_1286(L_0, NULL);
 		__this->f3 = L_0;
 		__this->f4 = 2;
 		m1_0(__this, NULL);
 		return;
 	}
 }
-extern "C" t5_5 * m5_1300 (t5_213 * __this, const MethodInfo* method)
+extern "C" t5_5 * m5_1304 (t5_215 * __this, const MethodInfo* method)
 {
 	{
 		t5_5 * L_0 = (__this->f0);
 		return L_0;
 	}
 }
-extern "C" t1_18* m5_1301 (t5_213 * __this, const MethodInfo* method)
+extern "C" t1_18* m5_1305 (t5_215 * __this, const MethodInfo* method)
 {
 	{
 		t1_18* L_0 = (__this->f1);
 		return L_0;
 	}
 }
-extern "C" int32_t m5_1302 (t5_213 * __this, const MethodInfo* method)
+extern "C" int32_t m5_1306 (t5_215 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f2);
 		return L_0;
 	}
 }
-extern "C" t5_208 * m5_1303 (t5_213 * __this, const MethodInfo* method)
+extern "C" t5_210 * m5_1307 (t5_215 * __this, const MethodInfo* method)
 {
 	{
-		t5_208 * L_0 = (__this->f3);
+		t5_210 * L_0 = (__this->f3);
 		return L_0;
 	}
 }
 extern TypeInfo* t1_18_TI_var;
-extern "C" bool m5_1304 (t5_213 * __this, const MethodInfo* method)
+extern "C" bool m5_1308 (t5_215 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -203,7 +301,7 @@ extern "C" bool m5_1304 (t5_213 * __this, const MethodInfo* method)
 	}
 	int32_t G_B3_0 = 0;
 	{
-		t5_5 * L_0 = m5_1300(__this, NULL);
+		t5_5 * L_0 = m5_1304(__this, NULL);
 		bool L_1 = m5_520(NULL, L_0, (t5_5 *)NULL, NULL);
 		if (!L_1)
 		{
@@ -211,7 +309,7 @@ extern "C" bool m5_1304 (t5_213 * __this, const MethodInfo* method)
 		}
 	}
 	{
-		t1_18* L_2 = m5_1301(__this, NULL);
+		t1_18* L_2 = m5_1305(__this, NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(t1_18_TI_var);
 		bool L_3 = m1_399(NULL, L_2, NULL);
 		G_B3_0 = ((((int32_t)L_3) == ((int32_t)0))? 1 : 0);
@@ -228,29 +326,29 @@ IL_0022:
 		return G_B3_0;
 	}
 }
-extern TypeInfo* t5_239_TI_var;
-extern TypeInfo* t5_240_TI_var;
 extern TypeInfo* t5_241_TI_var;
 extern TypeInfo* t5_242_TI_var;
-extern TypeInfo* t5_210_TI_var;
-extern const MethodInfo* m5_1367_MI_var;
-extern const MethodInfo* m5_1368_MI_var;
-extern const MethodInfo* m5_1369_MI_var;
-extern const MethodInfo* m5_1370_MI_var;
-extern "C" t5_209 * m5_1305 (t5_213 * __this, t5_216 * p0, const MethodInfo* method)
+extern TypeInfo* t5_243_TI_var;
+extern TypeInfo* t5_244_TI_var;
+extern TypeInfo* t5_212_TI_var;
+extern const MethodInfo* m5_1371_MI_var;
+extern const MethodInfo* m5_1372_MI_var;
+extern const MethodInfo* m5_1373_MI_var;
+extern const MethodInfo* m5_1374_MI_var;
+extern "C" t5_211 * m5_1309 (t5_215 * __this, t5_218 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		t5_239_TI_var = il2cpp_codegen_type_info_from_index(918);
-		t5_240_TI_var = il2cpp_codegen_type_info_from_index(919);
-		t5_241_TI_var = il2cpp_codegen_type_info_from_index(920);
-		t5_242_TI_var = il2cpp_codegen_type_info_from_index(921);
-		t5_210_TI_var = il2cpp_codegen_type_info_from_index(922);
-		m5_1367_MI_var = il2cpp_codegen_method_info_from_index(2147483722);
-		m5_1368_MI_var = il2cpp_codegen_method_info_from_index(2147483723);
-		m5_1369_MI_var = il2cpp_codegen_method_info_from_index(2147483724);
-		m5_1370_MI_var = il2cpp_codegen_method_info_from_index(2147483725);
+		t5_241_TI_var = il2cpp_codegen_type_info_from_index(918);
+		t5_242_TI_var = il2cpp_codegen_type_info_from_index(919);
+		t5_243_TI_var = il2cpp_codegen_type_info_from_index(920);
+		t5_244_TI_var = il2cpp_codegen_type_info_from_index(921);
+		t5_212_TI_var = il2cpp_codegen_type_info_from_index(922);
+		m5_1371_MI_var = il2cpp_codegen_method_info_from_index(2147483722);
+		m5_1372_MI_var = il2cpp_codegen_method_info_from_index(2147483723);
+		m5_1373_MI_var = il2cpp_codegen_method_info_from_index(2147483724);
+		m5_1374_MI_var = il2cpp_codegen_method_info_from_index(2147483725);
 		s_Il2CppMethodIntialized = true;
 	}
 	t1_29 * V_0 = {0};
@@ -263,7 +361,7 @@ extern "C" t5_209 * m5_1305 (t5_213 * __this, t5_216 * p0, const MethodInfo* met
 		}
 	}
 	{
-		t5_216 * L_1 = p0;
+		t5_218 * L_1 = p0;
 		if (L_1)
 		{
 			goto IL_0013;
@@ -272,13 +370,13 @@ extern "C" t5_209 * m5_1305 (t5_213 * __this, t5_216 * p0, const MethodInfo* met
 
 IL_0011:
 	{
-		return (t5_209 *)NULL;
+		return (t5_211 *)NULL;
 	}
 
 IL_0013:
 	{
-		t5_216 * L_2 = p0;
-		t1_29 * L_3 = m5_1318(L_2, __this, NULL);
+		t5_218 * L_2 = p0;
+		t1_29 * L_3 = m5_1322(L_2, __this, NULL);
 		V_0 = L_3;
 		t1_29 * L_4 = V_0;
 		if (L_4)
@@ -287,7 +385,7 @@ IL_0013:
 		}
 	}
 	{
-		return (t5_209 *)NULL;
+		return (t5_211 *)NULL;
 	}
 
 IL_0023:
@@ -330,101 +428,101 @@ IL_0023:
 
 IL_0051:
 	{
-		t5_216 * L_7 = p0;
-		t5_5 * L_8 = m5_1300(__this, NULL);
+		t5_218 * L_7 = p0;
+		t5_5 * L_8 = m5_1304(__this, NULL);
 		t1_29 * L_9 = V_0;
-		t5_209 * L_10 = (t5_209 *)VirtFuncInvoker2< t5_209 *, t1_1 *, t1_29 * >::Invoke(7 /* UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEventBase::GetDelegate(System.Object,System.Reflection.MethodInfo) */, L_7, L_8, L_9);
+		t5_211 * L_10 = (t5_211 *)VirtFuncInvoker2< t5_211 *, t1_1 *, t1_29 * >::Invoke(7 /* UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEventBase::GetDelegate(System.Object,System.Reflection.MethodInfo) */, L_7, L_8, L_9);
 		return L_10;
 	}
 
 IL_005f:
 	{
-		t5_5 * L_11 = m5_1300(__this, NULL);
+		t5_5 * L_11 = m5_1304(__this, NULL);
 		t1_29 * L_12 = V_0;
-		t5_208 * L_13 = (__this->f3);
-		t5_209 * L_14 = m5_1306(NULL, L_11, L_12, L_13, NULL);
+		t5_210 * L_13 = (__this->f3);
+		t5_211 * L_14 = m5_1310(NULL, L_11, L_12, L_13, NULL);
 		return L_14;
 	}
 
 IL_0072:
 	{
-		t5_5 * L_15 = m5_1300(__this, NULL);
+		t5_5 * L_15 = m5_1304(__this, NULL);
 		t1_29 * L_16 = V_0;
-		t5_208 * L_17 = (__this->f3);
-		float L_18 = m5_1286(L_17, NULL);
-		t5_239 * L_19 = (t5_239 *)il2cpp_codegen_object_new (t5_239_TI_var);
-		m5_1367(L_19, L_15, L_16, L_18, m5_1367_MI_var);
+		t5_210 * L_17 = (__this->f3);
+		float L_18 = m5_1290(L_17, NULL);
+		t5_241 * L_19 = (t5_241 *)il2cpp_codegen_object_new (t5_241_TI_var);
+		m5_1371(L_19, L_15, L_16, L_18, m5_1371_MI_var);
 		return L_19;
 	}
 
 IL_008a:
 	{
-		t5_5 * L_20 = m5_1300(__this, NULL);
+		t5_5 * L_20 = m5_1304(__this, NULL);
 		t1_29 * L_21 = V_0;
-		t5_208 * L_22 = (__this->f3);
-		int32_t L_23 = m5_1285(L_22, NULL);
-		t5_240 * L_24 = (t5_240 *)il2cpp_codegen_object_new (t5_240_TI_var);
-		m5_1368(L_24, L_20, L_21, L_23, m5_1368_MI_var);
+		t5_210 * L_22 = (__this->f3);
+		int32_t L_23 = m5_1289(L_22, NULL);
+		t5_242 * L_24 = (t5_242 *)il2cpp_codegen_object_new (t5_242_TI_var);
+		m5_1372(L_24, L_20, L_21, L_23, m5_1372_MI_var);
 		return L_24;
 	}
 
 IL_00a2:
 	{
-		t5_5 * L_25 = m5_1300(__this, NULL);
+		t5_5 * L_25 = m5_1304(__this, NULL);
 		t1_29 * L_26 = V_0;
-		t5_208 * L_27 = (__this->f3);
-		t1_18* L_28 = m5_1287(L_27, NULL);
-		t5_241 * L_29 = (t5_241 *)il2cpp_codegen_object_new (t5_241_TI_var);
-		m5_1369(L_29, L_25, L_26, L_28, m5_1369_MI_var);
+		t5_210 * L_27 = (__this->f3);
+		t1_18* L_28 = m5_1291(L_27, NULL);
+		t5_243 * L_29 = (t5_243 *)il2cpp_codegen_object_new (t5_243_TI_var);
+		m5_1373(L_29, L_25, L_26, L_28, m5_1373_MI_var);
 		return L_29;
 	}
 
 IL_00ba:
 	{
-		t5_5 * L_30 = m5_1300(__this, NULL);
+		t5_5 * L_30 = m5_1304(__this, NULL);
 		t1_29 * L_31 = V_0;
-		t5_208 * L_32 = (__this->f3);
-		bool L_33 = m5_1288(L_32, NULL);
-		t5_242 * L_34 = (t5_242 *)il2cpp_codegen_object_new (t5_242_TI_var);
-		m5_1370(L_34, L_30, L_31, L_33, m5_1370_MI_var);
+		t5_210 * L_32 = (__this->f3);
+		bool L_33 = m5_1292(L_32, NULL);
+		t5_244 * L_34 = (t5_244 *)il2cpp_codegen_object_new (t5_244_TI_var);
+		m5_1374(L_34, L_30, L_31, L_33, m5_1374_MI_var);
 		return L_34;
 	}
 
 IL_00d2:
 	{
-		t5_5 * L_35 = m5_1300(__this, NULL);
+		t5_5 * L_35 = m5_1304(__this, NULL);
 		t1_29 * L_36 = V_0;
-		t5_210 * L_37 = (t5_210 *)il2cpp_codegen_object_new (t5_210_TI_var);
-		m5_1295(L_37, L_35, L_36, NULL);
+		t5_212 * L_37 = (t5_212 *)il2cpp_codegen_object_new (t5_212_TI_var);
+		m5_1299(L_37, L_35, L_36, NULL);
 		return L_37;
 	}
 
 IL_00df:
 	{
-		return (t5_209 *)NULL;
+		return (t5_211 *)NULL;
 	}
 }
 extern const Il2CppType* t5_5_0_0_0_var;
-extern const Il2CppType* t5_243_0_0_0_var;
+extern const Il2CppType* t5_245_0_0_0_var;
 extern const Il2CppType* t1_29_0_0_0_var;
 extern TypeInfo* t1_37_TI_var;
 extern TypeInfo* t1_18_TI_var;
 extern TypeInfo* t1_41_TI_var;
 extern TypeInfo* t1_170_TI_var;
-extern TypeInfo* t5_209_TI_var;
-extern "C" t5_209 * m5_1306 (t1_1 * __this , t5_5 * p0, t1_29 * p1, t5_208 * p2, const MethodInfo* method)
+extern TypeInfo* t5_211_TI_var;
+extern "C" t5_211 * m5_1310 (t1_1 * __this , t5_5 * p0, t1_29 * p1, t5_210 * p2, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		t5_5_0_0_0_var = il2cpp_codegen_type_from_index(848);
-		t5_243_0_0_0_var = il2cpp_codegen_type_from_index(923);
+		t5_245_0_0_0_var = il2cpp_codegen_type_from_index(923);
 		t1_29_0_0_0_var = il2cpp_codegen_type_from_index(56);
 		t1_37_TI_var = il2cpp_codegen_type_info_from_index(3);
 		t1_18_TI_var = il2cpp_codegen_type_info_from_index(11);
 		t1_41_TI_var = il2cpp_codegen_type_info_from_index(57);
 		t1_170_TI_var = il2cpp_codegen_type_info_from_index(19);
-		t5_209_TI_var = il2cpp_codegen_type_info_from_index(924);
+		t5_211_TI_var = il2cpp_codegen_type_info_from_index(924);
 		s_Il2CppMethodIntialized = true;
 	}
 	t1_37 * V_0 = {0};
@@ -438,8 +536,8 @@ extern "C" t5_209 * m5_1306 (t1_1 * __this , t5_5 * p0, t1_29 * p1, t5_208 * p2,
 		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
 		t1_37 * L_0 = m1_894(NULL, LoadTypeToken(t5_5_0_0_0_var), NULL);
 		V_0 = L_0;
-		t5_208 * L_1 = p2;
-		t1_18* L_2 = m5_1284(L_1, NULL);
+		t5_210 * L_1 = p2;
+		t1_18* L_2 = m5_1288(L_1, NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(t1_18_TI_var);
 		bool L_3 = m1_399(NULL, L_2, NULL);
 		if (L_3)
@@ -448,8 +546,8 @@ extern "C" t5_209 * m5_1306 (t1_1 * __this , t5_5 * p0, t1_29 * p1, t5_208 * p2,
 		}
 	}
 	{
-		t5_208 * L_4 = p2;
-		t1_18* L_5 = m5_1284(L_4, NULL);
+		t5_210 * L_4 = p2;
+		t1_18* L_5 = m5_1288(L_4, NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
 		t1_37 * L_6 = il2cpp_codegen_get_type((methodPointerType)&m1_891, L_5, 0, "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null");
 		t1_37 * L_7 = L_6;
@@ -474,7 +572,7 @@ IL_0038:
 IL_0039:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
-		t1_37 * L_9 = m1_894(NULL, LoadTypeToken(t5_243_0_0_0_var), NULL);
+		t1_37 * L_9 = m1_894(NULL, LoadTypeToken(t5_245_0_0_0_var), NULL);
 		V_1 = L_9;
 		t1_37 * L_10 = V_1;
 		t1_41* L_11 = ((t1_41*)SZArrayNew(t1_41_TI_var, 1));
@@ -498,8 +596,8 @@ IL_0039:
 		*((t1_37 **)(t1_37 **)SZArrayLdElema(L_19, 2, sizeof(t1_37 *))) = (t1_37 *)L_20;
 		t1_281 * L_21 = (t1_281 *)VirtFuncInvoker1< t1_281 *, t1_41* >::Invoke(67 /* System.Reflection.ConstructorInfo System.Type::GetConstructor(System.Type[]) */, L_14, L_19);
 		V_3 = L_21;
-		t5_208 * L_22 = p2;
-		t5_5 * L_23 = m5_1283(L_22, NULL);
+		t5_210 * L_22 = p2;
+		t5_5 * L_23 = m5_1287(L_22, NULL);
 		V_4 = L_23;
 		t5_5 * L_24 = V_4;
 		bool L_25 = m5_520(NULL, L_24, (t5_5 *)NULL, NULL);
@@ -538,12 +636,12 @@ IL_00aa:
 		ArrayElementTypeCheck (L_35, L_36);
 		*((t1_1 **)(t1_1 **)SZArrayLdElema(L_35, 2, sizeof(t1_1 *))) = (t1_1 *)L_36;
 		t1_1 * L_37 = m1_2736(L_30, L_35, NULL);
-		return ((t5_209 *)IsInstClass(L_37, t5_209_TI_var));
+		return ((t5_211 *)IsInstClass(L_37, t5_211_TI_var));
 	}
 }
 extern TypeInfo* t1_898_TI_var;
 extern const MethodInfo* m1_5498_MI_var;
-extern "C" void m5_1307 (t5_214 * __this, const MethodInfo* method)
+extern "C" void m5_1311 (t5_216 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -565,7 +663,7 @@ extern TypeInfo* t1_841_TI_var;
 extern const MethodInfo* m1_5499_MI_var;
 extern const MethodInfo* m1_5500_MI_var;
 extern const MethodInfo* m1_5501_MI_var;
-extern "C" void m5_1308 (t5_214 * __this, t5_215 * p0, t5_216 * p1, const MethodInfo* method)
+extern "C" void m5_1312 (t5_216 * __this, t5_217 * p0, t5_218 * p1, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -577,9 +675,9 @@ extern "C" void m5_1308 (t5_214 * __this, t5_215 * p0, t5_216 * p1, const Method
 		m1_5501_MI_var = il2cpp_codegen_method_info_from_index(2147483729);
 		s_Il2CppMethodIntialized = true;
 	}
-	t5_213 * V_0 = {0};
+	t5_215 * V_0 = {0};
 	t1_914  V_1 = {0};
-	t5_209 * V_2 = {0};
+	t5_211 * V_2 = {0};
 	t1_43 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
 	t1_43 * __exception_local = 0;
@@ -601,10 +699,10 @@ IL_000c:
 
 IL_0011:
 		{
-			t5_213 * L_2 = m1_5500((&V_1), m1_5500_MI_var);
+			t5_215 * L_2 = m1_5500((&V_1), m1_5500_MI_var);
 			V_0 = L_2;
-			t5_213 * L_3 = V_0;
-			bool L_4 = m5_1304(L_3, NULL);
+			t5_215 * L_3 = V_0;
+			bool L_4 = m5_1308(L_3, NULL);
 			if (L_4)
 			{
 				goto IL_0029;
@@ -618,11 +716,11 @@ IL_0024:
 
 IL_0029:
 		{
-			t5_213 * L_5 = V_0;
-			t5_216 * L_6 = p1;
-			t5_209 * L_7 = m5_1305(L_5, L_6, NULL);
+			t5_215 * L_5 = V_0;
+			t5_218 * L_6 = p1;
+			t5_211 * L_7 = m5_1309(L_5, L_6, NULL);
 			V_2 = L_7;
-			t5_209 * L_8 = V_2;
+			t5_211 * L_8 = V_2;
 			if (!L_8)
 			{
 				goto IL_003e;
@@ -631,9 +729,9 @@ IL_0029:
 
 IL_0037:
 		{
-			t5_215 * L_9 = p0;
-			t5_209 * L_10 = V_2;
-			m5_1310(L_9, L_10, NULL);
+			t5_217 * L_9 = p0;
+			t5_211 * L_10 = V_2;
+			m5_1314(L_9, L_10, NULL);
 		}
 
 IL_003e:
@@ -677,7 +775,7 @@ IL_005b:
 }
 extern TypeInfo* t1_899_TI_var;
 extern const MethodInfo* m1_5502_MI_var;
-extern "C" void m5_1309 (t5_215 * __this, const MethodInfo* method)
+extern "C" void m5_1313 (t5_217 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -701,22 +799,22 @@ extern "C" void m5_1309 (t5_215 * __this, const MethodInfo* method)
 		return;
 	}
 }
-extern "C" void m5_1310 (t5_215 * __this, t5_209 * p0, const MethodInfo* method)
+extern "C" void m5_1314 (t5_217 * __this, t5_211 * p0, const MethodInfo* method)
 {
 	{
 		t1_899 * L_0 = (__this->f0);
-		t5_209 * L_1 = p0;
-		VirtActionInvoker1< t5_209 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::Add(!0) */, L_0, L_1);
+		t5_211 * L_1 = p0;
+		VirtActionInvoker1< t5_211 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::Add(!0) */, L_0, L_1);
 		__this->f3 = 1;
 		return;
 	}
 }
-extern "C" void m5_1311 (t5_215 * __this, t5_209 * p0, const MethodInfo* method)
+extern "C" void m5_1315 (t5_217 * __this, t5_211 * p0, const MethodInfo* method)
 {
 	{
 		t1_899 * L_0 = (__this->f1);
-		t5_209 * L_1 = p0;
-		VirtActionInvoker1< t5_209 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::Add(!0) */, L_0, L_1);
+		t5_211 * L_1 = p0;
+		VirtActionInvoker1< t5_211 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::Add(!0) */, L_0, L_1);
 		__this->f3 = 1;
 		return;
 	}
@@ -726,7 +824,7 @@ extern TypeInfo* t1_915_TI_var;
 extern const MethodInfo* m1_5502_MI_var;
 extern const MethodInfo* m1_5503_MI_var;
 extern const MethodInfo* m1_5504_MI_var;
-extern "C" void m5_1312 (t5_215 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method)
+extern "C" void m5_1316 (t5_217 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -752,7 +850,7 @@ IL_000d:
 	{
 		t1_899 * L_1 = (__this->f1);
 		int32_t L_2 = V_1;
-		t5_209 * L_3 = (t5_209 *)VirtFuncInvoker1< t5_209 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::get_Item(System.Int32) */, L_1, L_2);
+		t5_211 * L_3 = (t5_211 *)VirtFuncInvoker1< t5_211 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::get_Item(System.Int32) */, L_1, L_2);
 		t1_1 * L_4 = p0;
 		t1_29 * L_5 = p1;
 		bool L_6 = (bool)VirtFuncInvoker2< bool, t1_1 *, t1_29 * >::Invoke(5 /* System.Boolean UnityEngine.Events.BaseInvokableCall::Find(System.Object,System.Reflection.MethodInfo) */, L_3, L_4, L_5);
@@ -765,8 +863,8 @@ IL_000d:
 		t1_899 * L_7 = V_0;
 		t1_899 * L_8 = (__this->f1);
 		int32_t L_9 = V_1;
-		t5_209 * L_10 = (t5_209 *)VirtFuncInvoker1< t5_209 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::get_Item(System.Int32) */, L_8, L_9);
-		VirtActionInvoker1< t5_209 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::Add(!0) */, L_7, L_10);
+		t5_211 * L_10 = (t5_211 *)VirtFuncInvoker1< t5_211 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::get_Item(System.Int32) */, L_8, L_9);
+		VirtActionInvoker1< t5_211 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::Add(!0) */, L_7, L_10);
 	}
 
 IL_0037:
@@ -797,7 +895,7 @@ IL_003b:
 		return;
 	}
 }
-extern "C" void m5_1313 (t5_215 * __this, const MethodInfo* method)
+extern "C" void m5_1317 (t5_217 * __this, const MethodInfo* method)
 {
 	{
 		t1_899 * L_0 = (__this->f0);
@@ -807,7 +905,7 @@ extern "C" void m5_1313 (t5_215 * __this, const MethodInfo* method)
 	}
 }
 extern const MethodInfo* m1_5505_MI_var;
-extern "C" void m5_1314 (t5_215 * __this, t1_170* p0, const MethodInfo* method)
+extern "C" void m5_1318 (t5_217 * __this, t1_170* p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -845,7 +943,7 @@ IL_0046:
 	{
 		t1_899 * L_6 = (__this->f2);
 		int32_t L_7 = V_0;
-		t5_209 * L_8 = (t5_209 *)VirtFuncInvoker1< t5_209 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::get_Item(System.Int32) */, L_6, L_7);
+		t5_211 * L_8 = (t5_211 *)VirtFuncInvoker1< t5_211 *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>::get_Item(System.Int32) */, L_6, L_7);
 		t1_170* L_9 = p0;
 		VirtActionInvoker1< t1_170* >::Invoke(4 /* System.Void UnityEngine.Events.BaseInvokableCall::Invoke(System.Object[]) */, L_8, L_9);
 		int32_t L_10 = V_0;
@@ -866,25 +964,25 @@ IL_005c:
 		return;
 	}
 }
-extern TypeInfo* t5_215_TI_var;
-extern TypeInfo* t5_214_TI_var;
-extern "C" void m5_1315 (t5_216 * __this, const MethodInfo* method)
+extern TypeInfo* t5_217_TI_var;
+extern TypeInfo* t5_216_TI_var;
+extern "C" void m5_1319 (t5_218 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		t5_215_TI_var = il2cpp_codegen_type_info_from_index(930);
-		t5_214_TI_var = il2cpp_codegen_type_info_from_index(931);
+		t5_217_TI_var = il2cpp_codegen_type_info_from_index(930);
+		t5_216_TI_var = il2cpp_codegen_type_info_from_index(931);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		__this->f3 = 1;
 		m1_0(__this, NULL);
-		t5_215 * L_0 = (t5_215 *)il2cpp_codegen_object_new (t5_215_TI_var);
-		m5_1309(L_0, NULL);
+		t5_217 * L_0 = (t5_217 *)il2cpp_codegen_object_new (t5_217_TI_var);
+		m5_1313(L_0, NULL);
 		__this->f0 = L_0;
-		t5_214 * L_1 = (t5_214 *)il2cpp_codegen_object_new (t5_214_TI_var);
-		m5_1307(L_1, NULL);
+		t5_216 * L_1 = (t5_216 *)il2cpp_codegen_object_new (t5_216_TI_var);
+		m5_1311(L_1, NULL);
 		__this->f1 = L_1;
 		t1_37 * L_2 = m1_5(__this, NULL);
 		t1_18* L_3 = (t1_18*)VirtFuncInvoker0< t1_18* >::Invoke(15 /* System.String System.Type::get_AssemblyQualifiedName() */, L_2);
@@ -892,16 +990,16 @@ extern "C" void m5_1315 (t5_216 * __this, const MethodInfo* method)
 		return;
 	}
 }
-extern "C" void m5_1316 (t5_216 * __this, const MethodInfo* method)
+extern "C" void m5_1320 (t5_218 * __this, const MethodInfo* method)
 {
 	{
 		return;
 	}
 }
-extern "C" void m5_1317 (t5_216 * __this, const MethodInfo* method)
+extern "C" void m5_1321 (t5_218 * __this, const MethodInfo* method)
 {
 	{
-		m5_1320(__this, NULL);
+		m5_1324(__this, NULL);
 		t1_37 * L_0 = m1_5(__this, NULL);
 		t1_18* L_1 = (t1_18*)VirtFuncInvoker0< t1_18* >::Invoke(15 /* System.String System.Type::get_AssemblyQualifiedName() */, L_0);
 		__this->f2 = L_1;
@@ -911,7 +1009,7 @@ extern "C" void m5_1317 (t5_216 * __this, const MethodInfo* method)
 extern const Il2CppType* t5_5_0_0_0_var;
 extern TypeInfo* t1_37_TI_var;
 extern TypeInfo* t1_18_TI_var;
-extern "C" t1_29 * m5_1318 (t5_216 * __this, t5_213 * p0, const MethodInfo* method)
+extern "C" t1_29 * m5_1322 (t5_218 * __this, t5_215 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -928,9 +1026,9 @@ extern "C" t1_29 * m5_1318 (t5_216 * __this, t5_213 * p0, const MethodInfo* meth
 		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
 		t1_37 * L_0 = m1_894(NULL, LoadTypeToken(t5_5_0_0_0_var), NULL);
 		V_0 = L_0;
-		t5_213 * L_1 = p0;
-		t5_208 * L_2 = m5_1303(L_1, NULL);
-		t1_18* L_3 = m5_1284(L_2, NULL);
+		t5_215 * L_1 = p0;
+		t5_210 * L_2 = m5_1307(L_1, NULL);
+		t1_18* L_3 = m5_1288(L_2, NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(t1_18_TI_var);
 		bool L_4 = m1_399(NULL, L_3, NULL);
 		if (L_4)
@@ -939,9 +1037,9 @@ extern "C" t1_29 * m5_1318 (t5_216 * __this, t5_213 * p0, const MethodInfo* meth
 		}
 	}
 	{
-		t5_213 * L_5 = p0;
-		t5_208 * L_6 = m5_1303(L_5, NULL);
-		t1_18* L_7 = m5_1284(L_6, NULL);
+		t5_215 * L_5 = p0;
+		t5_210 * L_6 = m5_1307(L_5, NULL);
+		t1_18* L_7 = m5_1288(L_6, NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
 		t1_37 * L_8 = il2cpp_codegen_get_type((methodPointerType)&m1_891, L_7, 0, "UnityEngine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null");
 		t1_37 * L_9 = L_8;
@@ -965,14 +1063,14 @@ IL_0042:
 
 IL_0043:
 	{
-		t5_213 * L_11 = p0;
-		t1_18* L_12 = m5_1301(L_11, NULL);
-		t5_213 * L_13 = p0;
-		t5_5 * L_14 = m5_1300(L_13, NULL);
-		t5_213 * L_15 = p0;
-		int32_t L_16 = m5_1302(L_15, NULL);
+		t5_215 * L_11 = p0;
+		t1_18* L_12 = m5_1305(L_11, NULL);
+		t5_215 * L_13 = p0;
+		t5_5 * L_14 = m5_1304(L_13, NULL);
+		t5_215 * L_15 = p0;
+		int32_t L_16 = m5_1306(L_15, NULL);
 		t1_37 * L_17 = V_0;
-		t1_29 * L_18 = m5_1319(__this, L_12, L_14, L_16, L_17, NULL);
+		t1_29 * L_18 = m5_1323(__this, L_12, L_14, L_16, L_17, NULL);
 		return L_18;
 	}
 }
@@ -983,7 +1081,7 @@ extern const Il2CppType* t1_18_0_0_0_var;
 extern const Il2CppType* t5_5_0_0_0_var;
 extern TypeInfo* t1_41_TI_var;
 extern TypeInfo* t1_37_TI_var;
-extern "C" t1_29 * m5_1319 (t5_216 * __this, t1_18* p0, t1_1 * p1, int32_t p2, t1_37 * p3, const MethodInfo* method)
+extern "C" t1_29 * m5_1323 (t5_218 * __this, t1_18* p0, t1_1 * p1, int32_t p2, t1_37 * p3, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1059,7 +1157,7 @@ IL_0032:
 	{
 		t1_1 * L_5 = p1;
 		t1_18* L_6 = p0;
-		t1_29 * L_7 = m5_1326(NULL, L_5, L_6, ((t1_41*)SZArrayNew(t1_41_TI_var, 0)), NULL);
+		t1_29 * L_7 = m5_1330(NULL, L_5, L_6, ((t1_41*)SZArrayNew(t1_41_TI_var, 0)), NULL);
 		return L_7;
 	}
 
@@ -1072,7 +1170,7 @@ IL_0040:
 		t1_37 * L_11 = m1_894(NULL, LoadTypeToken(t1_20_0_0_0_var), NULL);
 		ArrayElementTypeCheck (L_10, L_11);
 		*((t1_37 **)(t1_37 **)SZArrayLdElema(L_10, 0, sizeof(t1_37 *))) = (t1_37 *)L_11;
-		t1_29 * L_12 = m5_1326(NULL, L_8, L_9, L_10, NULL);
+		t1_29 * L_12 = m5_1330(NULL, L_8, L_9, L_10, NULL);
 		return L_12;
 	}
 
@@ -1085,7 +1183,7 @@ IL_005b:
 		t1_37 * L_16 = m1_894(NULL, LoadTypeToken(t1_4_0_0_0_var), NULL);
 		ArrayElementTypeCheck (L_15, L_16);
 		*((t1_37 **)(t1_37 **)SZArrayLdElema(L_15, 0, sizeof(t1_37 *))) = (t1_37 *)L_16;
-		t1_29 * L_17 = m5_1326(NULL, L_13, L_14, L_15, NULL);
+		t1_29 * L_17 = m5_1330(NULL, L_13, L_14, L_15, NULL);
 		return L_17;
 	}
 
@@ -1098,7 +1196,7 @@ IL_0076:
 		t1_37 * L_21 = m1_894(NULL, LoadTypeToken(t1_23_0_0_0_var), NULL);
 		ArrayElementTypeCheck (L_20, L_21);
 		*((t1_37 **)(t1_37 **)SZArrayLdElema(L_20, 0, sizeof(t1_37 *))) = (t1_37 *)L_21;
-		t1_29 * L_22 = m5_1326(NULL, L_18, L_19, L_20, NULL);
+		t1_29 * L_22 = m5_1330(NULL, L_18, L_19, L_20, NULL);
 		return L_22;
 	}
 
@@ -1111,7 +1209,7 @@ IL_0091:
 		t1_37 * L_26 = m1_894(NULL, LoadTypeToken(t1_18_0_0_0_var), NULL);
 		ArrayElementTypeCheck (L_25, L_26);
 		*((t1_37 **)(t1_37 **)SZArrayLdElema(L_25, 0, sizeof(t1_37 *))) = (t1_37 *)L_26;
-		t1_29 * L_27 = m5_1326(NULL, L_23, L_24, L_25, NULL);
+		t1_29 * L_27 = m5_1330(NULL, L_23, L_24, L_25, NULL);
 		return L_27;
 	}
 
@@ -1154,7 +1252,7 @@ IL_00c9:
 	{
 		ArrayElementTypeCheck (G_B10_2, G_B10_0);
 		*((t1_37 **)(t1_37 **)SZArrayLdElema(G_B10_2, G_B10_1, sizeof(t1_37 *))) = (t1_37 *)G_B10_0;
-		t1_29 * L_34 = m5_1326(NULL, G_B10_5, G_B10_4, G_B10_3, NULL);
+		t1_29 * L_34 = m5_1330(NULL, G_B10_5, G_B10_4, G_B10_3, NULL);
 		return L_34;
 	}
 
@@ -1163,16 +1261,16 @@ IL_00d0:
 		return (t1_29 *)NULL;
 	}
 }
-extern "C" void m5_1320 (t5_216 * __this, const MethodInfo* method)
+extern "C" void m5_1324 (t5_218 * __this, const MethodInfo* method)
 {
 	{
-		t5_215 * L_0 = (__this->f0);
-		m5_1313(L_0, NULL);
+		t5_217 * L_0 = (__this->f0);
+		m5_1317(L_0, NULL);
 		__this->f3 = 1;
 		return;
 	}
 }
-extern "C" void m5_1321 (t5_216 * __this, const MethodInfo* method)
+extern "C" void m5_1325 (t5_218 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->f3);
@@ -1182,9 +1280,9 @@ extern "C" void m5_1321 (t5_216 * __this, const MethodInfo* method)
 		}
 	}
 	{
-		t5_214 * L_1 = (__this->f1);
-		t5_215 * L_2 = (__this->f0);
-		m5_1308(L_1, L_2, __this, NULL);
+		t5_216 * L_1 = (__this->f1);
+		t5_217 * L_2 = (__this->f0);
+		m5_1312(L_1, L_2, __this, NULL);
 		__this->f3 = 0;
 	}
 
@@ -1193,38 +1291,38 @@ IL_0024:
 		return;
 	}
 }
-extern "C" void m5_1322 (t5_216 * __this, t5_209 * p0, const MethodInfo* method)
+extern "C" void m5_1326 (t5_218 * __this, t5_211 * p0, const MethodInfo* method)
 {
 	{
-		t5_215 * L_0 = (__this->f0);
-		t5_209 * L_1 = p0;
-		m5_1311(L_0, L_1, NULL);
+		t5_217 * L_0 = (__this->f0);
+		t5_211 * L_1 = p0;
+		m5_1315(L_0, L_1, NULL);
 		return;
 	}
 }
-extern "C" void m5_1323 (t5_216 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method)
+extern "C" void m5_1327 (t5_218 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method)
 {
 	{
-		t5_215 * L_0 = (__this->f0);
+		t5_217 * L_0 = (__this->f0);
 		t1_1 * L_1 = p0;
 		t1_29 * L_2 = p1;
-		m5_1312(L_0, L_1, L_2, NULL);
+		m5_1316(L_0, L_1, L_2, NULL);
 		return;
 	}
 }
-extern "C" void m5_1324 (t5_216 * __this, t1_170* p0, const MethodInfo* method)
+extern "C" void m5_1328 (t5_218 * __this, t1_170* p0, const MethodInfo* method)
 {
 	{
-		m5_1321(__this, NULL);
-		t5_215 * L_0 = (__this->f0);
+		m5_1325(__this, NULL);
+		t5_217 * L_0 = (__this->f0);
 		t1_170* L_1 = p0;
-		m5_1314(L_0, L_1, NULL);
+		m5_1318(L_0, L_1, NULL);
 		return;
 	}
 }
 extern TypeInfo* t1_18_TI_var;
 extern Il2CppCodeGenString* _stringLiteral232;
-extern "C" t1_18* m5_1325 (t5_216 * __this, const MethodInfo* method)
+extern "C" t1_18* m5_1329 (t5_218 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1244,7 +1342,7 @@ extern "C" t1_18* m5_1325 (t5_216 * __this, const MethodInfo* method)
 }
 extern const Il2CppType* t1_1_0_0_0_var;
 extern TypeInfo* t1_37_TI_var;
-extern "C" t1_29 * m5_1326 (t1_1 * __this , t1_1 * p0, t1_18* p1, t1_41* p2, const MethodInfo* method)
+extern "C" t1_29 * m5_1330 (t1_1 * __this , t1_1 * p0, t1_18* p1, t1_41* p2, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1385,7 +1483,7 @@ IL_00a4:
 	}
 }
 extern TypeInfo* t1_170_TI_var;
-extern "C" void m5_1327 (t5_217 * __this, const MethodInfo* method)
+extern "C" void m5_1331 (t5_219 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1395,21 +1493,21 @@ extern "C" void m5_1327 (t5_217 * __this, const MethodInfo* method)
 	}
 	{
 		__this->f4 = ((t1_170*)SZArrayNew(t1_170_TI_var, 0));
-		m5_1315(__this, NULL);
+		m5_1319(__this, NULL);
 		return;
 	}
 }
-extern "C" void m5_1328 (t5_217 * __this, t5_211 * p0, const MethodInfo* method)
+extern "C" void m5_1332 (t5_219 * __this, t5_213 * p0, const MethodInfo* method)
 {
 	{
-		t5_211 * L_0 = p0;
-		t5_209 * L_1 = m5_1331(NULL, L_0, NULL);
-		m5_1322(__this, L_1, NULL);
+		t5_213 * L_0 = p0;
+		t5_211 * L_1 = m5_1335(NULL, L_0, NULL);
+		m5_1326(__this, L_1, NULL);
 		return;
 	}
 }
 extern TypeInfo* t1_41_TI_var;
-extern "C" t1_29 * m5_1329 (t5_217 * __this, t1_18* p0, t1_1 * p1, const MethodInfo* method)
+extern "C" t1_29 * m5_1333 (t5_219 * __this, t1_18* p0, t1_1 * p1, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1420,52 +1518,52 @@ extern "C" t1_29 * m5_1329 (t5_217 * __this, t1_18* p0, t1_1 * p1, const MethodI
 	{
 		t1_1 * L_0 = p1;
 		t1_18* L_1 = p0;
-		t1_29 * L_2 = m5_1326(NULL, L_0, L_1, ((t1_41*)SZArrayNew(t1_41_TI_var, 0)), NULL);
+		t1_29 * L_2 = m5_1330(NULL, L_0, L_1, ((t1_41*)SZArrayNew(t1_41_TI_var, 0)), NULL);
 		return L_2;
 	}
 }
-extern TypeInfo* t5_210_TI_var;
-extern "C" t5_209 * m5_1330 (t5_217 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method)
+extern TypeInfo* t5_212_TI_var;
+extern "C" t5_211 * m5_1334 (t5_219 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		t5_210_TI_var = il2cpp_codegen_type_info_from_index(922);
+		t5_212_TI_var = il2cpp_codegen_type_info_from_index(922);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		t1_1 * L_0 = p0;
 		t1_29 * L_1 = p1;
-		t5_210 * L_2 = (t5_210 *)il2cpp_codegen_object_new (t5_210_TI_var);
-		m5_1295(L_2, L_0, L_1, NULL);
+		t5_212 * L_2 = (t5_212 *)il2cpp_codegen_object_new (t5_212_TI_var);
+		m5_1299(L_2, L_0, L_1, NULL);
 		return L_2;
 	}
 }
-extern TypeInfo* t5_210_TI_var;
-extern "C" t5_209 * m5_1331 (t1_1 * __this , t5_211 * p0, const MethodInfo* method)
+extern TypeInfo* t5_212_TI_var;
+extern "C" t5_211 * m5_1335 (t1_1 * __this , t5_213 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		t5_210_TI_var = il2cpp_codegen_type_info_from_index(922);
+		t5_212_TI_var = il2cpp_codegen_type_info_from_index(922);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		t5_211 * L_0 = p0;
-		t5_210 * L_1 = (t5_210 *)il2cpp_codegen_object_new (t5_210_TI_var);
-		m5_1296(L_1, L_0, NULL);
+		t5_213 * L_0 = p0;
+		t5_212 * L_1 = (t5_212 *)il2cpp_codegen_object_new (t5_212_TI_var);
+		m5_1300(L_1, L_0, NULL);
 		return L_1;
 	}
 }
-extern "C" void m5_1332 (t5_217 * __this, const MethodInfo* method)
+extern "C" void m5_1336 (t5_219 * __this, const MethodInfo* method)
 {
 	{
 		t1_170* L_0 = (__this->f4);
-		m5_1324(__this, L_0, NULL);
+		m5_1328(__this, L_0, NULL);
 		return;
 	}
 }
-extern "C" void m5_1333 (t5_219 * __this, t1_18* p0, const MethodInfo* method)
+extern "C" void m5_1337 (t5_221 * __this, t1_18* p0, const MethodInfo* method)
 {
 	{
 		m1_17(__this, NULL);
@@ -1474,27 +1572,27 @@ extern "C" void m5_1333 (t5_219 * __this, t1_18* p0, const MethodInfo* method)
 		return;
 	}
 }
-extern "C" t1_1 * m5_1334 (t5_219 * __this, const MethodInfo* method)
+extern "C" t1_1 * m5_1338 (t5_221 * __this, const MethodInfo* method)
 {
 	{
 		t1_1 * L_0 = (__this->f0);
 		return L_0;
 	}
 }
-extern TypeInfo* t5_219_TI_var;
-extern "C" bool m5_1335 (t5_219 * __this, t1_1 * p0, const MethodInfo* method)
+extern TypeInfo* t5_221_TI_var;
+extern "C" bool m5_1339 (t5_221 * __this, t1_1 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		t5_219_TI_var = il2cpp_codegen_type_info_from_index(932);
+		t5_221_TI_var = il2cpp_codegen_type_info_from_index(932);
 		s_Il2CppMethodIntialized = true;
 	}
-	t5_219 * V_0 = {0};
+	t5_221 * V_0 = {0};
 	{
 		t1_1 * L_0 = p0;
-		V_0 = ((t5_219 *)IsInstClass(L_0, t5_219_TI_var));
-		t5_219 * L_1 = V_0;
+		V_0 = ((t5_221 *)IsInstClass(L_0, t5_221_TI_var));
+		t5_221 * L_1 = V_0;
 		if (L_1)
 		{
 			goto IL_000f;
@@ -1513,21 +1611,21 @@ IL_000f:
 		}
 	}
 	{
-		t5_219 * L_3 = V_0;
-		t1_1 * L_4 = m5_1334(L_3, NULL);
+		t5_221 * L_3 = V_0;
+		t1_1 * L_4 = m5_1338(L_3, NULL);
 		return ((((t1_1*)(t1_1 *)L_4) == ((t1_1*)(t1_1 *)NULL))? 1 : 0);
 	}
 
 IL_0024:
 	{
 		t1_1 * L_5 = (__this->f0);
-		t5_219 * L_6 = V_0;
-		t1_1 * L_7 = m5_1334(L_6, NULL);
+		t5_221 * L_6 = V_0;
+		t1_1 * L_7 = m5_1338(L_6, NULL);
 		bool L_8 = (bool)VirtFuncInvoker1< bool, t1_1 * >::Invoke(0 /* System.Boolean System.Object::Equals(System.Object) */, L_5, L_7);
 		return L_8;
 	}
 }
-extern "C" int32_t m5_1336 (t5_219 * __this, const MethodInfo* method)
+extern "C" int32_t m5_1340 (t5_221 * __this, const MethodInfo* method)
 {
 	{
 		t1_1 * L_0 = (__this->f0);
@@ -1548,14 +1646,14 @@ IL_0012:
 		return L_3;
 	}
 }
-extern "C" void m5_1337 (t5_220 * __this, const MethodInfo* method)
+extern "C" void m5_1341 (t5_222 * __this, const MethodInfo* method)
 {
 	{
 		m1_17(__this, NULL);
 		return;
 	}
 }
-extern "C" void m5_1338 (t5_71 * __this, t1_1 * p0, const MethodInfo* method)
+extern "C" void m5_1342 (t5_71 * __this, t1_1 * p0, const MethodInfo* method)
 {
 	{
 		m1_0(__this, NULL);
@@ -1566,14 +1664,14 @@ extern "C" void m5_1338 (t5_71 * __this, t1_1 * p0, const MethodInfo* method)
 		return;
 	}
 }
-extern "C" t1_1 * m5_1339 (t5_71 * __this, const MethodInfo* method)
+extern "C" t1_1 * m5_1343 (t5_71 * __this, const MethodInfo* method)
 {
 	{
 		t1_1 * L_0 = (__this->f0);
 		return L_0;
 	}
 }
-extern "C" void m5_1340 (t5_71 * __this, t1_1 * p0, const MethodInfo* method)
+extern "C" void m5_1344 (t5_71 * __this, t1_1 * p0, const MethodInfo* method)
 {
 	{
 		t1_1 * L_0 = p0;
@@ -1581,14 +1679,14 @@ extern "C" void m5_1340 (t5_71 * __this, t1_1 * p0, const MethodInfo* method)
 		return;
 	}
 }
-extern "C" bool m5_1341 (t5_71 * __this, const MethodInfo* method)
+extern "C" bool m5_1345 (t5_71 * __this, const MethodInfo* method)
 {
 	{
 		bool L_0 = (__this->f1);
 		return L_0;
 	}
 }
-extern "C" void m5_1342 (t5_71 * __this, bool p0, const MethodInfo* method)
+extern "C" void m5_1346 (t5_71 * __this, bool p0, const MethodInfo* method)
 {
 	{
 		bool L_0 = p0;
@@ -1596,14 +1694,14 @@ extern "C" void m5_1342 (t5_71 * __this, bool p0, const MethodInfo* method)
 		return;
 	}
 }
-extern "C" int32_t m5_1343 (t5_71 * __this, const MethodInfo* method)
+extern "C" int32_t m5_1347 (t5_71 * __this, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = (__this->f2);
 		return L_0;
 	}
 }
-extern "C" void m5_1344 (t5_71 * __this, int32_t p0, const MethodInfo* method)
+extern "C" void m5_1348 (t5_71 * __this, int32_t p0, const MethodInfo* method)
 {
 	{
 		int32_t L_0 = p0;
@@ -1611,7 +1709,7 @@ extern "C" void m5_1344 (t5_71 * __this, int32_t p0, const MethodInfo* method)
 		return;
 	}
 }
-extern "C" bool m5_1345 (t5_71 * __this, int32_t p0, const MethodInfo* method)
+extern "C" bool m5_1349 (t5_71 * __this, int32_t p0, const MethodInfo* method)
 {
 	int32_t G_B4_0 = 0;
 	{
@@ -1651,7 +1749,7 @@ IL_001f:
 	}
 }
 extern Il2CppCodeGenString* _stringLiteral2618;
-extern "C" t1_18* m5_1346 (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
+extern "C" t1_18* m5_1350 (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -1685,15 +1783,15 @@ IL_0016:
 	}
 }
 extern TypeInfo* t1_170_TI_var;
-extern TypeInfo* t5_221_TI_var;
+extern TypeInfo* t5_223_TI_var;
 extern Il2CppCodeGenString* _stringLiteral2619;
-extern "C" void m5_1347 (t5_71 * __this, int32_t p0, t1_1 * p1, const MethodInfo* method)
+extern "C" void m5_1351 (t5_71 * __this, int32_t p0, t1_1 * p1, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		t1_170_TI_var = il2cpp_codegen_type_info_from_index(19);
-		t5_221_TI_var = il2cpp_codegen_type_info_from_index(844);
+		t5_223_TI_var = il2cpp_codegen_type_info_from_index(844);
 		_stringLiteral2619 = il2cpp_codegen_string_literal_from_index(2619);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -1710,10 +1808,10 @@ extern "C" void m5_1347 (t5_71 * __this, int32_t p0, t1_1 * p1, const MethodInfo
 		int32_t L_3 = p0;
 		t1_170* L_4 = ((t1_170*)SZArrayNew(t1_170_TI_var, 1));
 		t1_1 * L_5 = p1;
-		t1_18* L_6 = m5_1346(NULL, L_5, NULL);
+		t1_18* L_6 = m5_1350(NULL, L_5, NULL);
 		ArrayElementTypeCheck (L_4, L_6);
 		*((t1_1 **)(t1_1 **)SZArrayLdElema(L_4, 0, sizeof(t1_1 *))) = (t1_1 *)L_6;
-		InterfaceActionInvoker4< int32_t, t5_5 *, t1_18*, t1_170* >::Invoke(0 /* System.Void UnityEngine.ILogHandler::LogFormat(UnityEngine.LogType,UnityEngine.Object,System.String,System.Object[]) */, t5_221_TI_var, L_2, L_3, (t5_5 *)NULL, _stringLiteral2619, L_4);
+		InterfaceActionInvoker4< int32_t, t5_5 *, t1_18*, t1_170* >::Invoke(0 /* System.Void UnityEngine.ILogHandler::LogFormat(UnityEngine.LogType,UnityEngine.Object,System.String,System.Object[]) */, t5_223_TI_var, L_2, L_3, (t5_5 *)NULL, _stringLiteral2619, L_4);
 	}
 
 IL_002d:
@@ -1722,15 +1820,15 @@ IL_002d:
 	}
 }
 extern TypeInfo* t1_170_TI_var;
-extern TypeInfo* t5_221_TI_var;
+extern TypeInfo* t5_223_TI_var;
 extern Il2CppCodeGenString* _stringLiteral2619;
-extern "C" void m5_1348 (t5_71 * __this, int32_t p0, t1_1 * p1, t5_5 * p2, const MethodInfo* method)
+extern "C" void m5_1352 (t5_71 * __this, int32_t p0, t1_1 * p1, t5_5 * p2, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
 		t1_170_TI_var = il2cpp_codegen_type_info_from_index(19);
-		t5_221_TI_var = il2cpp_codegen_type_info_from_index(844);
+		t5_223_TI_var = il2cpp_codegen_type_info_from_index(844);
 		_stringLiteral2619 = il2cpp_codegen_string_literal_from_index(2619);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -1748,10 +1846,10 @@ extern "C" void m5_1348 (t5_71 * __this, int32_t p0, t1_1 * p1, t5_5 * p2, const
 		t5_5 * L_4 = p2;
 		t1_170* L_5 = ((t1_170*)SZArrayNew(t1_170_TI_var, 1));
 		t1_1 * L_6 = p1;
-		t1_18* L_7 = m5_1346(NULL, L_6, NULL);
+		t1_18* L_7 = m5_1350(NULL, L_6, NULL);
 		ArrayElementTypeCheck (L_5, L_7);
 		*((t1_1 **)(t1_1 **)SZArrayLdElema(L_5, 0, sizeof(t1_1 *))) = (t1_1 *)L_7;
-		InterfaceActionInvoker4< int32_t, t5_5 *, t1_18*, t1_170* >::Invoke(0 /* System.Void UnityEngine.ILogHandler::LogFormat(UnityEngine.LogType,UnityEngine.Object,System.String,System.Object[]) */, t5_221_TI_var, L_2, L_3, L_4, _stringLiteral2619, L_5);
+		InterfaceActionInvoker4< int32_t, t5_5 *, t1_18*, t1_170* >::Invoke(0 /* System.Void UnityEngine.ILogHandler::LogFormat(UnityEngine.LogType,UnityEngine.Object,System.String,System.Object[]) */, t5_223_TI_var, L_2, L_3, L_4, _stringLiteral2619, L_5);
 	}
 
 IL_002d:
@@ -1759,13 +1857,13 @@ IL_002d:
 		return;
 	}
 }
-extern TypeInfo* t5_221_TI_var;
-extern "C" void m5_1349 (t5_71 * __this, int32_t p0, t5_5 * p1, t1_18* p2, t1_170* p3, const MethodInfo* method)
+extern TypeInfo* t5_223_TI_var;
+extern "C" void m5_1353 (t5_71 * __this, int32_t p0, t5_5 * p1, t1_18* p2, t1_170* p3, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		t5_221_TI_var = il2cpp_codegen_type_info_from_index(844);
+		t5_223_TI_var = il2cpp_codegen_type_info_from_index(844);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1782,7 +1880,7 @@ extern "C" void m5_1349 (t5_71 * __this, int32_t p0, t5_5 * p1, t1_18* p2, t1_17
 		t5_5 * L_4 = p1;
 		t1_18* L_5 = p2;
 		t1_170* L_6 = p3;
-		InterfaceActionInvoker4< int32_t, t5_5 *, t1_18*, t1_170* >::Invoke(0 /* System.Void UnityEngine.ILogHandler::LogFormat(UnityEngine.LogType,UnityEngine.Object,System.String,System.Object[]) */, t5_221_TI_var, L_2, L_3, L_4, L_5, L_6);
+		InterfaceActionInvoker4< int32_t, t5_5 *, t1_18*, t1_170* >::Invoke(0 /* System.Void UnityEngine.ILogHandler::LogFormat(UnityEngine.LogType,UnityEngine.Object,System.String,System.Object[]) */, t5_223_TI_var, L_2, L_3, L_4, L_5, L_6);
 	}
 
 IL_001c:
@@ -1790,13 +1888,13 @@ IL_001c:
 		return;
 	}
 }
-extern TypeInfo* t5_221_TI_var;
-extern "C" void m5_1350 (t5_71 * __this, t1_43 * p0, t5_5 * p1, const MethodInfo* method)
+extern TypeInfo* t5_223_TI_var;
+extern "C" void m5_1354 (t5_71 * __this, t1_43 * p0, t5_5 * p1, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		t5_221_TI_var = il2cpp_codegen_type_info_from_index(844);
+		t5_223_TI_var = il2cpp_codegen_type_info_from_index(844);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -1810,7 +1908,7 @@ extern "C" void m5_1350 (t5_71 * __this, t1_43 * p0, t5_5 * p1, const MethodInfo
 		t1_1 * L_1 = (t1_1 *)VirtFuncInvoker0< t1_1 * >::Invoke(8 /* UnityEngine.ILogHandler UnityEngine.Logger::get_logHandler() */, __this);
 		t1_43 * L_2 = p0;
 		t5_5 * L_3 = p1;
-		InterfaceActionInvoker2< t1_43 *, t5_5 * >::Invoke(1 /* System.Void UnityEngine.ILogHandler::LogException(System.Exception,UnityEngine.Object) */, t5_221_TI_var, L_1, L_2, L_3);
+		InterfaceActionInvoker2< t1_43 *, t5_5 * >::Invoke(1 /* System.Void UnityEngine.ILogHandler::LogException(System.Exception,UnityEngine.Object) */, t5_223_TI_var, L_1, L_2, L_3);
 	}
 
 IL_0018:
@@ -1818,21 +1916,21 @@ IL_0018:
 		return;
 	}
 }
-extern "C" void m5_1351 (t5_222 * __this, const MethodInfo* method)
+extern "C" void m5_1355 (t5_224 * __this, const MethodInfo* method)
 {
 	{
 		m1_17(__this, NULL);
 		return;
 	}
 }
-extern "C" void m5_1352 (t5_223 * __this, const MethodInfo* method)
+extern "C" void m5_1356 (t5_225 * __this, const MethodInfo* method)
 {
 	{
 		m1_17(__this, NULL);
 		return;
 	}
 }
-extern "C" void m5_1353 (t5_224 * __this, t1_18* p0, const MethodInfo* method)
+extern "C" void m5_1357 (t5_226 * __this, t1_18* p0, const MethodInfo* method)
 {
 	{
 		m1_17(__this, NULL);
@@ -1841,32 +1939,32 @@ extern "C" void m5_1353 (t5_224 * __this, t1_18* p0, const MethodInfo* method)
 		return;
 	}
 }
-extern "C" t1_18* m5_1354 (t5_224 * __this, const MethodInfo* method)
+extern "C" t1_18* m5_1358 (t5_226 * __this, const MethodInfo* method)
 {
 	{
 		t1_18* L_0 = (__this->f0);
 		return L_0;
 	}
 }
-extern TypeInfo* t5_225_TI_var;
-extern "C" void m5_1355 (t5_226 * __this, int32_t p0, const MethodInfo* method)
+extern TypeInfo* t5_227_TI_var;
+extern "C" void m5_1359 (t5_228 * __this, int32_t p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		t5_225_TI_var = il2cpp_codegen_type_info_from_index(933);
+		t5_227_TI_var = il2cpp_codegen_type_info_from_index(933);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
 		int32_t L_0 = p0;
 		int32_t L_1 = L_0;
-		t1_1 * L_2 = Box(t5_225_TI_var, &L_1);
+		t1_1 * L_2 = Box(t5_227_TI_var, &L_1);
 		t1_18* L_3 = (t1_18*)VirtFuncInvoker0< t1_18* >::Invoke(3 /* System.String System.Enum::ToString() */, L_2);
-		m5_1356(__this, L_3, NULL);
+		m5_1360(__this, L_3, NULL);
 		return;
 	}
 }
-extern "C" void m5_1356 (t5_226 * __this, t1_18* p0, const MethodInfo* method)
+extern "C" void m5_1360 (t5_228 * __this, t1_18* p0, const MethodInfo* method)
 {
 	{
 		m1_17(__this, NULL);
@@ -1875,21 +1973,21 @@ extern "C" void m5_1356 (t5_226 * __this, t1_18* p0, const MethodInfo* method)
 		return;
 	}
 }
-extern "C" t1_18* m5_1357 (t5_226 * __this, const MethodInfo* method)
+extern "C" t1_18* m5_1361 (t5_228 * __this, const MethodInfo* method)
 {
 	{
 		t1_18* L_0 = (__this->f0);
 		return L_0;
 	}
 }
-extern "C" void m5_1358 (t5_153 * __this, const MethodInfo* method)
+extern "C" void m5_1362 (t5_155 * __this, const MethodInfo* method)
 {
 	{
 		m1_1828(__this, NULL);
 		return;
 	}
 }
-extern "C" t1_28 * m5_1359 (t1_1 * __this , t1_29 * p0, t1_37 * p1, t1_1 * p2, const MethodInfo* method)
+extern "C" t1_28 * m5_1363 (t1_1 * __this , t1_29 * p0, t1_37 * p1, t1_1 * p2, const MethodInfo* method)
 {
 	{
 		t1_37 * L_0 = p1;
@@ -1899,7 +1997,7 @@ extern "C" t1_28 * m5_1359 (t1_1 * __this , t1_29 * p0, t1_37 * p1, t1_1 * p2, c
 		return L_3;
 	}
 }
-extern "C" t1_29 * m5_1360 (t1_1 * __this , t1_28 * p0, const MethodInfo* method)
+extern "C" t1_29 * m5_1364 (t1_1 * __this , t1_28 * p0, const MethodInfo* method)
 {
 	{
 		t1_28 * L_0 = p0;
@@ -1907,17 +2005,17 @@ extern "C" t1_29 * m5_1360 (t1_1 * __this , t1_28 * p0, const MethodInfo* method
 		return L_1;
 	}
 }
-extern "C" void m5_1361 (t5_211 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method)
+extern "C" void m5_1365 (t5_213 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method)
 {
 	__this->f0 = (methodPointerType)((MethodInfo*)p1.f0)->method;
 	__this->f3 = p1;
 	__this->f2 = p0;
 }
-extern "C" void m5_1362 (t5_211 * __this, const MethodInfo* method)
+extern "C" void m5_1366 (t5_213 * __this, const MethodInfo* method)
 {
 	if(__this->f9 != NULL)
 	{
-		m5_1362((t5_211 *)__this->f9, method);
+		m5_1366((t5_213 *)__this->f9, method);
 	}
 	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->f3.f0));
 	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->f3.f0));
@@ -1932,7 +2030,7 @@ extern "C" void m5_1362 (t5_211 * __this, const MethodInfo* method)
 		((FunctionPointerType)__this->f0)(__this->f2,(MethodInfo*)(__this->f3.f0));
 	}
 }
-extern "C" void pinvoke_delegate_wrapper_t5_211(Il2CppObject* delegate)
+extern "C" void pinvoke_delegate_wrapper_t5_213(Il2CppObject* delegate)
 {
 	typedef void (STDCALL *native_function_ptr_type)();
 	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
@@ -1940,12 +2038,12 @@ extern "C" void pinvoke_delegate_wrapper_t5_211(Il2CppObject* delegate)
 	_il2cpp_pinvoke_func();
 
 }
-extern "C" t1_1 * m5_1363 (t5_211 * __this, t1_36 * p0, t1_1 * p1, const MethodInfo* method)
+extern "C" t1_1 * m5_1367 (t5_213 * __this, t1_36 * p0, t1_1 * p1, const MethodInfo* method)
 {
 	void *__d_args[1] = {0};
 	return (t1_1 *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)p0, (Il2CppObject*)p1);
 }
-extern "C" void m5_1364 (t5_211 * __this, t1_1 * p0, const MethodInfo* method)
+extern "C" void m5_1368 (t5_213 * __this, t1_1 * p0, const MethodInfo* method)
 {
 	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) p0, 0);
 }

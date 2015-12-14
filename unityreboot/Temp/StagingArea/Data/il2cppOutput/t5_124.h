@@ -10,9 +10,21 @@
 
 #include <stdint.h>
 
+struct t1_18;
 
-#include "t5_87.h"
+#include "t1_2.h"
+#include "t5_123.h"
 
-struct  t5_124  : public t5_87
+struct  t5_124 
 {
+	t1_18* f0;
+	t1_18* f1;
+	t5_123  f2;
+};
+// Native definition for marshalling of: UnityEngine.HumanBone
+struct t5_124_marshaled
+{
+	char* f0;
+	char* f1;
+	t5_123  f2;
 };

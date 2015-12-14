@@ -10,11 +10,13 @@
 
 #include <stdint.h>
 
+struct t5_110;
+struct t5_111;
 
-#include "t1_31.h"
-#include "t5_112.h"
+#include "t5_5.h"
 
-struct  t5_112 
+struct  t5_112  : public t5_5
 {
-	int32_t f1;
+	t5_110 * f2;
+	t5_111 * f3;
 };

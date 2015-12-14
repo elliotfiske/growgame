@@ -10,13 +10,13 @@
 
 #include <stdint.h>
 
+struct t6_151;
 struct t1_35;
 struct t1_36;
 struct t1_1;
 
 #include "t1_27.h"
 #include "t1_25.h"
-#include "t5_127.h"
 
 struct  t5_255  : public t1_27
 {

@@ -10,12 +10,12 @@
 
 #include <stdint.h>
 
-struct t5_144;
+struct t5_146;
 
 #include "t1_1.h"
 
 struct  t6_109  : public t1_1
 {
-	t5_144* f0;
-	t5_144* f1;
+	t5_146* f0;
+	t5_146* f1;
 };

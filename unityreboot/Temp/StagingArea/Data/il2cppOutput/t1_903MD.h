@@ -20,7 +20,7 @@ struct t1_1;
 struct t1_1469;
 struct t1_1470;
 struct t1_1185;
-struct t5_231;
+struct t5_233;
 struct t1_1190;
 struct t1_1193;
 
@@ -80,8 +80,8 @@ extern "C" void m1_7778_gshared (t1_903 * __this, const MethodInfo* method);
 #define m1_7778(__this, method) (( void (*) (t1_903 *, const MethodInfo*))m1_7778_gshared)(__this, method)
 extern "C" bool m1_7779_gshared (t1_903 * __this, t5_36  p0, const MethodInfo* method);
 #define m1_7779(__this, p0, method) (( bool (*) (t1_903 *, t5_36 , const MethodInfo*))m1_7779_gshared)(__this, p0, method)
-extern "C" void m1_7780_gshared (t1_903 * __this, t5_231* p0, int32_t p1, const MethodInfo* method);
-#define m1_7780(__this, p0, p1, method) (( void (*) (t1_903 *, t5_231*, int32_t, const MethodInfo*))m1_7780_gshared)(__this, p0, p1, method)
+extern "C" void m1_7780_gshared (t1_903 * __this, t5_233* p0, int32_t p1, const MethodInfo* method);
+#define m1_7780(__this, p0, p1, method) (( void (*) (t1_903 *, t5_233*, int32_t, const MethodInfo*))m1_7780_gshared)(__this, p0, p1, method)
 extern "C" t5_36  m1_7781_gshared (t1_903 * __this, t1_1190 * p0, const MethodInfo* method);
 #define m1_7781(__this, p0, method) (( t5_36  (*) (t1_903 *, t1_1190 *, const MethodInfo*))m1_7781_gshared)(__this, p0, method)
 extern "C" void m1_7782_gshared (t1_1 * __this , t1_1190 * p0, const MethodInfo* method);
@@ -112,8 +112,8 @@ extern "C" void m1_7794_gshared (t1_903 * __this, const MethodInfo* method);
 #define m1_7794(__this, method) (( void (*) (t1_903 *, const MethodInfo*))m1_7794_gshared)(__this, method)
 extern "C" void m1_7795_gshared (t1_903 * __this, t1_1193 * p0, const MethodInfo* method);
 #define m1_7795(__this, p0, method) (( void (*) (t1_903 *, t1_1193 *, const MethodInfo*))m1_7795_gshared)(__this, p0, method)
-extern "C" t5_231* m1_7796_gshared (t1_903 * __this, const MethodInfo* method);
-#define m1_7796(__this, method) (( t5_231* (*) (t1_903 *, const MethodInfo*))m1_7796_gshared)(__this, method)
+extern "C" t5_233* m1_7796_gshared (t1_903 * __this, const MethodInfo* method);
+#define m1_7796(__this, method) (( t5_233* (*) (t1_903 *, const MethodInfo*))m1_7796_gshared)(__this, method)
 extern "C" void m1_7797_gshared (t1_903 * __this, const MethodInfo* method);
 #define m1_7797(__this, method) (( void (*) (t1_903 *, const MethodInfo*))m1_7797_gshared)(__this, method)
 extern "C" int32_t m1_7798_gshared (t1_903 * __this, const MethodInfo* method);

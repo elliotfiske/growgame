@@ -48,14 +48,14 @@ extern "C" void pinvoke_delegate_wrapper_t5_52 ();
 extern "C" void pinvoke_delegate_wrapper_t5_65 ();
 extern "C" void pinvoke_delegate_wrapper_t5_67 ();
 extern "C" void pinvoke_delegate_wrapper_t5_72 ();
-extern "C" void pinvoke_delegate_wrapper_t5_107 ();
-extern "C" void pinvoke_delegate_wrapper_t5_109 ();
+extern "C" void pinvoke_delegate_wrapper_t5_108 ();
 extern "C" void pinvoke_delegate_wrapper_t5_110 ();
-extern "C" void pinvoke_delegate_wrapper_t5_134 ();
-extern "C" void pinvoke_delegate_wrapper_t5_139 ();
-extern "C" void pinvoke_delegate_wrapper_t5_150 ();
-extern "C" void pinvoke_delegate_wrapper_t5_164 ();
-extern "C" void pinvoke_delegate_wrapper_t5_211 ();
+extern "C" void pinvoke_delegate_wrapper_t5_111 ();
+extern "C" void pinvoke_delegate_wrapper_t5_136 ();
+extern "C" void pinvoke_delegate_wrapper_t5_141 ();
+extern "C" void pinvoke_delegate_wrapper_t5_152 ();
+extern "C" void pinvoke_delegate_wrapper_t5_166 ();
+extern "C" void pinvoke_delegate_wrapper_t5_213 ();
 extern "C" void pinvoke_delegate_wrapper_t6_97 ();
 extern const methodPointerType g_DelegateWrappersManagedToNative[46] = 
 {
@@ -96,13 +96,13 @@ extern const methodPointerType g_DelegateWrappersManagedToNative[46] =
 	pinvoke_delegate_wrapper_t5_65,
 	pinvoke_delegate_wrapper_t5_67,
 	pinvoke_delegate_wrapper_t5_72,
-	pinvoke_delegate_wrapper_t5_107,
-	pinvoke_delegate_wrapper_t5_109,
+	pinvoke_delegate_wrapper_t5_108,
 	pinvoke_delegate_wrapper_t5_110,
-	pinvoke_delegate_wrapper_t5_134,
-	pinvoke_delegate_wrapper_t5_139,
-	pinvoke_delegate_wrapper_t5_150,
-	pinvoke_delegate_wrapper_t5_164,
-	pinvoke_delegate_wrapper_t5_211,
+	pinvoke_delegate_wrapper_t5_111,
+	pinvoke_delegate_wrapper_t5_136,
+	pinvoke_delegate_wrapper_t5_141,
+	pinvoke_delegate_wrapper_t5_152,
+	pinvoke_delegate_wrapper_t5_166,
+	pinvoke_delegate_wrapper_t5_213,
 	pinvoke_delegate_wrapper_t6_97,
 };

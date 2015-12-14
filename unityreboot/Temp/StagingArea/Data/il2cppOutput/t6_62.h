@@ -13,7 +13,7 @@
 
 #include "t1_1.h"
 #include "t5_34.h"
-#include "t5_127.h"
+#include "t5_129.h"
 
 struct  t6_62  : public t1_1
 {
@@ -22,7 +22,7 @@ struct t6_62_SFs{
 	t5_34  f3;
 	t5_34  f4;
 	t5_34  f5;
-	t5_127  f6;
-	t5_127  f7;
-	t5_127  f8;
+	t5_129  f6;
+	t5_129  f7;
+	t5_129  f8;
 };

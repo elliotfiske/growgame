@@ -1,4 +1,4 @@
-//Generated on : 12/14/2015 12:47:15 AM
+//Generated on : 12/14/2015 2:50:54 AM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -19,6 +19,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Animator_StringToHash();
 		Register_UnityEngine_Animator_StringToHash();
 
+		//System.Void UnityEngine.Animator::Play(System.Int32,System.Int32,System.Single)
+		void Register_UnityEngine_Animator_Play();
+		Register_UnityEngine_Animator_Play();
+
 		//System.Void UnityEngine.Animator::ResetTriggerString(System.String)
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
@@ -26,6 +30,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Animator::SetTriggerString(System.String)
 		void Register_UnityEngine_Animator_SetTriggerString();
 		Register_UnityEngine_Animator_SetTriggerString();
+
+		//UnityEngine.AnimatorStateInfo UnityEngine.Animator::GetCurrentAnimatorStateInfo(System.Int32)
+		void Register_UnityEngine_Animator_GetCurrentAnimatorStateInfo();
+		Register_UnityEngine_Animator_GetCurrentAnimatorStateInfo();
 
 		//UnityEngine.RuntimeAnimatorController UnityEngine.Animator::get_runtimeAnimatorController()
 		void Register_UnityEngine_Animator_get_runtimeAnimatorController();
@@ -104,6 +112,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_AsyncOperation_set_priority();
 
 	//End Registrations for type : UnityEngine.AsyncOperation
+
+	//Start Registrations for type : UnityEngine.AudioSource
+
+		//System.Void UnityEngine.AudioSource::set_volume(System.Single)
+		void Register_UnityEngine_AudioSource_set_volume();
+		Register_UnityEngine_AudioSource_set_volume();
+
+	//End Registrations for type : UnityEngine.AudioSource
 
 	//Start Registrations for type : UnityEngine.Behaviour
 
@@ -1348,6 +1364,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Quaternion_INTERNAL_CALL_Inverse();
 
 	//End Registrations for type : UnityEngine.Quaternion
+
+	//Start Registrations for type : UnityEngine.Random
+
+		//System.Single UnityEngine.Random::Range(System.Single,System.Single)
+		void Register_UnityEngine_Random_Range();
+		Register_UnityEngine_Random_Range();
+
+	//End Registrations for type : UnityEngine.Random
 
 	//Start Registrations for type : UnityEngine.RectOffset
 

@@ -10,22 +10,20 @@
 
 #include <stdint.h>
 
+struct t1_895;
+struct t5_158;
 struct t5_20;
 
-#include "t5_157.h"
+#include "t1_1.h"
+#include "t5_38.h"
 
-struct  t5_160  : public t5_157
+struct  t5_160  : public t1_1
 {
-	float f27;
-	float f28;
-	float f29;
-	float f30;
-	float f31;
-	float f32;
-	bool f33;
-	bool f34;
-	bool f35;
-	bool f36;
-	t5_20 * f37;
-	t5_20 * f38;
+};
+struct t5_160_SFs{
+	t1_895 * f0;
+	t1_895 * f1;
+	t5_158 * f2;
+	t5_38  f3;
+	t5_20 * f4;
 };

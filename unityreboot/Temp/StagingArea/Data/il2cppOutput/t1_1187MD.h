@@ -16,7 +16,7 @@ struct t1_1187;
 struct t1_33;
 struct t1_143;
 struct t1_1;
-struct t5_231;
+struct t5_233;
 struct t1_1468;
 struct t1_1186;
 
@@ -61,8 +61,8 @@ extern "C" void m1_7857_gshared (t1_1187 * __this, const MethodInfo* method);
 #define m1_7857(__this, method) (( void (*) (t1_1187 *, const MethodInfo*))m1_7857_gshared)(__this, method)
 extern "C" bool m1_7858_gshared (t1_1187 * __this, t5_36  p0, const MethodInfo* method);
 #define m1_7858(__this, p0, method) (( bool (*) (t1_1187 *, t5_36 , const MethodInfo*))m1_7858_gshared)(__this, p0, method)
-extern "C" void m1_7859_gshared (t1_1187 * __this, t5_231* p0, int32_t p1, const MethodInfo* method);
-#define m1_7859(__this, p0, p1, method) (( void (*) (t1_1187 *, t5_231*, int32_t, const MethodInfo*))m1_7859_gshared)(__this, p0, p1, method)
+extern "C" void m1_7859_gshared (t1_1187 * __this, t5_233* p0, int32_t p1, const MethodInfo* method);
+#define m1_7859(__this, p0, p1, method) (( void (*) (t1_1187 *, t5_233*, int32_t, const MethodInfo*))m1_7859_gshared)(__this, p0, p1, method)
 extern "C" t1_1* m1_7860_gshared (t1_1187 * __this, const MethodInfo* method);
 #define m1_7860(__this, method) (( t1_1* (*) (t1_1187 *, const MethodInfo*))m1_7860_gshared)(__this, method)
 extern "C" int32_t m1_7861_gshared (t1_1187 * __this, t5_36  p0, const MethodInfo* method);

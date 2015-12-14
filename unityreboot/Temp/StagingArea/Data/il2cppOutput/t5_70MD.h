@@ -12,7 +12,7 @@
 #include <assert.h>
 #include <exception>
 
-struct t5_233;
+struct t5_235;
 struct t1_1;
 struct t5_5;
 struct t5_5_marshaled;

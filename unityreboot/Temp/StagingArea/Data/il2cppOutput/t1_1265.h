@@ -10,12 +10,12 @@
 
 #include <stdint.h>
 
-struct t5_156;
+struct t5_158;
 
 #include "t1_2.h"
 
 struct  t1_1265 
 {
 	int32_t f0;
-	t5_156 * f1;
+	t5_158 * f1;
 };

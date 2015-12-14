@@ -19,14 +19,14 @@ struct t6_94;
 struct t6_95;
 struct t6_97;
 struct t5_53;
-struct t5_250;
-struct t5_133;
-struct t5_142;
+struct t5_252;
+struct t5_135;
+struct t5_144;
 struct t5_15;
 struct t5_13;
 struct t5_13_marshaled;
-struct t5_145;
-struct t5_145_marshaled;
+struct t5_147;
+struct t5_147_marshaled;
 struct t1_89;
 
 #include "t6_56.h"
@@ -35,7 +35,7 @@ struct t1_89;
 #include "t5_31.h"
 #include "t6_93.h"
 #include "t6_92.h"
-#include "t5_127.h"
+#include "t5_129.h"
 
 struct  t6_99  : public t6_56
 {
@@ -53,9 +53,9 @@ struct  t6_99  : public t6_56
 	t6_94 * f31;
 	t6_95 * f32;
 	t6_97 * f33;
-	t5_127  f34;
+	t5_129  f34;
 	bool f35;
-	t5_127  f36;
+	t5_129  f36;
 	t1_18* f37;
 	float f38;
 	int32_t f39;
@@ -63,9 +63,9 @@ struct  t6_99  : public t6_56
 	int32_t f41;
 	int32_t f42;
 	t5_53 * f43;
-	t5_250* f44;
-	t5_133 * f45;
-	t5_142 * f46;
+	t5_252* f44;
+	t5_135 * f45;
+	t5_144 * f46;
 	bool f47;
 	t5_15 * f48;
 	bool f49;
@@ -81,7 +81,7 @@ struct  t6_99  : public t6_56
 	t1_18* f59;
 	bool f60;
 	bool f61;
-	t5_145 * f62;
+	t5_147 * f62;
 };
 struct t6_99_SFs{
 	t1_19* f20;

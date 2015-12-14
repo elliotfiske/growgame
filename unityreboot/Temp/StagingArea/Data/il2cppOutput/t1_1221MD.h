@@ -17,7 +17,7 @@ struct t1_1;
 
 #include "codegen/il2cpp-codegen.h"
 #include "t1_1221.h"
-#include "t5_104.h"
+#include "t5_105.h"
 
 extern "C" void m1_8348_gshared (t1_1221 * __this, t1_33 * p0, const MethodInfo* method);
 #define m1_8348(__this, p0, method) (( void (*) (t1_1221 *, t1_33 *, const MethodInfo*))m1_8348_gshared)(__this, p0, method)
@@ -29,5 +29,5 @@ extern "C" void m1_8351_gshared (t1_1221 * __this, const MethodInfo* method);
 #define m1_8351(__this, method) (( void (*) (t1_1221 *, const MethodInfo*))m1_8351_gshared)(__this, method)
 extern "C" bool m1_8352_gshared (t1_1221 * __this, const MethodInfo* method);
 #define m1_8352(__this, method) (( bool (*) (t1_1221 *, const MethodInfo*))m1_8352_gshared)(__this, method)
-extern "C" t5_104  m1_8353_gshared (t1_1221 * __this, const MethodInfo* method);
-#define m1_8353(__this, method) (( t5_104  (*) (t1_1221 *, const MethodInfo*))m1_8353_gshared)(__this, method)
+extern "C" t5_105  m1_8353_gshared (t1_1221 * __this, const MethodInfo* method);
+#define m1_8353(__this, method) (( t5_105  (*) (t1_1221 *, const MethodInfo*))m1_8353_gshared)(__this, method)

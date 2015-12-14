@@ -11,8 +11,8 @@
 #include <stdint.h>
 
 
-#include "t5_247.h"
+#include "t5_249.h"
 
-struct  t6_124  : public t5_247
+struct  t6_124  : public t5_249
 {
 };

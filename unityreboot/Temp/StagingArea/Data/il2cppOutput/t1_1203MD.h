@@ -41,7 +41,7 @@
 #define m1_8115(__this, p0, method) (( t1_1 * (*) (t1_1203 *, int32_t, const MethodInfo*))m1_5700_gshared)(__this, p0, method)
 #define m1_8116(__this, p0, p1, method) (( void (*) (t1_1203 *, int32_t, t1_1 *, const MethodInfo*))m1_5701_gshared)(__this, p0, p1, method)
 #define m1_8117(__this, p0, method) (( bool (*) (t1_1203 *, t5_17 *, const MethodInfo*))m1_5702_gshared)(__this, p0, method)
-#define m1_8118(__this, p0, p1, method) (( void (*) (t1_1203 *, t5_234*, int32_t, const MethodInfo*))m1_5703_gshared)(__this, p0, p1, method)
+#define m1_8118(__this, p0, p1, method) (( void (*) (t1_1203 *, t5_236*, int32_t, const MethodInfo*))m1_5703_gshared)(__this, p0, p1, method)
 #define m1_8119(__this, method) (( t1_1* (*) (t1_1203 *, const MethodInfo*))m1_5704_gshared)(__this, method)
 #define m1_8120(__this, p0, method) (( int32_t (*) (t1_1203 *, t5_17 *, const MethodInfo*))m1_5705_gshared)(__this, p0, method)
 #define m1_8121(__this, method) (( int32_t (*) (t1_1203 *, const MethodInfo*))m1_5706_gshared)(__this, method)
