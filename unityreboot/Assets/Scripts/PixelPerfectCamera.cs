@@ -3,6 +3,8 @@ using System.Collections;
 
 public class PixelPerfectCamera : MonoBehaviour {
 
+	public float YMAX = 1000f;
+
 	public static float pixelsToUnits = 1f;
 	public static float scale = 30f;
 
@@ -30,6 +32,10 @@ public class PixelPerfectCamera : MonoBehaviour {
 
 		if (transform.position.y < 350f) {
 			transform.position = new Vector3 (transform.position.x, 350f, transform.position.z);
+		}
+
+		if (transform.position.y > YMAX) {
+			transform.position = new Vector3 (transform.position.x, YMAX, transform.position.z);
 		}
 	}
 }
