@@ -10,7 +10,7 @@
 
 #include <stdint.h>
 
-struct t5_142;
+struct t5_143;
 
 #include "t6_3.h"
 #include "t6_137.h"
@@ -30,7 +30,7 @@ struct  t6_140  : public t6_3
 	float f10;
 	float f11;
 	float f12;
-	t5_142 * f13;
+	t5_143 * f13;
 	float f14;
 	float f15;
 };

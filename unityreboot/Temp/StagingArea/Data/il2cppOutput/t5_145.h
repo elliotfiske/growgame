@@ -10,13 +10,9 @@
 
 #include <stdint.h>
 
-struct t5_146;
 
-#include "t1_1.h"
+#include "t5_17.h"
 
-struct  t5_145  : public t1_1
+struct  t5_145  : public t5_17
 {
-};
-struct t5_145_SFs{
-	t5_146* f0;
 };

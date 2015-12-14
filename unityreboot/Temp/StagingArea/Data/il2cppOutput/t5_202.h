@@ -11,10 +11,9 @@
 #include <stdint.h>
 
 
-#include "t5_199.h"
+#include "t5_200.h"
 
-struct  t5_202  : public t5_199
+struct  t5_202  : public t5_200
 {
 	float f0;
-	float f1;
 };

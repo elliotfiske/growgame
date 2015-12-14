@@ -15,16 +15,16 @@
 
 #include "codegen/il2cpp-codegen.h"
 #include "t6_60.h"
-#include "t5_129.h"
+#include "t5_130.h"
 
-extern "C" t5_129  m6_353 (t6_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m6_354 (t6_60 * __this, t5_129  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_129  m6_355 (t6_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m6_356 (t6_60 * __this, t5_129  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_129  m6_357 (t6_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m6_358 (t6_60 * __this, t5_129  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_129  m6_359 (t6_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m6_360 (t6_60 * __this, t5_129  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_130  m6_353 (t6_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m6_354 (t6_60 * __this, t5_130  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_130  m6_355 (t6_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m6_356 (t6_60 * __this, t5_130  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_130  m6_357 (t6_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m6_358 (t6_60 * __this, t5_130  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_130  m6_359 (t6_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m6_360 (t6_60 * __this, t5_130  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" float m6_361 (t6_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m6_362 (t6_60 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" float m6_363 (t6_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

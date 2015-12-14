@@ -17,13 +17,13 @@ struct t1_891;
 struct t6_78;
 
 #include "codegen/il2cpp-codegen.h"
-#include "t5_129.h"
+#include "t5_130.h"
 #include "t5_34.h"
 #include "t5_36.h"
 
 extern "C" void m6_1414 (t6_158 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_129  m6_1415 (t6_158 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m6_1416 (t6_158 * __this, t5_129  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_130  m6_1415 (t6_158 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m6_1416 (t6_158 * __this, t5_130  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" t5_34  m6_1417 (t6_158 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m6_1418 (t6_158 * __this, t5_34  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" bool m6_1419 (t6_158 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

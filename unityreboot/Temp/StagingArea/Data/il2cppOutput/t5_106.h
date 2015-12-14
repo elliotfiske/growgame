@@ -10,18 +10,15 @@
 
 #include <stdint.h>
 
-struct t5_104;
 struct t5_103;
-struct t5_107;
 
-#include "t1_1.h"
+#include "t1_2.h"
 #include "t5_34.h"
 
-struct  t5_106  : public t1_1
+struct  t5_106 
 {
-	t5_104 * f0;
-	t5_103 * f1;
-	t5_107* f2;
-	t5_34  f3;
-	bool f4;
+	t5_34  f0;
+	t5_34  f1;
+	t5_103 * f2;
+	t5_103 * f3;
 };

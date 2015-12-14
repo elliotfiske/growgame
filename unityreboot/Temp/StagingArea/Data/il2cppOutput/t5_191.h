@@ -11,10 +11,8 @@
 #include <stdint.h>
 
 
-#include "t1_31.h"
-#include "t5_191.h"
+#include "t1_3.h"
 
-struct  t5_191 
+struct  t5_191  : public t1_3
 {
-	int32_t f1;
 };

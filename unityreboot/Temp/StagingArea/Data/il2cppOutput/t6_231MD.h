@@ -16,7 +16,7 @@
 #include "codegen/il2cpp-codegen.h"
 #include "t6_202MD.h"
 
-#define m6_1753(__this, p0, p1, method) (( void (*) (t6_231 *, t5_304 *, t5_304 *, const MethodInfo*))m6_1551_gshared)(__this, p0, p1, method)
+#define m6_1753(__this, p0, p1, method) (( void (*) (t6_231 *, t5_305 *, t5_305 *, const MethodInfo*))m6_1551_gshared)(__this, p0, p1, method)
 #define m6_1754(__this, method) (( int32_t (*) (t6_231 *, const MethodInfo*))m6_1553_gshared)(__this, method)
 #define m6_1755(__this, p0, method) (( void (*) (t6_231 *, int32_t, const MethodInfo*))m6_1555_gshared)(__this, p0, method)
 #define m6_1756(__this, method) (( int32_t (*) (t6_231 *, const MethodInfo*))m6_1557_gshared)(__this, method)

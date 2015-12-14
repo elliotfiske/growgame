@@ -10,16 +10,16 @@
 
 #include <stdint.h>
 
-struct t5_294;
+struct t5_295;
 
 #include "t1_1.h"
 
 struct  t1_952  : public t1_1
 {
-	t5_294* f1;
+	t5_295* f1;
 	int32_t f2;
 	int32_t f3;
 };
 struct t1_952_SFs{
-	t5_294* f4;
+	t5_295* f4;
 };

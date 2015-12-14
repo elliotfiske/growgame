@@ -12,9 +12,11 @@
 
 struct t1_18;
 
-#include "t1_43.h"
+#include "t1_1.h"
 
-struct  t5_206  : public t1_43
+struct  t5_206  : public t1_1
 {
-	t1_18* f12;
+};
+struct t5_206_SFs{
+	t1_18* f0;
 };

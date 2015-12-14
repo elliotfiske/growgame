@@ -10,13 +10,13 @@
 
 #include <stdint.h>
 
-struct t5_142;
+struct t5_143;
 struct t6_186;
 
 #include "t1_2.h"
 
 struct  t1_1384 
 {
-	t5_142 * f0;
+	t5_143 * f0;
 	t6_186 * f1;
 };

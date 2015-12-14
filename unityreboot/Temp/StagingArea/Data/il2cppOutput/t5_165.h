@@ -10,15 +10,13 @@
 
 #include <stdint.h>
 
+struct t1_1;
 
 #include "t1_1.h"
-#include "t5_129.h"
+#include "t5_164.h"
 
 struct  t5_165  : public t1_1
 {
-	bool f0;
-	bool f1;
-	t5_129  f2;
-	float f3;
-	t5_129  f4;
+	int32_t f0;
+	t1_1 * f1;
 };

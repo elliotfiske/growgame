@@ -12,9 +12,18 @@
 #include <assert.h>
 #include <exception>
 
+struct t5_122;
+struct t1_18;
+struct t5_126;
 
 #include "codegen/il2cpp-codegen.h"
+#include "t5_117.h"
 
-extern "C" void t5_122_marshal(const t5_122& unmarshaled, t5_122_marshaled& marshaled);
-extern "C" void t5_122_marshal_back(const t5_122_marshaled& marshaled, t5_122& unmarshaled);
-extern "C" void t5_122_marshal_cleanup(t5_122_marshaled& marshaled);
+extern "C" void m5_799 (t5_122 * __this, t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_800 (t5_122 * __this, t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_117  m5_801 (t5_122 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_802 (t5_122 * __this, int32_t p0, int32_t p1, float p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_126 * m5_803 (t5_122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m5_804 (t1_1 * __this , t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_805 (t5_122 * __this, t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_806 (t5_122 * __this, t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

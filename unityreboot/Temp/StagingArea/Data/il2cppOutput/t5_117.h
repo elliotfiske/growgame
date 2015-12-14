@@ -16,5 +16,12 @@
 struct  t5_117 
 {
 	int32_t f0;
-	float f1;
+	int32_t f1;
+	int32_t f2;
+	float f3;
+	float f4;
+	float f5;
+	float f6;
+	int32_t f7;
+	int32_t f8;
 };

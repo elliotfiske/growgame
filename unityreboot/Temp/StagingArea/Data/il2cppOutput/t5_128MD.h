@@ -14,10 +14,4 @@
 
 
 #include "codegen/il2cpp-codegen.h"
-#include "t5_128.h"
-#include "t5_129.h"
-#include "t5_34.h"
 
-extern "C" bool m5_803 (t5_128 * __this, t5_129  p0, t5_129  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m5_804 (t5_128 * __this, t5_34  p0, t5_34  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m5_805 (t5_128 * __this, t5_128  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

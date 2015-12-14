@@ -12,20 +12,21 @@
 
 struct t5_20;
 
-#include "t5_159.h"
+#include "t1_1.h"
+#include "t5_38.h"
 
-struct  t5_162  : public t5_159
+struct  t5_162  : public t1_1
 {
-	float f27;
-	float f28;
-	float f29;
-	float f30;
-	float f31;
-	float f32;
-	bool f33;
-	bool f34;
-	bool f35;
-	bool f36;
-	t5_20 * f37;
-	t5_20 * f38;
+	float f0;
+	float f1;
+	float f2;
+	float f3;
+	t5_38  f4;
+	int32_t f5;
+	int32_t f6;
+	t5_20 * f7;
+};
+struct t5_162_SFs{
+	t5_38  f8;
+	int32_t f9;
 };

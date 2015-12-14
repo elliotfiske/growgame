@@ -17,10 +17,10 @@ struct t5_5;
 struct t5_5_marshaled;
 struct t1_18;
 struct t1_37;
-struct t5_230;
+struct t5_231;
 
 #include "codegen/il2cpp-codegen.h"
 
 extern "C" t5_5 * m5_6 (t5_4 * __this, t1_18* p0, t1_37 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" t5_5 * m5_7 (t5_4 * __this, t1_18* p0, t1_37 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_230* m5_8 (t5_4 * __this, t1_18* p0, t1_37 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_231* m5_8 (t5_4 * __this, t1_18* p0, t1_37 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;

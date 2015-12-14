@@ -10,9 +10,12 @@
 
 #include <stdint.h>
 
+struct t1_18;
 
 #include "t1_3.h"
 
 struct  t5_187  : public t1_3
 {
+	t1_18* f0;
+	int32_t f1;
 };

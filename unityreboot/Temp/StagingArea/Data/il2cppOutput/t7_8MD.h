@@ -19,3 +19,4 @@ struct t7_8;
 extern "C" void m7_26 (t7_8 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m7_27 (t7_8 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m7_28 (t7_8 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m7_29 (t7_8 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

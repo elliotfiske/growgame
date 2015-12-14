@@ -10,13 +10,26 @@
 
 #include <stdint.h>
 
-struct t1_35;
-struct t1_36;
-struct t1_1;
+struct t1_18;
+struct t1_891;
+struct t1_892;
+struct t1_893;
 
-#include "t1_27.h"
-#include "t1_25.h"
+#include "t1_1.h"
+#include "t1_24.h"
+#include "t5_129.h"
 
-struct  t5_136  : public t1_27
+struct  t5_136  : public t1_1
 {
+	t1_24 f0;
+	t1_18* f1;
+	t5_129  f2;
+	bool f3;
+	bool f4;
+	t1_891 * f5;
+	t1_892 * f6;
+	t1_893 * f7;
+	bool f8;
+	bool f9;
+	bool f10;
 };

@@ -10,18 +10,13 @@
 
 #include <stdint.h>
 
-struct t5_197;
-struct t5_198;
+struct t5_82;
+struct t5_68;
 
-#include "t1_1.h"
+#include "t1_2.h"
 
-struct  t5_196  : public t1_1
+struct  t5_196 
 {
-};
-struct t5_196_SFs{
-	bool f0;
-	t5_197* f1;
-	t5_197* f2;
-	t5_197* f3;
-	t5_198* f4;
+	t5_82 * f0;
+	t5_68 * f1;
 };

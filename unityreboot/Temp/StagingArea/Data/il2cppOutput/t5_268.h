@@ -10,11 +10,13 @@
 
 #include <stdint.h>
 
-struct t5_269;
+struct t1_1;
+struct t1_35;
+struct t1_36;
 
-#include "t5_211.h"
+#include "t1_27.h"
+#include "t1_25.h"
 
-struct  t5_268  : public t5_211
+struct  t5_268  : public t1_27
 {
-	t5_269 * f0;
 };

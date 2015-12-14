@@ -17,7 +17,7 @@ struct t1_1186;
 struct t1_33;
 struct t1_143;
 struct t1_1;
-struct t5_233;
+struct t5_234;
 struct t1_1468;
 
 #include "codegen/il2cpp-codegen.h"
@@ -73,8 +73,8 @@ extern "C" void m1_7833_gshared (t1_1185 * __this, int32_t p0, t1_1 * p1, const 
 #define m1_7833(__this, p0, p1, method) (( void (*) (t1_1185 *, int32_t, t1_1 *, const MethodInfo*))m1_7833_gshared)(__this, p0, p1, method)
 extern "C" bool m1_7834_gshared (t1_1185 * __this, t5_36  p0, const MethodInfo* method);
 #define m1_7834(__this, p0, method) (( bool (*) (t1_1185 *, t5_36 , const MethodInfo*))m1_7834_gshared)(__this, p0, method)
-extern "C" void m1_7835_gshared (t1_1185 * __this, t5_233* p0, int32_t p1, const MethodInfo* method);
-#define m1_7835(__this, p0, p1, method) (( void (*) (t1_1185 *, t5_233*, int32_t, const MethodInfo*))m1_7835_gshared)(__this, p0, p1, method)
+extern "C" void m1_7835_gshared (t1_1185 * __this, t5_234* p0, int32_t p1, const MethodInfo* method);
+#define m1_7835(__this, p0, p1, method) (( void (*) (t1_1185 *, t5_234*, int32_t, const MethodInfo*))m1_7835_gshared)(__this, p0, p1, method)
 extern "C" t1_1* m1_7836_gshared (t1_1185 * __this, const MethodInfo* method);
 #define m1_7836(__this, method) (( t1_1* (*) (t1_1185 *, const MethodInfo*))m1_7836_gshared)(__this, method)
 extern "C" int32_t m1_7837_gshared (t1_1185 * __this, t5_36  p0, const MethodInfo* method);

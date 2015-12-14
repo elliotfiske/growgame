@@ -11,8 +11,8 @@
 #include <stdint.h>
 
 struct t5_61;
-struct t5_232;
-struct t5_146;
+struct t5_233;
+struct t5_147;
 
 #include "t6_89.h"
 #include "t6_82.h"
@@ -32,8 +32,8 @@ struct  t6_65  : public t6_89
 	float f37;
 };
 struct t6_65_SFs{
-	t5_232* f38;
-	t5_232* f39;
-	t5_146* f40;
-	t5_146* f41;
+	t5_233* f38;
+	t5_233* f39;
+	t5_147* f40;
+	t5_147* f41;
 };

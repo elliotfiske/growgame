@@ -1,4 +1,4 @@
-//Generated on : 12/14/2015 2:50:54 AM
+//Generated on : 12/14/2015 11:58:29 AM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -411,6 +411,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Collider2D
 
+		//System.Void UnityEngine.Collider2D::INTERNAL_get_bounds(UnityEngine.Bounds&)
+		void Register_UnityEngine_Collider2D_INTERNAL_get_bounds();
+		Register_UnityEngine_Collider2D_INTERNAL_get_bounds();
+
 		//UnityEngine.Rigidbody2D UnityEngine.Collider2D::get_attachedRigidbody()
 		void Register_UnityEngine_Collider2D_get_attachedRigidbody();
 		Register_UnityEngine_Collider2D_get_attachedRigidbody();
@@ -718,6 +722,10 @@ void RegisterAllStrippedInternalCalls()
 		//UnityEngine.Component UnityEngine.GameObject::Internal_AddComponentWithType(System.Type)
 		void Register_UnityEngine_GameObject_Internal_AddComponentWithType();
 		Register_UnityEngine_GameObject_Internal_AddComponentWithType();
+
+		//UnityEngine.GameObject UnityEngine.GameObject::Find(System.String)
+		void Register_UnityEngine_GameObject_Find();
+		Register_UnityEngine_GameObject_Find();
 
 		//UnityEngine.Transform UnityEngine.GameObject::get_transform()
 		void Register_UnityEngine_GameObject_get_transform();
@@ -1367,6 +1375,10 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Random
 
+		//System.Int32 UnityEngine.Random::RandomRangeInt(System.Int32,System.Int32)
+		void Register_UnityEngine_Random_RandomRangeInt();
+		Register_UnityEngine_Random_RandomRangeInt();
+
 		//System.Single UnityEngine.Random::Range(System.Single,System.Single)
 		void Register_UnityEngine_Random_Range();
 		Register_UnityEngine_Random_Range();
@@ -1612,6 +1624,14 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Sprite_get_texture();
 
 	//End Registrations for type : UnityEngine.Sprite
+
+	//Start Registrations for type : UnityEngine.SpriteRenderer
+
+		//System.Void UnityEngine.SpriteRenderer::INTERNAL_set_color(UnityEngine.Color&)
+		void Register_UnityEngine_SpriteRenderer_INTERNAL_set_color();
+		Register_UnityEngine_SpriteRenderer_INTERNAL_set_color();
+
+	//End Registrations for type : UnityEngine.SpriteRenderer
 
 	//Start Registrations for type : UnityEngine.Sprites.DataUtility
 

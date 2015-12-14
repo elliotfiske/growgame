@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 struct t1_899;
-struct t5_211;
+struct t5_212;
 
 #include "t1_2.h"
 
@@ -20,5 +20,5 @@ struct  t1_1291
 	t1_899 * f0;
 	int32_t f1;
 	int32_t f2;
-	t5_211 * f3;
+	t5_212 * f3;
 };

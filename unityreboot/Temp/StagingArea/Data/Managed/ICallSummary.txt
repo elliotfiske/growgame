@@ -87,6 +87,7 @@ UnityEngine.CanvasRenderer::set_hasPopInstruction
 UnityEngine.CanvasRenderer::set_materialCount
 UnityEngine.CanvasRenderer::set_popMaterialCount
 UnityEngine.Collider::get_attachedRigidbody
+UnityEngine.Collider2D::INTERNAL_get_bounds
 UnityEngine.Collider2D::get_attachedRigidbody
 UnityEngine.Component::CompareTag
 UnityEngine.Component::BroadcastMessage
@@ -155,6 +156,7 @@ UnityEngine.GameObject::GetComponent
 UnityEngine.GameObject::GetComponentInChildren
 UnityEngine.GameObject::GetComponentInParent
 UnityEngine.GameObject::Internal_AddComponentWithType
+UnityEngine.GameObject::Find
 UnityEngine.GameObject::get_transform
 UnityEngine.Gradient::Cleanup
 UnityEngine.Gradient::Init
@@ -300,6 +302,7 @@ UnityEngine.Physics::INTERNAL_CALL_RaycastAll
 UnityEngine.Physics2D::INTERNAL_CALL_Internal_Raycast
 UnityEngine.Physics2D::INTERNAL_CALL_RaycastAll
 UnityEngine.Quaternion::INTERNAL_CALL_Inverse
+UnityEngine.Random::RandomRangeInt
 UnityEngine.Random::Range
 UnityEngine.RectOffset::get_bottom
 UnityEngine.RectOffset::get_horizontal
@@ -348,6 +351,7 @@ UnityEngine.Sprite::INTERNAL_get_border
 UnityEngine.Sprite::INTERNAL_get_rect
 UnityEngine.Sprite::INTERNAL_get_textureRect
 UnityEngine.Sprite::get_texture
+UnityEngine.SpriteRenderer::INTERNAL_set_color
 UnityEngine.Sprites.DataUtility::INTERNAL_CALL_GetInnerUV
 UnityEngine.Sprites.DataUtility::INTERNAL_CALL_GetOuterUV
 UnityEngine.Sprites.DataUtility::INTERNAL_CALL_GetPadding

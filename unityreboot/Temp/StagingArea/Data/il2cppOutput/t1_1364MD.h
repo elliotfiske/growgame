@@ -17,6 +17,6 @@
 #include "t1_976MD.h"
 
 #define m1_10822(__this, p0, p1, method) (( void (*) (t1_1364 *, t1_1 *, t1_24, const MethodInfo*))m1_5780_gshared)(__this, p0, p1, method)
-#define m1_10823(__this, p0, p1, method) (( int32_t (*) (t1_1364 *, t5_142 *, t5_142 *, const MethodInfo*))m1_5781_gshared)(__this, p0, p1, method)
-#define m1_10824(__this, p0, p1, p2, p3, method) (( t1_1 * (*) (t1_1364 *, t5_142 *, t5_142 *, t1_36 *, t1_1 *, const MethodInfo*))m1_5782_gshared)(__this, p0, p1, p2, p3, method)
+#define m1_10823(__this, p0, p1, method) (( int32_t (*) (t1_1364 *, t5_143 *, t5_143 *, const MethodInfo*))m1_5781_gshared)(__this, p0, p1, method)
+#define m1_10824(__this, p0, p1, p2, p3, method) (( t1_1 * (*) (t1_1364 *, t5_143 *, t5_143 *, t1_36 *, t1_1 *, const MethodInfo*))m1_5782_gshared)(__this, p0, p1, p2, p3, method)
 #define m1_10825(__this, p0, method) (( int32_t (*) (t1_1364 *, t1_1 *, const MethodInfo*))m1_5783_gshared)(__this, p0, method)

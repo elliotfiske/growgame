@@ -14,10 +14,10 @@
 
 struct t6_109;
 struct t5_53;
-struct t5_142;
+struct t5_143;
 
 #include "codegen/il2cpp-codegen.h"
 #include "t5_38.h"
 
 extern "C" void m6_1189 (t6_109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_38  m6_1190 (t6_109 * __this, t5_53 * p0, t5_142 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_38  m6_1190 (t6_109 * __this, t5_53 * p0, t5_143 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,13 +10,9 @@
 
 #include <stdint.h>
 
-struct t1_37;
 
 #include "t1_3.h"
 
 struct  t5_185  : public t1_3
 {
-	t1_37 * f0;
-	t1_37 * f1;
-	t1_37 * f2;
 };

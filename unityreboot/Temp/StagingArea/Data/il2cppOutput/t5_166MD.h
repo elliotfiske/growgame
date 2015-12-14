@@ -13,15 +13,12 @@
 #include <exception>
 
 struct t5_166;
-struct t1_1;
-struct t1_35;
-struct t1_36;
 
 #include "codegen/il2cpp-codegen.h"
-#include "t1_24.h"
+#include "t5_130.h"
 
-extern "C" void m5_1010 (t5_166 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1011 (t5_166 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_t5_166(Il2CppObject* delegate);
-extern "C" t1_1 * m5_1012 (t5_166 * __this, t1_36 * p0, t1_1 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1013 (t5_166 * __this, t1_1 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1013 (t5_166 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_130  m5_1014 (t5_166 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float m5_1015 (t5_166 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_130  m5_1016 (t5_166 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float m5_1017 (t1_1 * __this , const MethodInfo* method) IL2CPP_METHOD_ATTR;

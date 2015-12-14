@@ -12,20 +12,11 @@
 #include <assert.h>
 #include <exception>
 
-struct t5_257;
-struct t1_1;
-struct t1_35;
-struct t1_36;
 
 #include "codegen/il2cpp-codegen.h"
-#include "t1_24.h"
-#include "t5_129.h"
+#include "t5_268MD.h"
 
-extern "C" void m5_1421_gshared (t5_257 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method);
-#define m5_1421(__this, p0, p1, method) (( void (*) (t5_257 *, t1_1 *, t1_24, const MethodInfo*))m5_1421_gshared)(__this, p0, p1, method)
-extern "C" void m5_1558_gshared (t5_257 * __this, t5_129  p0, const MethodInfo* method);
-#define m5_1558(__this, p0, method) (( void (*) (t5_257 *, t5_129 , const MethodInfo*))m5_1558_gshared)(__this, p0, method)
-extern "C" t1_1 * m5_1559_gshared (t5_257 * __this, t5_129  p0, t1_36 * p1, t1_1 * p2, const MethodInfo* method);
-#define m5_1559(__this, p0, p1, p2, method) (( t1_1 * (*) (t5_257 *, t5_129 , t1_36 *, t1_1 *, const MethodInfo*))m5_1559_gshared)(__this, p0, p1, p2, method)
-extern "C" void m5_1560_gshared (t5_257 * __this, t1_1 * p0, const MethodInfo* method);
-#define m5_1560(__this, p0, method) (( void (*) (t5_257 *, t1_1 *, const MethodInfo*))m5_1560_gshared)(__this, p0, method)
+#define m5_1457(__this, p0, p1, method) (( void (*) (t5_257 *, t1_1 *, t1_24, const MethodInfo*))m5_1474_gshared)(__this, p0, p1, method)
+#define m5_1458(__this, p0, method) (( void (*) (t5_257 *, t5_17 *, const MethodInfo*))m5_1475_gshared)(__this, p0, method)
+#define m5_1619(__this, p0, p1, p2, method) (( t1_1 * (*) (t5_257 *, t5_17 *, t1_36 *, t1_1 *, const MethodInfo*))m5_1476_gshared)(__this, p0, p1, p2, method)
+#define m5_1620(__this, p0, method) (( void (*) (t5_257 *, t1_1 *, const MethodInfo*))m5_1477_gshared)(__this, p0, method)

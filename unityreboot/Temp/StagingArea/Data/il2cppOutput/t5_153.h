@@ -10,26 +10,14 @@
 
 #include <stdint.h>
 
-struct t5_154;
-struct t5_155;
+struct t1_35;
+struct t1_36;
+struct t1_1;
 
-#include "t1_1.h"
-#include "t1_140.h"
+#include "t1_27.h"
+#include "t1_25.h"
+#include "t1_4.h"
 
-struct  t5_153  : public t1_1
+struct  t5_153  : public t1_27
 {
-};
-struct t5_153_SFs{
-	float f0;
-	int32_t f1;
-	int32_t f2;
-	int32_t f3;
-	int32_t f4;
-	int32_t f5;
-	int32_t f6;
-	int32_t f7;
-	int32_t f8;
-	t5_154 * f9;
-	t5_155 * f10;
-	t1_140  f11;
 };

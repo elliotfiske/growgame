@@ -15,5 +15,4 @@
 
 struct  t5_179  : public t1_3
 {
-	int32_t f0;
 };

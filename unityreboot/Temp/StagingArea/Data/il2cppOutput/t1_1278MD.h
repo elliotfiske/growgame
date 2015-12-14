@@ -21,4 +21,4 @@
 #define m1_9192(__this, method) (( t1_1 * (*) (t1_1278 *, const MethodInfo*))m1_5559_gshared)(__this, method)
 #define m1_9193(__this, method) (( void (*) (t1_1278 *, const MethodInfo*))m1_5560_gshared)(__this, method)
 #define m1_9194(__this, method) (( bool (*) (t1_1278 *, const MethodInfo*))m1_5561_gshared)(__this, method)
-#define m1_9195(__this, method) (( t5_185 * (*) (t1_1278 *, const MethodInfo*))m1_5562_gshared)(__this, method)
+#define m1_9195(__this, method) (( t5_186 * (*) (t1_1278 *, const MethodInfo*))m1_5562_gshared)(__this, method)

@@ -50,10 +50,14 @@
      <Compile Include="Assets\Scripts\DialogManager.cs" />
      <Compile Include="Assets\Scripts\DownArrowPoke.cs" />
      <Compile Include="Assets\Scripts\Exposition.cs" />
+     <Compile Include="Assets\Scripts\GoForest.cs" />
+     <Compile Include="Assets\Scripts\MusicAcrossScene.cs" />
      <Compile Include="Assets\Scripts\PixelPerfectCamera.cs" />
      <Compile Include="Assets\Scripts\RandomSpriteAnim.cs" />
      <Compile Include="Assets\Scripts\ScreenShake.cs" />
+     <Compile Include="Assets\Scripts\SinCosMovement.cs" />
      <Compile Include="Assets\Scripts\TextScaler.cs" />
+     <Compile Include="Assets\Scripts\Wisp.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -11,24 +11,15 @@
 #include <stdint.h>
 
 
-#include "t1_2.h"
+#include "t1_1.h"
+#include "t1_24.h"
 
-struct  t5_120 
+struct  t5_120  : public t1_1
 {
-	int32_t f0;
-	int32_t f1;
-	int32_t f2;
-	float f3;
-	bool f4;
-	int32_t f5;
+	t1_24 f0;
 };
-// Native definition for marshalling of: UnityEngine.AnimatorTransitionInfo
+// Native definition for marshalling of: UnityEngine.TrackedReference
 struct t5_120_marshaled
 {
-	int32_t f0;
-	int32_t f1;
-	int32_t f2;
-	float f3;
-	int32_t f4;
-	int32_t f5;
+	intptr_t f0;
 };

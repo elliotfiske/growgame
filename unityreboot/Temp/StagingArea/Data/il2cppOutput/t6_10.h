@@ -29,7 +29,7 @@ struct t6_26;
 struct t6_27;
 struct t6_28;
 struct t1_919;
-struct t5_247;
+struct t5_248;
 
 #include "t1_1.h"
 
@@ -56,5 +56,5 @@ struct t6_10_SFs{
 	t6_27 * f16;
 	t6_28 * f17;
 	t1_919 * f18;
-	t5_247 * f19;
+	t5_248 * f19;
 };

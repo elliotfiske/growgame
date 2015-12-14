@@ -15,9 +15,9 @@
 struct t1_1250;
 
 #include "codegen/il2cpp-codegen.h"
-#include "t5_138.h"
+#include "t5_139.h"
 
 extern "C" void m1_8793_gshared (t1_1250 * __this, const MethodInfo* method);
 #define m1_8793(__this, method) (( void (*) (t1_1250 *, const MethodInfo*))m1_8793_gshared)(__this, method)
-extern "C" int32_t m1_8794_gshared (t1_1250 * __this, t5_138  p0, t5_138  p1, const MethodInfo* method);
-#define m1_8794(__this, p0, p1, method) (( int32_t (*) (t1_1250 *, t5_138 , t5_138 , const MethodInfo*))m1_8794_gshared)(__this, p0, p1, method)
+extern "C" int32_t m1_8794_gshared (t1_1250 * __this, t5_139  p0, t5_139  p1, const MethodInfo* method);
+#define m1_8794(__this, p0, p1, method) (( int32_t (*) (t1_1250 *, t5_139 , t5_139 , const MethodInfo*))m1_8794_gshared)(__this, p0, p1, method)

@@ -16,7 +16,7 @@ public class ScreenShake : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		var i = intensity / damp;
-		transform.position = origPos + new Vector3 (Random.Range (-i, i), Random.Range (-i, i), Random.Range (-i, i));
+		transform.position = origPos + new Vector3 (Random.Range (-i, i), Random.Range (-i, i), 0);
 		intensity = 0;
 	}
 }

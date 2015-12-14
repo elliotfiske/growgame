@@ -8675,6 +8675,14 @@ extern "C" void m5_1365 ();
 extern "C" void m5_1366 ();
 extern "C" void m5_1367 ();
 extern "C" void m5_1368 ();
+extern "C" void m5_1369 ();
+extern "C" void m5_1370 ();
+extern "C" void m5_1371 ();
+extern "C" void m5_1372 ();
+extern "C" void m5_1373 ();
+extern "C" void m5_1374 ();
+extern "C" void m5_1375 ();
+extern "C" void m5_1376 ();
 extern "C" void m6_0 ();
 extern "C" void m6_1 ();
 extern "C" void m6_2 ();
@@ -10137,7 +10145,21 @@ extern "C" void m7_34 ();
 extern "C" void m7_35 ();
 extern "C" void m7_36 ();
 extern "C" void m7_37 ();
-extern const methodPointerType g_MethodPointers[10126] = 
+extern "C" void m7_38 ();
+extern "C" void m7_39 ();
+extern "C" void m7_40 ();
+extern "C" void m7_41 ();
+extern "C" void m7_42 ();
+extern "C" void m7_43 ();
+extern "C" void m7_44 ();
+extern "C" void m7_45 ();
+extern "C" void m7_46 ();
+extern "C" void m7_47 ();
+extern "C" void m7_48 ();
+extern "C" void m7_49 ();
+extern "C" void m7_50 ();
+extern "C" void m7_51 ();
+extern const methodPointerType g_MethodPointers[10148] = 
 {
 	m1_0,
 	m1_1,
@@ -18803,6 +18825,14 @@ extern const methodPointerType g_MethodPointers[10126] =
 	m5_1366,
 	m5_1367,
 	m5_1368,
+	m5_1369,
+	m5_1370,
+	m5_1371,
+	m5_1372,
+	m5_1373,
+	m5_1374,
+	m5_1375,
+	m5_1376,
 	m6_0,
 	m6_1,
 	m6_2,
@@ -20265,4 +20295,18 @@ extern const methodPointerType g_MethodPointers[10126] =
 	m7_35,
 	m7_36,
 	m7_37,
+	m7_38,
+	m7_39,
+	m7_40,
+	m7_41,
+	m7_42,
+	m7_43,
+	m7_44,
+	m7_45,
+	m7_46,
+	m7_47,
+	m7_48,
+	m7_49,
+	m7_50,
+	m7_51,
 };

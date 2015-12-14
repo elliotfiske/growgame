@@ -42,6 +42,6 @@ public class Exposition : MonoBehaviour {
 			return;
 		}
 
-		SceneManager.LoadScene ("GameScene1");
+		SceneManager.LoadScene ("GameScene1.1");
 	}
 }

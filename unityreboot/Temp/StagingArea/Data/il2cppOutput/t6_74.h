@@ -10,17 +10,17 @@
 
 #include <stdint.h>
 
-struct t5_134;
+struct t5_135;
 
 #include "t1_1.h"
-#include "t5_130.h"
 #include "t5_131.h"
-#include "t5_133.h"
 #include "t5_132.h"
+#include "t5_134.h"
+#include "t5_133.h"
 
 struct  t6_74  : public t1_1
 {
-	t5_134 * f0;
+	t5_135 * f0;
 	int32_t f1;
 	int32_t f2;
 	bool f3;

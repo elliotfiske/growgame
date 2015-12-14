@@ -14,7 +14,6 @@
 #include "t1_2.h"
 #include "t1_24.h"
 #include "t5_38.h"
-#include "t5_129.h"
 
 struct  t5_177 
 {
@@ -22,11 +21,6 @@ struct  t5_177
 	t5_38  f1;
 	int32_t f2;
 	int32_t f3;
-	t5_129  f4;
-	t5_129  f5;
-	int32_t f6;
-	int32_t f7;
-	int32_t f8;
-	int32_t f9;
-	int32_t f10;
+	int32_t f4;
+	int32_t f5;
 };

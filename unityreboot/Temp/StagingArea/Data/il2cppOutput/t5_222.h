@@ -10,9 +10,11 @@
 
 #include <stdint.h>
 
+struct t1_1;
 
 #include "t1_3.h"
 
 struct  t5_222  : public t1_3
 {
+	t1_1 * f0;
 };

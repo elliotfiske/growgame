@@ -12,9 +12,15 @@
 #include <assert.h>
 #include <exception>
 
+struct t5_243;
+struct t5_5;
+struct t5_5_marshaled;
+struct t1_29;
+struct t1_170;
 
 #include "codegen/il2cpp-codegen.h"
-#include "t5_274MD.h"
 
-#define m5_1373(__this, p0, p1, p2, method) (( void (*) (t5_243 *, t5_5 *, t1_29 *, t1_18*, const MethodInfo*))m5_1486_gshared)(__this, p0, p1, p2, method)
-#define m5_1505(__this, p0, method) (( void (*) (t5_243 *, t1_170*, const MethodInfo*))m5_1487_gshared)(__this, p0, method)
+extern "C" void m5_1380_gshared (t5_243 * __this, t5_5 * p0, t1_29 * p1, int32_t p2, const MethodInfo* method);
+#define m5_1380(__this, p0, p1, p2, method) (( void (*) (t5_243 *, t5_5 *, t1_29 *, int32_t, const MethodInfo*))m5_1380_gshared)(__this, p0, p1, p2, method)
+extern "C" void m5_1509_gshared (t5_243 * __this, t1_170* p0, const MethodInfo* method);
+#define m5_1509(__this, p0, method) (( void (*) (t5_243 *, t1_170*, const MethodInfo*))m5_1509_gshared)(__this, p0, method)

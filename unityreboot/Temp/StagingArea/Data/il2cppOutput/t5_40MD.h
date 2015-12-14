@@ -32,6 +32,7 @@ extern "C" t5_35  m5_216 (t5_40 * __this, const MethodInfo* method) IL2CPP_METHO
 extern "C" t5_35  m5_217 (t5_40 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m5_218 (t5_40 * __this, t5_35  p0, t5_35  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m5_219 (t5_40 * __this, t5_35  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t1_18* m5_220 (t5_40 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m5_221 (t1_1 * __this , t5_40  p0, t5_40  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m5_220 (t5_40 * __this, t5_40  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1_18* m5_221 (t5_40 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" bool m5_222 (t1_1 * __this , t5_40  p0, t5_40  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m5_223 (t1_1 * __this , t5_40  p0, t5_40  p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;

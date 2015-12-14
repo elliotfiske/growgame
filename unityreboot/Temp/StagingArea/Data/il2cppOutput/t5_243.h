@@ -12,9 +12,9 @@
 
 struct t1_170;
 
-#include "t5_278.h"
+#include "t5_277.h"
 
-struct  t5_243  : public t5_278
+struct  t5_243  : public t5_277
 {
 	t1_170* f1;
 };

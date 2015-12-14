@@ -23,7 +23,7 @@ struct t1_944;
 struct t6_37;
 struct t6_5;
 struct t5_82;
-struct t5_142;
+struct t5_143;
 struct t6_63;
 struct t6_67;
 struct t1_928;
@@ -61,7 +61,7 @@ extern "C" void m6_440 (t6_71 * __this, t6_37 * p0, const MethodInfo* method) IL
 extern "C" void m6_441 (t6_71 * __this, t6_5 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m6_442 (t6_71 * __this, t6_5 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m6_443 (t6_71 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_82 * m6_444 (t6_71 * __this, t5_142 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_82 * m6_444 (t6_71 * __this, t5_143 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m6_445 (t6_71 * __this, t5_82 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" t5_82 * m6_446 (t6_71 * __this, t5_82 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m6_447 (t6_71 * __this, t5_82 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

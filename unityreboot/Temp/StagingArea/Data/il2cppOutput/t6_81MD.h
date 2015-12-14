@@ -13,7 +13,7 @@
 #include <exception>
 
 struct t6_81;
-struct t5_142;
+struct t5_143;
 struct t6_76;
 struct t1_945;
 
@@ -22,6 +22,6 @@ struct t1_945;
 extern "C" void m6_559 (t6_81 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m6_560 (t1_1 * __this , const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" t6_81 * m6_561 (t1_1 * __this , const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m6_562 (t1_1 * __this , t5_142 * p0, t6_76 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m6_563 (t1_1 * __this , t5_142 * p0, t6_76 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t1_1* m6_564 (t1_1 * __this , t5_142 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m6_562 (t1_1 * __this , t5_143 * p0, t6_76 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m6_563 (t1_1 * __this , t5_143 * p0, t6_76 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1_1* m6_564 (t1_1 * __this , t5_143 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

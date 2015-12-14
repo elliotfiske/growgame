@@ -13,8 +13,8 @@
 #include <exception>
 
 struct t5_201;
+struct t1_18;
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void m5_1252 (t5_201 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1253 (t5_201 * __this, float p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1259 (t5_201 * __this, t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -10,14 +10,11 @@
 
 #include <stdint.h>
 
-struct t1_899;
+struct t1_898;
 
 #include "t1_1.h"
 
 struct  t5_217  : public t1_1
 {
-	t1_899 * f0;
-	t1_899 * f1;
-	t1_899 * f2;
-	bool f3;
+	t1_898 * f0;
 };
