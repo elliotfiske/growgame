@@ -4,6 +4,7 @@ using System.Collections;
 public class CharController2D : MonoBehaviour {
 	
 	public float move_speed = 100f;
+	public bool cutscene = false;
 
 	// Use this for initialization
 	void Start () {
@@ -15,12 +16,19 @@ public class CharController2D : MonoBehaviour {
 		var horiz = Input.GetAxisRaw ("Horizontal");
 		var vert = Input.GetAxisRaw ("Vertical");
 
+		var animator = GetComponent<Animator> ();
+		transform.localScale = new Vector3 (1.5f, 1.5f, 1.5f);
+
+		if (cutscene) {
+			animator.SetTrigger ("idle");
+			GetComponent<Rigidbody2D> ().velocity = Vector2.zero;
+			return;
+		}
+
 		GetComponent<Rigidbody2D> ().velocity = new Vector2 (horiz * move_speed, vert * move_speed);
 
 		var direction_angle = Mathf.Atan2 (vert, horiz);
 
-		var animator = GetComponent<Animator> ();
-		transform.localScale = new Vector3 (1.5f, 1.5f, 1.5f);
 
 		if (Mathf.Abs(horiz) <= 0.01 && Mathf.Abs(vert) <= 0.01) {
 			animator.SetTrigger ("idle");
@@ -35,15 +43,26 @@ public class CharController2D : MonoBehaviour {
 			animator.SetTrigger ("side");
 			transform.localScale = new Vector3 (-1.5f, 1.5f, 1.5f);
 		}
+	}
 
-		if (Input.GetKeyDown (KeyCode.Space)) {
-			string[] strings = {
-				"Hey buddy, whattaya lookin' at? I'm walkin' hereeeee!",
-				"THIS IS THE SECOND GUY",
-				"HEYYYY I'm still talkin' here"
-			};
+	public static void cutsceneON() {
+		var me = FindObjectOfType<CharController2D> ();
+		var cam = FindObjectOfType<PixelPerfectCamera> ();
 
-			DialogManager.GlobalShowDialog (strings);
+		if (me != null && cam != null) {
+			me.cutscene = true;
+			cam.cutscene = true;
+		}
+	}
+
+
+	public static void cutsceneOFF() {
+		var me = FindObjectOfType<CharController2D> ();
+		var cam = FindObjectOfType<PixelPerfectCamera> ();
+
+		if (me != null && cam != null) {
+			me.cutscene = false;
+			cam.cutscene = false;
 		}
 	}
 }

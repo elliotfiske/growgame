@@ -46,6 +46,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BadTouch.cs" />
+     <Compile Include="Assets\Scripts\BanditDialogManager.cs" />
+     <Compile Include="Assets\Scripts\BanditSpriteAnimator.cs" />
+     <Compile Include="Assets\Scripts\BanditTrigger.cs" />
      <Compile Include="Assets\Scripts\Bell.cs" />
      <Compile Include="Assets\Scripts\CharController2D.cs" />
      <Compile Include="Assets\Scripts\DialogManager.cs" />

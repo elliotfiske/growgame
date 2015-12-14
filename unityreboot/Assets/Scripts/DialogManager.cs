@@ -74,5 +74,7 @@ public class DialogManager : MonoBehaviour {
 		dialogText.text = "";
 
 		Time.timeScale = 1;
+
+		CharController2D.cutsceneOFF ();
 	}
 }

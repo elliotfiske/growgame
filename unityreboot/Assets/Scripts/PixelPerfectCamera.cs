@@ -14,6 +14,8 @@ public class PixelPerfectCamera : MonoBehaviour {
 	private Vector3 velocity = Vector3.zero;
 	public float dampTime = 0.15f;
 
+	public bool cutscene = false;
+
 	void Awake() {
 		var camera = GetComponent<Camera> ();
 
@@ -27,7 +29,7 @@ public class PixelPerfectCamera : MonoBehaviour {
 		var camera = GetComponent<Camera> ();
 		Vector3 point = camera.WorldToViewportPoint (target.position);
 		Vector3 delta = target.position - camera.ViewportToWorldPoint(new Vector3(point.x, 0.5f, point.z));
-		Vector3 destination = transform.position + delta;
+		Vector3 destination = transform.position + delta + (cutscene ? new Vector3(0f, -200f, 0f) : Vector3.zero);
 		transform.position = Vector3.SmoothDamp(transform.position, destination, ref velocity, dampTime);
 
 		if (transform.position.y < 350f) {
