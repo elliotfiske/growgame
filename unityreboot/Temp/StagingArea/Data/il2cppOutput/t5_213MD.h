@@ -20,7 +20,7 @@ struct t1_170;
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void m5_1307 (t5_213 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1308 (t5_213 * __this, t5_214 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1309 (t5_213 * __this, t1_170* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" bool m5_1310 (t5_213 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1311 (t5_213 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1312 (t5_213 * __this, t5_214 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1313 (t5_213 * __this, t1_170* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool m5_1314 (t5_213 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;

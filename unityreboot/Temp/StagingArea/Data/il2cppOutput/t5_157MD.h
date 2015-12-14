@@ -18,9 +18,9 @@ struct t5_24;
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void m5_963 (t5_157 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_964 (t5_157 * __this, t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_965 (t1_1 * __this , const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_157 * m5_966 (t1_1 * __this , t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_157 * m5_967 (t1_1 * __this , t5_24 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_968 (t1_1 * __this , const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_967 (t5_157 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_968 (t5_157 * __this, t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_969 (t1_1 * __this , const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_157 * m5_970 (t1_1 * __this , t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_157 * m5_971 (t1_1 * __this , t5_24 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_972 (t1_1 * __this , const MethodInfo* method) IL2CPP_METHOD_ATTR;

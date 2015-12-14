@@ -5,7 +5,7 @@ public class PixelPerfectCamera : MonoBehaviour {
 
 	public float YMAX = 1000f;
 
-	public static float pixelsToUnits = 1f;
+	public float pixelsToUnits = 1f;
 	public static float scale = 30f;
 
 	public Vector2 nativeResolution = new Vector2(400, 700);

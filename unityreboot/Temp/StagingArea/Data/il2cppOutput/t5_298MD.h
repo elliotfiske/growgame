@@ -21,11 +21,11 @@ struct t1_36;
 #include "t1_24.h"
 #include "t5_34.h"
 
-extern "C" void m5_1608_gshared (t5_298 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method);
-#define m5_1608(__this, p0, p1, method) (( void (*) (t5_298 *, t1_1 *, t1_24, const MethodInfo*))m5_1608_gshared)(__this, p0, p1, method)
-extern "C" void m5_1609_gshared (t5_298 * __this, t5_34  p0, const MethodInfo* method);
-#define m5_1609(__this, p0, method) (( void (*) (t5_298 *, t5_34 , const MethodInfo*))m5_1609_gshared)(__this, p0, method)
-extern "C" t1_1 * m5_1610_gshared (t5_298 * __this, t5_34  p0, t1_36 * p1, t1_1 * p2, const MethodInfo* method);
-#define m5_1610(__this, p0, p1, p2, method) (( t1_1 * (*) (t5_298 *, t5_34 , t1_36 *, t1_1 *, const MethodInfo*))m5_1610_gshared)(__this, p0, p1, p2, method)
-extern "C" void m5_1611_gshared (t5_298 * __this, t1_1 * p0, const MethodInfo* method);
-#define m5_1611(__this, p0, method) (( void (*) (t5_298 *, t1_1 *, const MethodInfo*))m5_1611_gshared)(__this, p0, method)
+extern "C" void m5_1613_gshared (t5_298 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method);
+#define m5_1613(__this, p0, p1, method) (( void (*) (t5_298 *, t1_1 *, t1_24, const MethodInfo*))m5_1613_gshared)(__this, p0, p1, method)
+extern "C" void m5_1614_gshared (t5_298 * __this, t5_34  p0, const MethodInfo* method);
+#define m5_1614(__this, p0, method) (( void (*) (t5_298 *, t5_34 , const MethodInfo*))m5_1614_gshared)(__this, p0, method)
+extern "C" t1_1 * m5_1615_gshared (t5_298 * __this, t5_34  p0, t1_36 * p1, t1_1 * p2, const MethodInfo* method);
+#define m5_1615(__this, p0, p1, p2, method) (( t1_1 * (*) (t5_298 *, t5_34 , t1_36 *, t1_1 *, const MethodInfo*))m5_1615_gshared)(__this, p0, p1, p2, method)
+extern "C" void m5_1616_gshared (t5_298 * __this, t1_1 * p0, const MethodInfo* method);
+#define m5_1616(__this, p0, method) (( void (*) (t5_298 *, t1_1 *, const MethodInfo*))m5_1616_gshared)(__this, p0, method)

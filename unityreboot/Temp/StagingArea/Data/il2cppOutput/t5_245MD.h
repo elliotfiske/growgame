@@ -20,7 +20,7 @@ struct t1_170;
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void m5_1382_gshared (t5_245 * __this, t5_5 * p0, t1_29 * p1, bool p2, const MethodInfo* method);
-#define m5_1382(__this, p0, p1, p2, method) (( void (*) (t5_245 *, t5_5 *, t1_29 *, bool, const MethodInfo*))m5_1382_gshared)(__this, p0, p1, p2, method)
-extern "C" void m5_1523_gshared (t5_245 * __this, t1_170* p0, const MethodInfo* method);
-#define m5_1523(__this, p0, method) (( void (*) (t5_245 *, t1_170*, const MethodInfo*))m5_1523_gshared)(__this, p0, method)
+extern "C" void m5_1386_gshared (t5_245 * __this, t5_5 * p0, t1_29 * p1, bool p2, const MethodInfo* method);
+#define m5_1386(__this, p0, p1, p2, method) (( void (*) (t5_245 *, t5_5 *, t1_29 *, bool, const MethodInfo*))m5_1386_gshared)(__this, p0, p1, p2, method)
+extern "C" void m5_1528_gshared (t5_245 * __this, t1_170* p0, const MethodInfo* method);
+#define m5_1528(__this, p0, method) (( void (*) (t5_245 *, t1_170*, const MethodInfo*))m5_1528_gshared)(__this, p0, method)

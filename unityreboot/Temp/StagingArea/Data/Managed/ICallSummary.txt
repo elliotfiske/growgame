@@ -20,6 +20,9 @@ UnityEngine.AsyncOperation::get_progress
 UnityEngine.AsyncOperation::InternalDestroy
 UnityEngine.AsyncOperation::set_allowSceneActivation
 UnityEngine.AsyncOperation::set_priority
+UnityEngine.AudioSource::get_isPlaying
+UnityEngine.AudioSource::Play
+UnityEngine.AudioSource::Stop
 UnityEngine.AudioSource::set_volume
 UnityEngine.Behaviour::get_enabled
 UnityEngine.Behaviour::get_isActiveAndEnabled

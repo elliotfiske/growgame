@@ -19,9 +19,9 @@ struct t1_170;
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void m5_1492_gshared (t5_273 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method);
-#define m5_1492(__this, p0, p1, method) (( void (*) (t5_273 *, t1_1 *, t1_29 *, const MethodInfo*))m5_1492_gshared)(__this, p0, p1, method)
-extern "C" void m5_1493_gshared (t5_273 * __this, t1_170* p0, const MethodInfo* method);
-#define m5_1493(__this, p0, method) (( void (*) (t5_273 *, t1_170*, const MethodInfo*))m5_1493_gshared)(__this, p0, method)
-extern "C" bool m5_1494_gshared (t5_273 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method);
-#define m5_1494(__this, p0, p1, method) (( bool (*) (t5_273 *, t1_1 *, t1_29 *, const MethodInfo*))m5_1494_gshared)(__this, p0, p1, method)
+extern "C" void m5_1497_gshared (t5_273 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method);
+#define m5_1497(__this, p0, p1, method) (( void (*) (t5_273 *, t1_1 *, t1_29 *, const MethodInfo*))m5_1497_gshared)(__this, p0, p1, method)
+extern "C" void m5_1498_gshared (t5_273 * __this, t1_170* p0, const MethodInfo* method);
+#define m5_1498(__this, p0, method) (( void (*) (t5_273 *, t1_170*, const MethodInfo*))m5_1498_gshared)(__this, p0, method)
+extern "C" bool m5_1499_gshared (t5_273 * __this, t1_1 * p0, t1_29 * p1, const MethodInfo* method);
+#define m5_1499(__this, p0, p1, method) (( bool (*) (t5_273 *, t1_1 *, t1_29 *, const MethodInfo*))m5_1499_gshared)(__this, p0, p1, method)

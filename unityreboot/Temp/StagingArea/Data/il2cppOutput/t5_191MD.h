@@ -16,4 +16,4 @@ struct t5_191;
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void m5_1250 (t5_191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1254 (t5_191 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

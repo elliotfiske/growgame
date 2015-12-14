@@ -2826,7 +2826,7 @@ extern "C" t5_130  m5_165 (t1_1 * __this , t5_36  p0, const MethodInfo* method)
 		uint8_t L_2 = ((&p0)->f2);
 		uint8_t L_3 = ((&p0)->f3);
 		t5_130  L_4 = {0};
-		m5_1236(&L_4, ((float)((float)(((float)((float)L_0)))/(float)(255.0f))), ((float)((float)(((float)((float)L_1)))/(float)(255.0f))), ((float)((float)(((float)((float)L_2)))/(float)(255.0f))), ((float)((float)(((float)((float)L_3)))/(float)(255.0f))), NULL);
+		m5_1240(&L_4, ((float)((float)(((float)((float)L_0)))/(float)(255.0f))), ((float)((float)(((float)((float)L_1)))/(float)(255.0f))), ((float)((float)(((float)((float)L_2)))/(float)(255.0f))), ((float)((float)(((float)((float)L_3)))/(float)(255.0f))), NULL);
 		return L_4;
 	}
 }
@@ -7421,7 +7421,7 @@ extern "C" void m5_422 (t1_1 * __this , const MethodInfo* method)
 		t5_69 * L_0 = (t5_69 *)il2cpp_codegen_object_new (t5_69_TI_var);
 		m5_417(L_0, NULL);
 		t5_71 * L_1 = (t5_71 *)il2cpp_codegen_object_new (t5_71_TI_var);
-		m5_1350(L_1, L_0, NULL);
+		m5_1354(L_1, L_0, NULL);
 		((t5_70_SFs*)t5_70_TI_var->static_fields)->f0 = L_1;
 		return;
 	}

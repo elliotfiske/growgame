@@ -17,7 +17,14 @@ public class MusicAcrossScene : MonoBehaviour {
 	public void NewMusic() {
 		instance = this;
 	}
-	
+
+	public static void Stop() {
+		if (instance != null) {
+			instance.GetComponent<AudioSource> ().Stop ();
+		}
+		instance = null;
+	}
+
 	// Update is called once per frame
 	void Update () {
 	

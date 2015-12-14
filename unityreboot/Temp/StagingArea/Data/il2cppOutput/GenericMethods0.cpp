@@ -1615,8 +1615,8 @@ extern "C" void m1_12853_gshared (t1_33 * __this, int32_t p0, int32_t* p1, const
 #define m1_12853(__this, p0, p1, method) (( void (*) (t1_33 *, int32_t, int32_t*, const MethodInfo*))m1_12853_gshared)(__this, p0, p1, method)
 extern "C" t1_1* m1_12516_gshared (t1_33 * __this, const MethodInfo* method);
 #define m1_12516(__this, method) (( t1_1* (*) (t1_33 *, const MethodInfo*))m1_12516_gshared)(__this, method)
-extern "C" t1_1 * m5_1645_gshared (t1_1 * __this , const MethodInfo* method);
-#define m5_1645(__this , method) (( t1_1 * (*) (t1_1 * , const MethodInfo*))m5_1645_gshared)(__this , method)
+extern "C" t1_1 * m5_1650_gshared (t1_1 * __this , const MethodInfo* method);
+#define m5_1650(__this , method) (( t1_1 * (*) (t1_1 * , const MethodInfo*))m5_1650_gshared)(__this , method)
 extern "C" t5_35  m1_12517_gshared (t1_33 * __this, int32_t p0, const MethodInfo* method);
 #define m1_12517(__this, p0, method) (( t5_35  (*) (t1_33 *, int32_t, const MethodInfo*))m1_12517_gshared)(__this, p0, method)
 extern "C" void m1_12854_gshared (t1_33 * __this, int32_t p0, t5_35 * p1, const MethodInfo* method);
@@ -1847,60 +1847,60 @@ extern "C" void m1_12863_gshared (t1_33 * __this, int32_t p0, t5_46 * p1, const 
 #define m1_12863(__this, p0, p1, method) (( void (*) (t1_33 *, int32_t, t5_46 *, const MethodInfo*))m1_12863_gshared)(__this, p0, p1, method)
 extern "C" t1_1* m1_12621_gshared (t1_33 * __this, const MethodInfo* method);
 #define m1_12621(__this, method) (( t1_1* (*) (t1_33 *, const MethodInfo*))m1_12621_gshared)(__this, method)
-extern "C" t1_170* m5_1646_gshared (t1_1 * __this , t5_231* p0, const MethodInfo* method);
-#define m5_1646(__this , p0, method) (( t1_170* (*) (t1_1 * , t5_231*, const MethodInfo*))m5_1646_gshared)(__this , p0, method)
-extern "C" t1_1 * m5_1452_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
-#define m5_1452(__this , p0, method) (( t1_1 * (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1452_gshared)(__this , p0, method)
-extern "C" t1_170* m5_1647_gshared (t1_1 * __this , const MethodInfo* method);
-#define m5_1647(__this , method) (( t1_170* (*) (t1_1 * , const MethodInfo*))m5_1647_gshared)(__this , method)
-extern "C" t1_1 * m5_1469_gshared (t1_1 * __this , const MethodInfo* method);
-#define m5_1469(__this , method) (( t1_1 * (*) (t1_1 * , const MethodInfo*))m5_1469_gshared)(__this , method)
-extern "C" t1_1 * m5_1378_gshared (t5_17 * __this, const MethodInfo* method);
-#define m5_1378(__this, method) (( t1_1 * (*) (t5_17 *, const MethodInfo*))m5_1378_gshared)(__this, method)
-extern "C" t1_1 * m5_1449_gshared (t5_17 * __this, const MethodInfo* method);
-#define m5_1449(__this, method) (( t1_1 * (*) (t5_17 *, const MethodInfo*))m5_1449_gshared)(__this, method)
-extern "C" t1_1 * m5_1648_gshared (t5_17 * __this, bool p0, const MethodInfo* method);
-#define m5_1648(__this, p0, method) (( t1_1 * (*) (t5_17 *, bool, const MethodInfo*))m5_1648_gshared)(__this, p0, method)
-extern "C" t1_170* m5_1649_gshared (t5_17 * __this, bool p0, const MethodInfo* method);
-#define m5_1649(__this, p0, method) (( t1_170* (*) (t5_17 *, bool, const MethodInfo*))m5_1649_gshared)(__this, p0, method)
-extern "C" t1_170* m5_1650_gshared (t5_82 * __this, bool p0, const MethodInfo* method);
-#define m5_1650(__this, p0, method) (( t1_170* (*) (t5_82 *, bool, const MethodInfo*))m5_1650_gshared)(__this, p0, method)
-extern "C" void m5_1651_gshared (t5_17 * __this, bool p0, t1_958 * p1, const MethodInfo* method);
-#define m5_1651(__this, p0, p1, method) (( void (*) (t5_17 *, bool, t1_958 *, const MethodInfo*))m5_1651_gshared)(__this, p0, p1, method)
-extern "C" void m5_1652_gshared (t5_82 * __this, bool p0, t1_958 * p1, const MethodInfo* method);
-#define m5_1652(__this, p0, p1, method) (( void (*) (t5_82 *, bool, t1_958 *, const MethodInfo*))m5_1652_gshared)(__this, p0, p1, method)
-extern "C" t1_170* m5_1653_gshared (t5_17 * __this, const MethodInfo* method);
-#define m5_1653(__this, method) (( t1_170* (*) (t5_17 *, const MethodInfo*))m5_1653_gshared)(__this, method)
-extern "C" void m5_1453_gshared (t5_17 * __this, t1_958 * p0, const MethodInfo* method);
-#define m5_1453(__this, p0, method) (( void (*) (t5_17 *, t1_958 *, const MethodInfo*))m5_1453_gshared)(__this, p0, method)
-extern "C" t1_1 * m5_1448_gshared (t5_17 * __this, const MethodInfo* method);
-#define m5_1448(__this, method) (( t1_1 * (*) (t5_17 *, const MethodInfo*))m5_1448_gshared)(__this, method)
+extern "C" t1_170* m5_1651_gshared (t1_1 * __this , t5_231* p0, const MethodInfo* method);
+#define m5_1651(__this , p0, method) (( t1_170* (*) (t1_1 * , t5_231*, const MethodInfo*))m5_1651_gshared)(__this , p0, method)
+extern "C" t1_1 * m5_1456_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
+#define m5_1456(__this , p0, method) (( t1_1 * (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1456_gshared)(__this , p0, method)
+extern "C" t1_170* m5_1652_gshared (t1_1 * __this , const MethodInfo* method);
+#define m5_1652(__this , method) (( t1_170* (*) (t1_1 * , const MethodInfo*))m5_1652_gshared)(__this , method)
+extern "C" t1_1 * m5_1474_gshared (t1_1 * __this , const MethodInfo* method);
+#define m5_1474(__this , method) (( t1_1 * (*) (t1_1 * , const MethodInfo*))m5_1474_gshared)(__this , method)
+extern "C" t1_1 * m5_1382_gshared (t5_17 * __this, const MethodInfo* method);
+#define m5_1382(__this, method) (( t1_1 * (*) (t5_17 *, const MethodInfo*))m5_1382_gshared)(__this, method)
+extern "C" t1_1 * m5_1453_gshared (t5_17 * __this, const MethodInfo* method);
+#define m5_1453(__this, method) (( t1_1 * (*) (t5_17 *, const MethodInfo*))m5_1453_gshared)(__this, method)
+extern "C" t1_1 * m5_1653_gshared (t5_17 * __this, bool p0, const MethodInfo* method);
+#define m5_1653(__this, p0, method) (( t1_1 * (*) (t5_17 *, bool, const MethodInfo*))m5_1653_gshared)(__this, p0, method)
 extern "C" t1_170* m5_1654_gshared (t5_17 * __this, bool p0, const MethodInfo* method);
 #define m5_1654(__this, p0, method) (( t1_170* (*) (t5_17 *, bool, const MethodInfo*))m5_1654_gshared)(__this, p0, method)
 extern "C" t1_170* m5_1655_gshared (t5_82 * __this, bool p0, const MethodInfo* method);
 #define m5_1655(__this, p0, method) (( t1_170* (*) (t5_82 *, bool, const MethodInfo*))m5_1655_gshared)(__this, p0, method)
 extern "C" void m5_1656_gshared (t5_17 * __this, bool p0, t1_958 * p1, const MethodInfo* method);
 #define m5_1656(__this, p0, p1, method) (( void (*) (t5_17 *, bool, t1_958 *, const MethodInfo*))m5_1656_gshared)(__this, p0, p1, method)
-extern "C" void m5_1450_gshared (t5_82 * __this, bool p0, t1_958 * p1, const MethodInfo* method);
-#define m5_1450(__this, p0, p1, method) (( void (*) (t5_82 *, bool, t1_958 *, const MethodInfo*))m5_1450_gshared)(__this, p0, p1, method)
-extern "C" t1_170* m5_1657_gshared (t5_17 * __this, const MethodInfo* method);
-#define m5_1657(__this, method) (( t1_170* (*) (t5_17 *, const MethodInfo*))m5_1657_gshared)(__this, method)
-extern "C" void m5_1445_gshared (t5_17 * __this, t1_958 * p0, const MethodInfo* method);
-#define m5_1445(__this, p0, method) (( void (*) (t5_17 *, t1_958 *, const MethodInfo*))m5_1445_gshared)(__this, p0, method)
+extern "C" void m5_1657_gshared (t5_82 * __this, bool p0, t1_958 * p1, const MethodInfo* method);
+#define m5_1657(__this, p0, p1, method) (( void (*) (t5_82 *, bool, t1_958 *, const MethodInfo*))m5_1657_gshared)(__this, p0, p1, method)
 extern "C" t1_170* m5_1658_gshared (t5_17 * __this, const MethodInfo* method);
 #define m5_1658(__this, method) (( t1_170* (*) (t5_17 *, const MethodInfo*))m5_1658_gshared)(__this, method)
-extern "C" t1_170* m5_1659_gshared (t5_82 * __this, const MethodInfo* method);
-#define m5_1659(__this, method) (( t1_170* (*) (t5_82 *, const MethodInfo*))m5_1659_gshared)(__this, method)
-extern "C" t1_1 * m5_1446_gshared (t5_82 * __this, const MethodInfo* method);
-#define m5_1446(__this, method) (( t1_1 * (*) (t5_82 *, const MethodInfo*))m5_1446_gshared)(__this, method)
+extern "C" void m5_1457_gshared (t5_17 * __this, t1_958 * p0, const MethodInfo* method);
+#define m5_1457(__this, p0, method) (( void (*) (t5_17 *, t1_958 *, const MethodInfo*))m5_1457_gshared)(__this, p0, method)
+extern "C" t1_1 * m5_1452_gshared (t5_17 * __this, const MethodInfo* method);
+#define m5_1452(__this, method) (( t1_1 * (*) (t5_17 *, const MethodInfo*))m5_1452_gshared)(__this, method)
+extern "C" t1_170* m5_1659_gshared (t5_17 * __this, bool p0, const MethodInfo* method);
+#define m5_1659(__this, p0, method) (( t1_170* (*) (t5_17 *, bool, const MethodInfo*))m5_1659_gshared)(__this, p0, method)
+extern "C" t1_170* m5_1660_gshared (t5_82 * __this, bool p0, const MethodInfo* method);
+#define m5_1660(__this, p0, method) (( t1_170* (*) (t5_82 *, bool, const MethodInfo*))m5_1660_gshared)(__this, p0, method)
+extern "C" void m5_1661_gshared (t5_17 * __this, bool p0, t1_958 * p1, const MethodInfo* method);
+#define m5_1661(__this, p0, p1, method) (( void (*) (t5_17 *, bool, t1_958 *, const MethodInfo*))m5_1661_gshared)(__this, p0, p1, method)
+extern "C" void m5_1454_gshared (t5_82 * __this, bool p0, t1_958 * p1, const MethodInfo* method);
+#define m5_1454(__this, p0, p1, method) (( void (*) (t5_82 *, bool, t1_958 *, const MethodInfo*))m5_1454_gshared)(__this, p0, p1, method)
+extern "C" t1_170* m5_1662_gshared (t5_17 * __this, const MethodInfo* method);
+#define m5_1662(__this, method) (( t1_170* (*) (t5_17 *, const MethodInfo*))m5_1662_gshared)(__this, method)
+extern "C" void m5_1449_gshared (t5_17 * __this, t1_958 * p0, const MethodInfo* method);
+#define m5_1449(__this, p0, method) (( void (*) (t5_17 *, t1_958 *, const MethodInfo*))m5_1449_gshared)(__this, p0, method)
+extern "C" t1_170* m5_1663_gshared (t5_17 * __this, const MethodInfo* method);
+#define m5_1663(__this, method) (( t1_170* (*) (t5_17 *, const MethodInfo*))m5_1663_gshared)(__this, method)
+extern "C" t1_170* m5_1664_gshared (t5_82 * __this, const MethodInfo* method);
+#define m5_1664(__this, method) (( t1_170* (*) (t5_82 *, const MethodInfo*))m5_1664_gshared)(__this, method)
+extern "C" t1_1 * m5_1450_gshared (t5_82 * __this, const MethodInfo* method);
+#define m5_1450(__this, method) (( t1_1 * (*) (t5_82 *, const MethodInfo*))m5_1450_gshared)(__this, method)
+extern "C" t1_1 * m5_1455_gshared (t5_82 * __this, const MethodInfo* method);
+#define m5_1455(__this, method) (( t1_1 * (*) (t5_82 *, const MethodInfo*))m5_1455_gshared)(__this, method)
+extern "C" t1_1 * m5_1665_gshared (t5_82 * __this, bool p0, const MethodInfo* method);
+#define m5_1665(__this, p0, method) (( t1_1 * (*) (t5_82 *, bool, const MethodInfo*))m5_1665_gshared)(__this, p0, method)
+extern "C" void m5_1666_gshared (t5_82 * __this, t1_958 * p0, const MethodInfo* method);
+#define m5_1666(__this, p0, method) (( void (*) (t5_82 *, t1_958 *, const MethodInfo*))m5_1666_gshared)(__this, p0, method)
 extern "C" t1_1 * m5_1451_gshared (t5_82 * __this, const MethodInfo* method);
 #define m5_1451(__this, method) (( t1_1 * (*) (t5_82 *, const MethodInfo*))m5_1451_gshared)(__this, method)
-extern "C" t1_1 * m5_1660_gshared (t5_82 * __this, bool p0, const MethodInfo* method);
-#define m5_1660(__this, p0, method) (( t1_1 * (*) (t5_82 *, bool, const MethodInfo*))m5_1660_gshared)(__this, p0, method)
-extern "C" void m5_1661_gshared (t5_82 * __this, t1_958 * p0, const MethodInfo* method);
-#define m5_1661(__this, p0, method) (( void (*) (t5_82 *, t1_958 *, const MethodInfo*))m5_1661_gshared)(__this, p0, method)
-extern "C" t1_1 * m5_1447_gshared (t5_82 * __this, const MethodInfo* method);
-#define m5_1447(__this, method) (( t1_1 * (*) (t5_82 *, const MethodInfo*))m5_1447_gshared)(__this, method)
 extern "C" t5_97  m1_12622_gshared (t1_33 * __this, int32_t p0, const MethodInfo* method);
 #define m1_12622(__this, p0, method) (( t5_97  (*) (t1_33 *, int32_t, const MethodInfo*))m1_12622_gshared)(__this, p0, method)
 extern "C" void m1_12864_gshared (t1_33 * __this, int32_t p0, t5_97 * p1, const MethodInfo* method);
@@ -2183,19 +2183,19 @@ extern "C" void m1_12881_gshared (t1_33 * __this, int32_t p0, t5_196 * p1, const
 #define m1_12881(__this, p0, p1, method) (( void (*) (t1_33 *, int32_t, t5_196 *, const MethodInfo*))m1_12881_gshared)(__this, p0, p1, method)
 extern "C" t1_1* m1_12744_gshared (t1_33 * __this, const MethodInfo* method);
 #define m1_12744(__this, method) (( t1_1* (*) (t1_33 *, const MethodInfo*))m1_12744_gshared)(__this, method)
-extern "C" void m5_1662_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
-#define m5_1662(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1662_gshared)(__this , p0, method)
-extern "C" void m5_1663_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
-#define m5_1663(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1663_gshared)(__this , p0, method)
-extern "C" void m5_1664_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
-#define m5_1664(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1664_gshared)(__this , p0, method)
-extern "C" void m5_1665_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
-#define m5_1665(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1665_gshared)(__this , p0, method)
+extern "C" void m5_1667_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
+#define m5_1667(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1667_gshared)(__this , p0, method)
+extern "C" void m5_1668_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
+#define m5_1668(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1668_gshared)(__this , p0, method)
+extern "C" void m5_1669_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
+#define m5_1669(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1669_gshared)(__this , p0, method)
+extern "C" void m5_1670_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
+#define m5_1670(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1670_gshared)(__this , p0, method)
 extern "C" bool m6_1508_gshared (t1_1 * __this , t5_82 * p0, t6_5 * p1, t6_188 * p2, const MethodInfo* method);
 #define m6_1508(__this , p0, p1, p2, method) (( bool (*) (t1_1 * , t5_82 *, t6_5 *, t6_188 *, const MethodInfo*))m6_1508_gshared)(__this , p0, p1, p2, method)
 extern "C" void m6_1778_gshared (t1_1 * __this , t5_82 * p0, t1_1* p1, const MethodInfo* method);
 #define m6_1778(__this , p0, p1, method) (( void (*) (t1_1 * , t5_82 *, t1_1*, const MethodInfo*))m6_1778_gshared)(__this , p0, p1, method)
-#define m5_1666(__this, p0, method) (( void (*) (t5_82 *, t1_905 *, const MethodInfo*))m5_1661_gshared)(__this, p0, method)
+#define m5_1671(__this, p0, method) (( void (*) (t5_82 *, t1_905 *, const MethodInfo*))m5_1666_gshared)(__this, p0, method)
 extern "C" bool m6_1779_gshared (t1_1 * __this , t5_17 * p0, const MethodInfo* method);
 #define m6_1779(__this , p0, method) (( bool (*) (t1_1 * , t5_17 *, const MethodInfo*))m6_1779_gshared)(__this , p0, method)
 extern "C" t6_31  m1_12745_gshared (t1_33 * __this, int32_t p0, const MethodInfo* method);
@@ -2260,8 +2260,8 @@ extern "C" void m1_12767_gshared (t1_1 * __this , t5_239* p0, int32_t p1, int32_
 #define m1_12767(__this , p0, p1, p2, p3, method) (( void (*) (t1_1 * , t5_239*, int32_t, int32_t, t1_925 *, const MethodInfo*))m1_12767_gshared)(__this , p0, p1, p2, p3, method)
 extern "C" void m1_12768_gshared (t1_1 * __this , t5_239* p0, int32_t p1, int32_t p2, const MethodInfo* method);
 #define m1_12768(__this , p0, p1, p2, method) (( void (*) (t1_1 * , t5_239*, int32_t, int32_t, const MethodInfo*))m1_12768_gshared)(__this , p0, p1, p2, method)
-extern "C" void m5_1667_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
-#define m5_1667(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1667_gshared)(__this , p0, method)
+extern "C" void m5_1672_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
+#define m5_1672(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1672_gshared)(__this , p0, method)
 extern "C" t1_1 * m6_1512_gshared (t1_1 * __this , t5_82 * p0, const MethodInfo* method);
 #define m6_1512(__this , p0, method) (( t1_1 * (*) (t1_1 * , t5_82 *, const MethodInfo*))m6_1512_gshared)(__this , p0, method)
 extern "C" bool m6_1513_gshared (t1_1 * __this , t1_1 ** p0, t1_1 * p1, const MethodInfo* method);
@@ -2312,8 +2312,8 @@ extern "C" bool m6_1500_gshared (t1_1 * __this , uint16_t* p0, uint16_t p1, cons
 #define m6_1500(__this , p0, p1, method) (( bool (*) (t1_1 * , uint16_t*, uint16_t, const MethodInfo*))m6_1500_gshared)(__this , p0, p1, method)
 extern "C" bool m6_1502_gshared (t1_1 * __this , int32_t* p0, int32_t p1, const MethodInfo* method);
 #define m6_1502(__this , p0, p1, method) (( bool (*) (t1_1 * , int32_t*, int32_t, const MethodInfo*))m6_1502_gshared)(__this , p0, p1, method)
-extern "C" void m5_1668_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
-#define m5_1668(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1668_gshared)(__this , p0, method)
+extern "C" void m5_1673_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method);
+#define m5_1673(__this , p0, method) (( void (*) (t1_1 * , t1_1 *, const MethodInfo*))m5_1673_gshared)(__this , p0, method)
 extern "C" bool m6_1503_gshared (t1_1 * __this , t6_107 * p0, t6_107  p1, const MethodInfo* method);
 #define m6_1503(__this , p0, p1, method) (( bool (*) (t1_1 * , t6_107 *, t6_107 , const MethodInfo*))m6_1503_gshared)(__this , p0, p1, method)
 extern "C" bool m6_1504_gshared (t1_1 * __this , int32_t* p0, int32_t p1, const MethodInfo* method);
@@ -26829,7 +26829,7 @@ extern "C" t1_1* m1_12516_gshared (t1_33 * __this, const MethodInfo* method)
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" t1_1 * m5_1645_gshared (t1_1 * __this , const MethodInfo* method)
+extern "C" t1_1 * m5_1650_gshared (t1_1 * __this , const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35074,7 +35074,7 @@ extern "C" t1_1* m1_12621_gshared (t1_33 * __this, const MethodInfo* method)
 		return (t1_1*)L_2;
 	}
 }
-extern "C" t1_170* m5_1646_gshared (t1_1 * __this , t5_231* p0, const MethodInfo* method)
+extern "C" t1_170* m5_1651_gshared (t1_1 * __this , t5_231* p0, const MethodInfo* method)
 {
 	t1_170* V_0 = {0};
 	int32_t V_1 = 0;
@@ -35124,7 +35124,7 @@ IL_002b:
 	}
 }
 extern Il2CppCodeGenString* _stringLiteral2514;
-extern "C" t1_1 * m5_1452_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
+extern "C" t1_1 * m5_1456_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35141,7 +35141,7 @@ extern "C" t1_1 * m5_1452_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* 
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" t1_170* m5_1647_gshared (t1_1 * __this , const MethodInfo* method)
+extern "C" t1_170* m5_1652_gshared (t1_1 * __this , const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35158,7 +35158,7 @@ extern "C" t1_170* m5_1647_gshared (t1_1 * __this , const MethodInfo* method)
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" t1_1 * m5_1469_gshared (t1_1 * __this , const MethodInfo* method)
+extern "C" t1_1 * m5_1474_gshared (t1_1 * __this , const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35174,7 +35174,7 @@ extern "C" t1_1 * m5_1469_gshared (t1_1 * __this , const MethodInfo* method)
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" t1_1 * m5_1378_gshared (t5_17 * __this, const MethodInfo* method)
+extern "C" t1_1 * m5_1382_gshared (t5_17 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35189,7 +35189,7 @@ extern "C" t1_1 * m5_1378_gshared (t5_17 * __this, const MethodInfo* method)
 		return ((t1_1 *)Castclass(L_1, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)));
 	}
 }
-extern "C" t1_1 * m5_1449_gshared (t5_17 * __this, const MethodInfo* method)
+extern "C" t1_1 * m5_1453_gshared (t5_17 * __this, const MethodInfo* method)
 {
 	bool V_0 = false;
 	{
@@ -35200,7 +35200,7 @@ extern "C" t1_1 * m5_1449_gshared (t5_17 * __this, const MethodInfo* method)
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" t1_1 * m5_1648_gshared (t5_17 * __this, bool p0, const MethodInfo* method)
+extern "C" t1_1 * m5_1653_gshared (t5_17 * __this, bool p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35214,91 +35214,6 @@ extern "C" t1_1 * m5_1648_gshared (t5_17 * __this, bool p0, const MethodInfo* me
 		bool L_1 = p0;
 		t5_17 * L_2 = m5_531((t5_17 *)__this, (t1_37 *)L_0, (bool)L_1, NULL);
 		return ((t1_1 *)Castclass(L_2, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)));
-	}
-}
-extern "C" t1_170* m5_1649_gshared (t5_17 * __this, bool p0, const MethodInfo* method)
-{
-	{
-		t5_82 * L_0 = m5_526((t5_17 *)__this, NULL);
-		bool L_1 = p0;
-		t1_170* L_2 = (( t1_170* (*) (t5_82 *, bool, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((t5_82 *)L_0, (bool)L_1, IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		return L_2;
-	}
-}
-extern TypeInfo* t1_37_TI_var;
-extern "C" t1_170* m5_1650_gshared (t5_82 * __this, bool p0, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		t1_37_TI_var = il2cpp_codegen_type_info_from_index(3);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
-		t1_37 * L_0 = m1_894(NULL, (t1_40 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 0)), NULL);
-		bool L_1 = p0;
-		t1_33 * L_2 = m5_562((t5_82 *)__this, (t1_37 *)L_0, (bool)1, (bool)1, (bool)L_1, (bool)0, (t1_1 *)NULL, NULL);
-		return ((t1_170*)Castclass(L_2, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)));
-	}
-}
-extern "C" void m5_1651_gshared (t5_17 * __this, bool p0, t1_958 * p1, const MethodInfo* method)
-{
-	{
-		t5_82 * L_0 = m5_526((t5_17 *)__this, NULL);
-		bool L_1 = p0;
-		t1_958 * L_2 = p1;
-		(( void (*) (t5_82 *, bool, t1_958 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((t5_82 *)L_0, (bool)L_1, (t1_958 *)L_2, IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		return;
-	}
-}
-extern TypeInfo* t1_37_TI_var;
-extern "C" void m5_1652_gshared (t5_82 * __this, bool p0, t1_958 * p1, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		t1_37_TI_var = il2cpp_codegen_type_info_from_index(3);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
-		t1_37 * L_0 = m1_894(NULL, (t1_40 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 0)), NULL);
-		bool L_1 = p0;
-		t1_958 * L_2 = p1;
-		m5_562((t5_82 *)__this, (t1_37 *)L_0, (bool)1, (bool)1, (bool)L_1, (bool)0, (t1_1 *)L_2, NULL);
-		return;
-	}
-}
-extern "C" t1_170* m5_1653_gshared (t5_17 * __this, const MethodInfo* method)
-{
-	{
-		t1_170* L_0 = (( t1_170* (*) (t5_17 *, bool, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((t5_17 *)__this, (bool)0, IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		return L_0;
-	}
-}
-extern "C" void m5_1453_gshared (t5_17 * __this, t1_958 * p0, const MethodInfo* method)
-{
-	{
-		t1_958 * L_0 = p0;
-		(( void (*) (t5_17 *, bool, t1_958 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((t5_17 *)__this, (bool)0, (t1_958 *)L_0, IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
-		return;
-	}
-}
-extern TypeInfo* t1_37_TI_var;
-extern "C" t1_1 * m5_1448_gshared (t5_17 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		t1_37_TI_var = il2cpp_codegen_type_info_from_index(3);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
-		t1_37 * L_0 = m1_894(NULL, (t1_40 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 0)), NULL);
-		t5_17 * L_1 = m5_534((t5_17 *)__this, (t1_37 *)L_0, NULL);
-		return ((t1_1 *)Castclass(L_1, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)));
 	}
 }
 extern "C" t1_170* m5_1654_gshared (t5_17 * __this, bool p0, const MethodInfo* method)
@@ -35323,7 +35238,7 @@ extern "C" t1_170* m5_1655_gshared (t5_82 * __this, bool p0, const MethodInfo* m
 		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
 		t1_37 * L_0 = m1_894(NULL, (t1_40 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 0)), NULL);
 		bool L_1 = p0;
-		t1_33 * L_2 = m5_562((t5_82 *)__this, (t1_37 *)L_0, (bool)1, (bool)1, (bool)L_1, (bool)1, (t1_1 *)NULL, NULL);
+		t1_33 * L_2 = m5_562((t5_82 *)__this, (t1_37 *)L_0, (bool)1, (bool)1, (bool)L_1, (bool)0, (t1_1 *)NULL, NULL);
 		return ((t1_170*)Castclass(L_2, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)));
 	}
 }
@@ -35338,7 +35253,92 @@ extern "C" void m5_1656_gshared (t5_17 * __this, bool p0, t1_958 * p1, const Met
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" void m5_1450_gshared (t5_82 * __this, bool p0, t1_958 * p1, const MethodInfo* method)
+extern "C" void m5_1657_gshared (t5_82 * __this, bool p0, t1_958 * p1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		t1_37_TI_var = il2cpp_codegen_type_info_from_index(3);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
+		t1_37 * L_0 = m1_894(NULL, (t1_40 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 0)), NULL);
+		bool L_1 = p0;
+		t1_958 * L_2 = p1;
+		m5_562((t5_82 *)__this, (t1_37 *)L_0, (bool)1, (bool)1, (bool)L_1, (bool)0, (t1_1 *)L_2, NULL);
+		return;
+	}
+}
+extern "C" t1_170* m5_1658_gshared (t5_17 * __this, const MethodInfo* method)
+{
+	{
+		t1_170* L_0 = (( t1_170* (*) (t5_17 *, bool, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((t5_17 *)__this, (bool)0, IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		return L_0;
+	}
+}
+extern "C" void m5_1457_gshared (t5_17 * __this, t1_958 * p0, const MethodInfo* method)
+{
+	{
+		t1_958 * L_0 = p0;
+		(( void (*) (t5_17 *, bool, t1_958 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((t5_17 *)__this, (bool)0, (t1_958 *)L_0, IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		return;
+	}
+}
+extern TypeInfo* t1_37_TI_var;
+extern "C" t1_1 * m5_1452_gshared (t5_17 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		t1_37_TI_var = il2cpp_codegen_type_info_from_index(3);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
+		t1_37 * L_0 = m1_894(NULL, (t1_40 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 0)), NULL);
+		t5_17 * L_1 = m5_534((t5_17 *)__this, (t1_37 *)L_0, NULL);
+		return ((t1_1 *)Castclass(L_1, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)));
+	}
+}
+extern "C" t1_170* m5_1659_gshared (t5_17 * __this, bool p0, const MethodInfo* method)
+{
+	{
+		t5_82 * L_0 = m5_526((t5_17 *)__this, NULL);
+		bool L_1 = p0;
+		t1_170* L_2 = (( t1_170* (*) (t5_82 *, bool, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((t5_82 *)L_0, (bool)L_1, IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		return L_2;
+	}
+}
+extern TypeInfo* t1_37_TI_var;
+extern "C" t1_170* m5_1660_gshared (t5_82 * __this, bool p0, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		t1_37_TI_var = il2cpp_codegen_type_info_from_index(3);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(t1_37_TI_var);
+		t1_37 * L_0 = m1_894(NULL, (t1_40 )LoadTypeToken(IL2CPP_RGCTX_TYPE(method->rgctx_data, 0)), NULL);
+		bool L_1 = p0;
+		t1_33 * L_2 = m5_562((t5_82 *)__this, (t1_37 *)L_0, (bool)1, (bool)1, (bool)L_1, (bool)1, (t1_1 *)NULL, NULL);
+		return ((t1_170*)Castclass(L_2, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)));
+	}
+}
+extern "C" void m5_1661_gshared (t5_17 * __this, bool p0, t1_958 * p1, const MethodInfo* method)
+{
+	{
+		t5_82 * L_0 = m5_526((t5_17 *)__this, NULL);
+		bool L_1 = p0;
+		t1_958 * L_2 = p1;
+		(( void (*) (t5_82 *, bool, t1_958 *, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((t5_82 *)L_0, (bool)L_1, (t1_958 *)L_2, IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
+		return;
+	}
+}
+extern TypeInfo* t1_37_TI_var;
+extern "C" void m5_1454_gshared (t5_82 * __this, bool p0, t1_958 * p1, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35355,7 +35355,7 @@ extern "C" void m5_1450_gshared (t5_82 * __this, bool p0, t1_958 * p1, const Met
 		return;
 	}
 }
-extern "C" t1_170* m5_1657_gshared (t5_17 * __this, const MethodInfo* method)
+extern "C" t1_170* m5_1662_gshared (t5_17 * __this, const MethodInfo* method)
 {
 	{
 		t1_170* L_0 = (( t1_170* (*) (t5_17 *, bool, const MethodInfo*))IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0)->method)((t5_17 *)__this, (bool)0, IL2CPP_RGCTX_METHOD_INFO(method->rgctx_data, 0));
@@ -35363,7 +35363,7 @@ extern "C" t1_170* m5_1657_gshared (t5_17 * __this, const MethodInfo* method)
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" void m5_1445_gshared (t5_17 * __this, t1_958 * p0, const MethodInfo* method)
+extern "C" void m5_1449_gshared (t5_17 * __this, t1_958 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35379,7 +35379,7 @@ extern "C" void m5_1445_gshared (t5_17 * __this, t1_958 * p0, const MethodInfo* 
 		return;
 	}
 }
-extern "C" t1_170* m5_1658_gshared (t5_17 * __this, const MethodInfo* method)
+extern "C" t1_170* m5_1663_gshared (t5_17 * __this, const MethodInfo* method)
 {
 	{
 		t5_82 * L_0 = m5_526((t5_17 *)__this, NULL);
@@ -35388,7 +35388,7 @@ extern "C" t1_170* m5_1658_gshared (t5_17 * __this, const MethodInfo* method)
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" t1_170* m5_1659_gshared (t5_82 * __this, const MethodInfo* method)
+extern "C" t1_170* m5_1664_gshared (t5_82 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35404,7 +35404,7 @@ extern "C" t1_170* m5_1659_gshared (t5_82 * __this, const MethodInfo* method)
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" t1_1 * m5_1446_gshared (t5_82 * __this, const MethodInfo* method)
+extern "C" t1_1 * m5_1450_gshared (t5_82 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35419,7 +35419,7 @@ extern "C" t1_1 * m5_1446_gshared (t5_82 * __this, const MethodInfo* method)
 		return ((t1_1 *)Castclass(L_1, IL2CPP_RGCTX_DATA(method->rgctx_data, 1)));
 	}
 }
-extern "C" t1_1 * m5_1451_gshared (t5_82 * __this, const MethodInfo* method)
+extern "C" t1_1 * m5_1455_gshared (t5_82 * __this, const MethodInfo* method)
 {
 	bool V_0 = false;
 	{
@@ -35430,7 +35430,7 @@ extern "C" t1_1 * m5_1451_gshared (t5_82 * __this, const MethodInfo* method)
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" t1_1 * m5_1660_gshared (t5_82 * __this, bool p0, const MethodInfo* method)
+extern "C" t1_1 * m5_1665_gshared (t5_82 * __this, bool p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35447,7 +35447,7 @@ extern "C" t1_1 * m5_1660_gshared (t5_82 * __this, bool p0, const MethodInfo* me
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" void m5_1661_gshared (t5_82 * __this, t1_958 * p0, const MethodInfo* method)
+extern "C" void m5_1666_gshared (t5_82 * __this, t1_958 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -35464,7 +35464,7 @@ extern "C" void m5_1661_gshared (t5_82 * __this, t1_958 * p0, const MethodInfo* 
 	}
 }
 extern TypeInfo* t1_37_TI_var;
-extern "C" t1_1 * m5_1447_gshared (t5_82 * __this, const MethodInfo* method)
+extern "C" t1_1 * m5_1451_gshared (t5_82 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -43565,7 +43565,7 @@ extern TypeInfo* t1_170_TI_var;
 extern TypeInfo* t1_37_TI_var;
 extern TypeInfo* t1_653_TI_var;
 extern Il2CppCodeGenString* _stringLiteral2616;
-extern "C" void m5_1662_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
+extern "C" void m5_1667_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -43616,7 +43616,7 @@ extern TypeInfo* t1_170_TI_var;
 extern TypeInfo* t1_37_TI_var;
 extern TypeInfo* t1_653_TI_var;
 extern Il2CppCodeGenString* _stringLiteral2616;
-extern "C" void m5_1663_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
+extern "C" void m5_1668_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -43667,7 +43667,7 @@ extern TypeInfo* t1_170_TI_var;
 extern TypeInfo* t1_37_TI_var;
 extern TypeInfo* t1_653_TI_var;
 extern Il2CppCodeGenString* _stringLiteral2616;
-extern "C" void m5_1664_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
+extern "C" void m5_1669_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -43718,7 +43718,7 @@ extern TypeInfo* t1_170_TI_var;
 extern TypeInfo* t1_37_TI_var;
 extern TypeInfo* t1_653_TI_var;
 extern Il2CppCodeGenString* _stringLiteral2616;
-extern "C" void m5_1665_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
+extern "C" void m5_1670_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -43783,8 +43783,8 @@ extern "C" bool m6_1508_gshared (t1_1 * __this , t5_82 * p0, t6_5 * p1, t6_188 *
 		t1_37_TI_var = il2cpp_codegen_type_info_from_index(3);
 		t1_18_TI_var = il2cpp_codegen_type_info_from_index(11);
 		t5_70_TI_var = il2cpp_codegen_type_info_from_index(837);
-		m6_1560_MI_var = il2cpp_codegen_method_info_from_index(2147484028);
-		m6_1562_MI_var = il2cpp_codegen_method_info_from_index(2147484029);
+		m6_1560_MI_var = il2cpp_codegen_method_info_from_index(2147484029);
+		m6_1562_MI_var = il2cpp_codegen_method_info_from_index(2147484030);
 		_stringLiteral2625 = il2cpp_codegen_string_literal_from_index(2625);
 		s_Il2CppMethodIntialized = true;
 	}
@@ -43920,7 +43920,7 @@ extern TypeInfo* t6_10_TI_var;
 extern TypeInfo* t6_201_TI_var;
 extern TypeInfo* t1_1569_TI_var;
 extern const MethodInfo* m6_1479_MI_var;
-extern const MethodInfo* m5_1666_MI_var;
+extern const MethodInfo* m5_1671_MI_var;
 extern const MethodInfo* m6_1480_MI_var;
 extern Il2CppCodeGenString* _stringLiteral2626;
 extern Il2CppCodeGenString* _stringLiteral2627;
@@ -43933,9 +43933,9 @@ extern "C" void m6_1778_gshared (t1_1 * __this , t5_82 * p0, t1_1* p1, const Met
 		t6_183_TI_var = il2cpp_codegen_type_info_from_index(1054);
 		t6_10_TI_var = il2cpp_codegen_type_info_from_index(941);
 		t6_201_TI_var = il2cpp_codegen_type_info_from_index(963);
-		t1_1569_TI_var = il2cpp_codegen_type_info_from_index(2316);
+		t1_1569_TI_var = il2cpp_codegen_type_info_from_index(2317);
 		m6_1479_MI_var = il2cpp_codegen_method_info_from_index(2147483889);
-		m5_1666_MI_var = il2cpp_codegen_method_info_from_index(2147484030);
+		m5_1671_MI_var = il2cpp_codegen_method_info_from_index(2147484031);
 		m6_1480_MI_var = il2cpp_codegen_method_info_from_index(2147483890);
 		_stringLiteral2626 = il2cpp_codegen_string_literal_from_index(2626);
 		_stringLiteral2627 = il2cpp_codegen_string_literal_from_index(2627);
@@ -43986,7 +43986,7 @@ IL_002e:
 		V_0 = (t1_905 *)L_6;
 		t5_82 * L_7 = p0;
 		t1_905 * L_8 = V_0;
-		m5_1666((t5_82 *)L_7, (t1_905 *)L_8, m5_1666_MI_var);
+		m5_1671((t5_82 *)L_7, (t1_905 *)L_8, m5_1671_MI_var);
 		V_1 = (int32_t)0;
 		goto IL_006e;
 	}
@@ -45844,8 +45844,8 @@ extern "C" bool m6_1780_gshared (t1_1 * __this , t5_82 * p0, const MethodInfo* m
 	if (!s_Il2CppMethodIntialized)
 	{
 		t6_10_TI_var = il2cpp_codegen_type_info_from_index(941);
-		m6_1560_MI_var = il2cpp_codegen_method_info_from_index(2147484028);
-		m6_1562_MI_var = il2cpp_codegen_method_info_from_index(2147484029);
+		m6_1560_MI_var = il2cpp_codegen_method_info_from_index(2147484029);
+		m6_1562_MI_var = il2cpp_codegen_method_info_from_index(2147484030);
 		s_Il2CppMethodIntialized = true;
 	}
 	t1_942 * V_0 = {0};
@@ -46266,7 +46266,7 @@ extern TypeInfo* t1_170_TI_var;
 extern TypeInfo* t1_37_TI_var;
 extern TypeInfo* t1_653_TI_var;
 extern Il2CppCodeGenString* _stringLiteral2616;
-extern "C" void m5_1667_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
+extern "C" void m5_1672_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
@@ -47140,7 +47140,7 @@ extern TypeInfo* t1_170_TI_var;
 extern TypeInfo* t1_37_TI_var;
 extern TypeInfo* t1_653_TI_var;
 extern Il2CppCodeGenString* _stringLiteral2616;
-extern "C" void m5_1668_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
+extern "C" void m5_1673_gshared (t1_1 * __this , t1_1 * p0, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
