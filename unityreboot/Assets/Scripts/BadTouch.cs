@@ -12,4 +12,8 @@ public class BadTouch : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	void OnTriggerEnter2D(Collider2D other) {
+		print ("OH NO BLOOD CLOT SON");
+	}
 }
