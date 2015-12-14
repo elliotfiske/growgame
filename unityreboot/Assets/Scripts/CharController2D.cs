@@ -3,7 +3,7 @@ using System.Collections;
 
 public class CharController2D : MonoBehaviour {
 	
-	public float move_speed = 60f;
+	public float move_speed = 100f;
 
 	// Use this for initialization
 	void Start () {

@@ -6,6 +6,7 @@ public class DialogManager : MonoBehaviour {
 
 	public static bool showingDialog = false;
 	public Text dialogText;
+	private float baseFontSize;
 	public Image downArrow;
 
 	// Which string in 'strings' we're currently displaying
@@ -26,7 +27,16 @@ public class DialogManager : MonoBehaviour {
 			if (dialogNdx == strings.Length) {
 				DismissDialog ();
 			} else {
-				dialogText.text = strings [dialogNdx];
+				var resultString = strings [dialogNdx];
+
+				if (resultString [0] == '+') {
+					dialogText.GetComponent<TextScaler> ().Biggify ();
+					resultString = resultString.Substring (1);
+				} else {
+					dialogText.GetComponent<TextScaler> ().Normalify ();
+				}
+
+				dialogText.text = resultString;
 
 				if (dialogNdx == strings.Length - 1) {
 					downArrow.enabled = false;

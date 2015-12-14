@@ -27,5 +27,9 @@ public class PixelPerfectCamera : MonoBehaviour {
 		Vector3 delta = target.position - camera.ViewportToWorldPoint(new Vector3(point.x, 0.5f, point.z));
 		Vector3 destination = transform.position + delta;
 		transform.position = Vector3.SmoothDamp(transform.position, destination, ref velocity, dampTime);
+
+		if (transform.position.y < 350f) {
+			transform.position = new Vector3 (transform.position.x, 350f, transform.position.z);
+		}
 	}
 }
