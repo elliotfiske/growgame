@@ -16,5 +16,6 @@ struct t1_18;
 
 struct  t7_11  : public t5_75
 {
-	t1_18* f2;
+	int32_t f2;
+	t1_18* f3;
 };

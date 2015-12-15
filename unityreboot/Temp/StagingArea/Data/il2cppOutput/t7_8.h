@@ -10,22 +10,18 @@
 
 #include <stdint.h>
 
-struct t6_64;
+struct t5_54;
 struct t6_65;
-struct t1_212;
+struct t1_18;
 
 #include "t5_75.h"
 
 struct  t7_8  : public t5_75
 {
-	t6_64 * f5;
-	float f6;
-	t6_65 * f7;
-	int32_t f8;
-	t1_212* f9;
-};
-struct t7_8_SFs{
-	bool f2;
-	bool f3;
-	bool f4;
+	t5_54 * f2;
+	t6_65 * f3;
+	float f4;
+	float f5;
+	bool f6;
+	t1_18* f7;
 };

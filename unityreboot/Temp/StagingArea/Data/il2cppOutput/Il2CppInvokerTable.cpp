@@ -5888,6 +5888,20 @@ void* RuntimeInvoker_t5_130_t5_36 (const MethodInfo* method, void* obj, void** a
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
+void* RuntimeInvoker_t1_25_t1_20_t1_20_t1_20_t1_20 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, float p1, float p2, float p3, float p4, const MethodInfo* method);
+	((Func)method->method)(obj, *((float*)args[0]), *((float*)args[1]), *((float*)args[2]), *((float*)args[3]), method);
+	return NULL;
+}
+
+void* RuntimeInvoker_t5_37 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef t5_37  (*Func)(void* obj, const MethodInfo* method);
+	t5_37  ret = ((Func)method->method)(obj, method);
+	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
+}
+
 void* RuntimeInvoker_t1_20_t5_37_t5_37 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef float (*Func)(void* obj, t5_37  p1, t5_37  p2, const MethodInfo* method);
@@ -5921,13 +5935,6 @@ void* RuntimeInvoker_t1_23_t5_37_t5_37 (const MethodInfo* method, void* obj, voi
 	typedef bool (*Func)(void* obj, t5_37  p1, t5_37  p2, const MethodInfo* method);
 	bool ret = ((Func)method->method)(obj, *((t5_37 *)args[0]), *((t5_37 *)args[1]), method);
 	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
-}
-
-void* RuntimeInvoker_t1_25_t1_20_t1_20_t1_20_t1_20 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef void (*Func)(void* obj, float p1, float p2, float p3, float p4, const MethodInfo* method);
-	((Func)method->method)(obj, *((float*)args[0]), *((float*)args[1]), *((float*)args[2]), *((float*)args[3]), method);
-	return NULL;
 }
 
 void* RuntimeInvoker_t1_23_t5_34 (const MethodInfo* method, void* obj, void** args)
@@ -6278,13 +6285,6 @@ void* RuntimeInvoker_t1_1_t1_1_t1_14_t1_14_t1_14_t1_14_t1_1 (const MethodInfo* m
 	typedef t1_1 * (*Func)(void* obj, t1_1 * p1, int8_t p2, int8_t p3, int8_t p4, int8_t p5, t1_1 * p6, const MethodInfo* method);
 	t1_1 * ret = ((Func)method->method)(obj, (t1_1 *)args[0], *((int8_t*)args[1]), *((int8_t*)args[2]), *((int8_t*)args[3]), *((int8_t*)args[4]), (t1_1 *)args[5], method);
 	return ret;
-}
-
-void* RuntimeInvoker_t5_37 (const MethodInfo* method, void* obj, void** args)
-{
-	typedef t5_37  (*Func)(void* obj, const MethodInfo* method);
-	t5_37  ret = ((Func)method->method)(obj, method);
-	return Box(il2cpp_codegen_class_from_type (method->return_type), &ret);
 }
 
 void* RuntimeInvoker_t1_25_t5_326 (const MethodInfo* method, void* obj, void** args)
@@ -11198,12 +11198,13 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1444] =
 	RuntimeInvoker_t1_23_t5_35_t5_35,
 	RuntimeInvoker_t5_36_t5_130,
 	RuntimeInvoker_t5_130_t5_36,
+	RuntimeInvoker_t1_25_t1_20_t1_20_t1_20_t1_20,
+	RuntimeInvoker_t5_37,
 	RuntimeInvoker_t1_20_t5_37_t5_37,
 	RuntimeInvoker_t5_37_t5_37,
 	RuntimeInvoker_t1_25_t5_326_t5_326,
 	RuntimeInvoker_t5_35_t5_37_t5_35,
 	RuntimeInvoker_t1_23_t5_37_t5_37,
-	RuntimeInvoker_t1_25_t1_20_t1_20_t1_20_t1_20,
 	RuntimeInvoker_t1_23_t5_34,
 	RuntimeInvoker_t1_23_t5_35,
 	RuntimeInvoker_t1_23_t5_38,
@@ -11254,7 +11255,6 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1444] =
 	RuntimeInvoker_t1_1_t1_1_t5_324_t5_326,
 	RuntimeInvoker_t5_81,
 	RuntimeInvoker_t1_1_t1_1_t1_14_t1_14_t1_14_t1_14_t1_1,
-	RuntimeInvoker_t5_37,
 	RuntimeInvoker_t1_25_t5_326,
 	RuntimeInvoker_t1_25_t5_37,
 	RuntimeInvoker_t5_39,

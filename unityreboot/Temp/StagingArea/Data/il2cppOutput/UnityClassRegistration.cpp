@@ -12,6 +12,9 @@ void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_Audio();
 	RegisterModule_Audio();
 
+	void RegisterModule_ParticleSystem();
+	RegisterModule_ParticleSystem();
+
 	void RegisterModule_Physics();
 	RegisterModule_Physics();
 
@@ -31,7 +34,7 @@ void RegisterStaticallyLinkedModulesGranular()
 
 void RegisterAllClasses()
 {
-	//Total: 65 classes
+	//Total: 67 classes
 	//0. AssetBundle
 	void RegisterClass_AssetBundle();
 	RegisterClass_AssetBundle();
@@ -288,7 +291,15 @@ void RegisterAllClasses()
 	void RegisterClass_LightmapSettings();
 	RegisterClass_LightmapSettings();
 
-	//64. RuntimeInitializeOnLoadManager
+	//64. ParticleSystem
+	void RegisterClass_ParticleSystem();
+	RegisterClass_ParticleSystem();
+
+	//65. ParticleSystemRenderer
+	void RegisterClass_ParticleSystemRenderer();
+	RegisterClass_ParticleSystemRenderer();
+
+	//66. RuntimeInitializeOnLoadManager
 	void RegisterClass_RuntimeInitializeOnLoadManager();
 	RegisterClass_RuntimeInitializeOnLoadManager();
 

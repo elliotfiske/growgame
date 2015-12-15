@@ -23,8 +23,8 @@ struct t1_36;
 #include "mscorlib_ArrayTypes.h"
 #include "t1_20.h"
 
-extern "C" void m5_745 (t5_111 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_746 (t5_111 * __this, t1_869* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_747 (t5_111 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_748 (t5_111 * __this, t1_869* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void pinvoke_delegate_wrapper_t5_111(Il2CppObject* delegate, t1_869* p0);
-extern "C" t1_1 * m5_747 (t5_111 * __this, t1_869* p0, t1_36 * p1, t1_1 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_748 (t5_111 * __this, t1_1 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1_1 * m5_749 (t5_111 * __this, t1_869* p0, t1_36 * p1, t1_1 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_750 (t5_111 * __this, t1_1 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

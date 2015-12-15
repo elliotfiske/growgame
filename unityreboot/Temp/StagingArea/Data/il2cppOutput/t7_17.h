@@ -10,20 +10,10 @@
 
 #include <stdint.h>
 
-struct t5_62;
 
 #include "t5_75.h"
-#include "t5_35.h"
-#include "t5_130.h"
 
 struct  t7_17  : public t5_75
 {
-	t5_35  f2;
-	t5_130  f3;
-	t5_62 * f4;
-	float f5;
-	float f6;
-	float f7;
-	float f8;
-	float f9;
+	int32_t f2;
 };

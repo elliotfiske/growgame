@@ -18,6 +18,6 @@ struct t1_18;
 #include "codegen/il2cpp-codegen.h"
 #include "t5_228.h"
 
-extern "C" void m5_1373 (t5_229 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1374 (t5_229 * __this, t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t1_18* m5_1375 (t5_229 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1375 (t5_229 * __this, int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1376 (t5_229 * __this, t1_18* p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1_18* m5_1377 (t5_229 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

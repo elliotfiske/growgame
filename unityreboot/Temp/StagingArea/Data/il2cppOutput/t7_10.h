@@ -10,12 +10,14 @@
 
 #include <stdint.h>
 
-struct t1_18;
+struct t5_61;
 
 #include "t5_75.h"
 
 struct  t7_10  : public t5_75
 {
-	int32_t f2;
-	t1_18* f3;
+	t5_61 * f2;
+	t5_61 * f3;
+	float f4;
+	float f5;
 };

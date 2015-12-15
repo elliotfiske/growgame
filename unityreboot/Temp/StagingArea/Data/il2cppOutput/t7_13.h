@@ -10,22 +10,13 @@
 
 #include <stdint.h>
 
-struct t5_54;
+struct t7_13;
 
 #include "t5_75.h"
-#include "t5_34.h"
-#include "t5_35.h"
 
 struct  t7_13  : public t5_75
 {
-	float f2;
-	float f3;
-	t5_34  f5;
-	t5_54 * f6;
-	t5_35  f7;
-	float f8;
-	bool f9;
 };
 struct t7_13_SFs{
-	float f4;
+	t7_13 * f2;
 };

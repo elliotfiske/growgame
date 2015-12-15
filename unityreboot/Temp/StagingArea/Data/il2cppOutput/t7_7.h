@@ -10,18 +10,15 @@
 
 #include <stdint.h>
 
-struct t5_54;
-struct t6_65;
+struct t5_122;
 struct t1_18;
 
 #include "t5_75.h"
 
 struct  t7_7  : public t5_75
 {
-	t5_54 * f2;
-	t6_65 * f3;
-	float f4;
-	float f5;
-	bool f6;
-	t1_18* f7;
+	t5_122 * f2;
+	t5_122 * f3;
+	t5_122 * f4;
+	t1_18* f5;
 };

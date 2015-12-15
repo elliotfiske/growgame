@@ -15,6 +15,6 @@
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" float m5_622 (t1_1 * __this , float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m5_623 (t1_1 * __this , int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" int32_t m5_624 (t1_1 * __this , int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float m5_624 (t1_1 * __this , float p0, float p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m5_625 (t1_1 * __this , int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m5_626 (t1_1 * __this , int32_t p0, int32_t p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;

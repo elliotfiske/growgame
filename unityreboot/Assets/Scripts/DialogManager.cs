@@ -81,10 +81,17 @@ public class DialogManager : MonoBehaviour {
 		CharController2D.cutsceneOFF ();
 
 		if (killBandit2) {
+			GameObject.Find ("bandit-follower-1-mover").GetComponent<BanditSplode> ().Asplode ();
+			GameObject.Find ("bandit-follower-1-mover").GetComponent<BanditSplode> ().Asplode ();
+			GameObject.Find ("bandit-follower-1-mover").GetComponent<BanditSplode> ().Asplode ();
+			GameObject.Find ("bandit-follower-1-mover").GetComponent<BanditSplode> ().Asplode ();
 			Destroy (GameObject.Find ("bandit-follower-1-mover"));
 			print ("BLOOD EVERYWHERE AHAHAHA");
 			GameObject.Find ("HintText").GetComponent<Text> ().canvasRenderer.SetAlpha (1f);
 			GameObject.Find ("death").GetComponent<AudioSource> ().Play ();
+
+
+
 			killBandit2 = false;
 		}
 
