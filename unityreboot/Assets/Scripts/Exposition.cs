@@ -8,6 +8,8 @@ public class Exposition : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		MusicAcrossScene.Stop ();
+
 		string[] introStrings1 = {
 			"Listen closely, now.",
 			"I know you kids can’t appreciate it, but we owe everything we have to the <color=#007433>forest.</color>",

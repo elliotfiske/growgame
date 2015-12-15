@@ -20,6 +20,7 @@ public class MusicAcrossScene : MonoBehaviour {
 	public static void Stop() {
 		if (instance != null) {
 			instance.GetComponent<AudioSource> ().Stop ();
+			Destroy(instance.gameObject);
 		}
 		instance = null;
 	}
