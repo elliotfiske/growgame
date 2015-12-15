@@ -84,6 +84,7 @@ public class DialogManager : MonoBehaviour {
 			Destroy (GameObject.Find ("bandit-follower-1-mover"));
 			print ("BLOOD EVERYWHERE AHAHAHA");
 			GameObject.Find ("HintText").GetComponent<Text> ().canvasRenderer.SetAlpha (1f);
+			GameObject.Find ("death").GetComponent<AudioSource> ().Play ();
 			killBandit2 = false;
 		}
 
