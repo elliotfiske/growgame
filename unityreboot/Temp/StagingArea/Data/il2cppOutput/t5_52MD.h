@@ -21,8 +21,8 @@ struct t1_36;
 #include "codegen/il2cpp-codegen.h"
 #include "t1_24.h"
 
-extern "C" void m5_293 (t5_52 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_294 (t5_52 * __this, t5_53 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_295 (t5_52 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_296 (t5_52 * __this, t5_53 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void pinvoke_delegate_wrapper_t5_52(Il2CppObject* delegate, t5_53 * p0);
-extern "C" t1_1 * m5_295 (t5_52 * __this, t5_53 * p0, t1_36 * p1, t1_1 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_296 (t5_52 * __this, t1_1 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1_1 * m5_297 (t5_52 * __this, t5_53 * p0, t1_36 * p1, t1_1 * p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_298 (t5_52 * __this, t1_1 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

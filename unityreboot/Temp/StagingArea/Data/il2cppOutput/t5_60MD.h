@@ -15,4 +15,4 @@
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" int32_t m5_346 (t1_1 * __this , int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m5_348 (t1_1 * __this , int32_t p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,11 +13,9 @@
 #include <exception>
 
 struct t7_13;
-struct t5_103;
 
 #include "codegen/il2cpp-codegen.h"
 
 extern "C" void m7_35 (t7_13 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m7_36 (t7_13 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m7_37 (t7_13 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m7_38 (t7_13 * __this, t5_103 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

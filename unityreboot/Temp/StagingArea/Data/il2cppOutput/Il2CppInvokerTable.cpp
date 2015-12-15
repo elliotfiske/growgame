@@ -5643,6 +5643,13 @@ void* RuntimeInvoker_t1_1_t1_1_t1_1_t1_1_t1_1_t1_1_t1_1 (const MethodInfo* metho
 	return ret;
 }
 
+void* RuntimeInvoker_t1_25_t1_4_t1_4_t1_14_t1_4 (const MethodInfo* method, void* obj, void** args)
+{
+	typedef void (*Func)(void* obj, int32_t p1, int32_t p2, int8_t p3, int32_t p4, const MethodInfo* method);
+	((Func)method->method)(obj, *((int32_t*)args[0]), *((int32_t*)args[1]), *((int8_t*)args[2]), *((int32_t*)args[3]), method);
+	return NULL;
+}
+
 void* RuntimeInvoker_t1_1_t5_35 (const MethodInfo* method, void* obj, void** args)
 {
 	typedef t1_1 * (*Func)(void* obj, t5_35  p1, const MethodInfo* method);
@@ -10396,7 +10403,7 @@ void* RuntimeInvoker_t1_1_t6_49 (const MethodInfo* method, void* obj, void** arg
 	return ret;
 }
 
-extern const InvokerMethod g_Il2CppInvokerPointers[1444] = 
+extern const InvokerMethod g_Il2CppInvokerPointers[1445] = 
 {
 	RuntimeInvoker_t1_25,
 	RuntimeInvoker_t1_23_t1_1,
@@ -11163,6 +11170,7 @@ extern const InvokerMethod g_Il2CppInvokerPointers[1444] =
 	RuntimeInvoker_t1_25_t1_1_t1_13_t1_1,
 	RuntimeInvoker_t4_72,
 	RuntimeInvoker_t1_1_t1_1_t1_1_t1_1_t1_1_t1_1_t1_1,
+	RuntimeInvoker_t1_25_t1_4_t1_4_t1_14_t1_4,
 	RuntimeInvoker_t1_1_t5_35,
 	RuntimeInvoker_t1_1_t1_1_t5_324,
 	RuntimeInvoker_t5_130_t1_20_t1_20,

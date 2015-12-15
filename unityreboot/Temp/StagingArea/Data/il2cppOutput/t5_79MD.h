@@ -18,9 +18,9 @@
 #include "t5_34.h"
 #include "t5_76.h"
 
-extern "C" int32_t m5_471 (t5_79 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_34  m5_472 (t5_79 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" int32_t m5_473 (t5_79 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_34  m5_474 (t5_79 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t m5_475 (t5_79 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void t5_79_marshal(const t5_79& unmarshaled, t5_79_marshaled& marshaled);
 extern "C" void t5_79_marshal_back(const t5_79_marshaled& marshaled, t5_79& unmarshaled);
 extern "C" void t5_79_marshal_cleanup(t5_79_marshaled& marshaled);

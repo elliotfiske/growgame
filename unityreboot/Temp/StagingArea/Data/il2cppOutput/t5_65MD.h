@@ -23,8 +23,8 @@ struct t1_36;
 #include "t5_8.h"
 #include "t1_18.h"
 
-extern "C" void m5_375 (t5_65 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_376 (t5_65 * __this, t1_18* p0, t1_18* p1, int32_t p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_377 (t5_65 * __this, t1_1 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_378 (t5_65 * __this, t1_18* p0, t1_18* p1, int32_t p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void pinvoke_delegate_wrapper_t5_65(Il2CppObject* delegate, t1_18* p0, t1_18* p1, int32_t p2);
-extern "C" t1_1 * m5_377 (t5_65 * __this, t1_18* p0, t1_18* p1, int32_t p2, t1_36 * p3, t1_1 * p4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_378 (t5_65 * __this, t1_1 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t1_1 * m5_379 (t5_65 * __this, t1_18* p0, t1_18* p1, int32_t p2, t1_36 * p3, t1_1 * p4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_380 (t5_65 * __this, t1_1 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

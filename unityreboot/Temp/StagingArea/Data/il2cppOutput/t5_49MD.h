@@ -20,5 +20,5 @@ struct t5_53;
 #include "t5_49.h"
 #include "t5_48.h"
 
-extern "C" void m5_291 (t5_49 * __this, t5_5 * p0, t5_53 * p1, int32_t p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_292 (t5_49 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_293 (t5_49 * __this, t5_5 * p0, t5_53 * p1, int32_t p2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_294 (t5_49 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

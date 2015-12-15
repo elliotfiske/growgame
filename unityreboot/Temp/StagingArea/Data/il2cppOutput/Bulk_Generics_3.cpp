@@ -9010,7 +9010,7 @@ extern "C" int32_t m1_7453_gshared (t1_1159 * __this, t5_35  p0, const MethodInf
 
 IL_000d:
 	{
-		int32_t L_1 = m5_134((t5_35 *)(&p0), NULL);
+		int32_t L_1 = m5_136((t5_35 *)(&p0), NULL);
 		return L_1;
 	}
 }
@@ -9032,7 +9032,7 @@ IL_0015:
 		t5_35  L_4 = p1;
 		t5_35  L_5 = L_4;
 		t1_1 * L_6 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_5);
-		bool L_7 = m5_135((t5_35 *)(&p0), (t1_1 *)L_6, NULL);
+		bool L_7 = m5_137((t5_35 *)(&p0), (t1_1 *)L_6, NULL);
 		return L_7;
 	}
 }

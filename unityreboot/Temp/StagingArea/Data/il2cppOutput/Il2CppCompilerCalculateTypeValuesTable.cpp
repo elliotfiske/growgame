@@ -1000,24 +1000,24 @@
 #include "t6_158.h"
 #include "t7_3.h"
 #include "t7_5.h"
-#include "t7_6.h"
 #include "t7_7.h"
-#include "t7_10.h"
+#include "t7_8.h"
 #include "t7_11.h"
 #include "t7_12.h"
 #include "t7_13.h"
 #include "t7_14.h"
-#include "t7_9.h"
 #include "t7_15.h"
+#include "t7_10.h"
 #include "t7_16.h"
 #include "t7_17.h"
 #include "t7_18.h"
 #include "t7_19.h"
 #include "t7_20.h"
-#include "t7_8.h"
-#include "t7_22.h"
+#include "t7_21.h"
+#include "t7_9.h"
 #include "t7_23.h"
 #include "t7_24.h"
+#include "t7_25.h"
 #include "t1_0.h"
 #include "t1_1.h"
 #include "t1_2.h"
@@ -1417,8 +1417,9 @@
 #include "t7_1.h"
 #include "t7_2.h"
 #include "t7_4.h"
-#include "t7_21.h"
-#include "t7_25.h"
+#include "t7_6.h"
+#include "t7_22.h"
+#include "t7_26.h"
 
 
 
@@ -7661,87 +7662,87 @@ extern const int32_t g_FieldOffsetTable[6308] =
 	offsetof(t7_5, f2),
 	offsetof(t7_5, f3),
 	offsetof(t7_5, f4),
-	offsetof(t7_6, f2),
 	offsetof(t7_7, f2),
-	offsetof(t7_7_SFs, f3),
-	offsetof(t7_7_SFs, f4),
-	offsetof(t7_7_SFs, f5),
-	offsetof(t7_7_SFs, f6),
-	offsetof(t7_7, f7),
-	offsetof(t7_7, f8),
-	offsetof(t7_7, f9),
-	offsetof(t7_10, f2),
-	offsetof(t7_10, f3),
-	offsetof(t7_10, f4),
-	offsetof(t7_10, f5),
-	offsetof(t7_10_SFs, f6),
-	offsetof(t7_10_SFs, f7),
-	offsetof(t7_10_SFs, f8),
-	offsetof(t7_10_SFs, f9),
+	offsetof(t7_8, f2),
+	offsetof(t7_8_SFs, f3),
+	offsetof(t7_8_SFs, f4),
+	offsetof(t7_8_SFs, f5),
+	offsetof(t7_8_SFs, f6),
+	offsetof(t7_8, f7),
+	offsetof(t7_8, f8),
+	offsetof(t7_8, f9),
 	offsetof(t7_11, f2),
+	offsetof(t7_11, f3),
+	offsetof(t7_11, f4),
+	offsetof(t7_11, f5),
+	offsetof(t7_11_SFs, f6),
+	offsetof(t7_11_SFs, f7),
+	offsetof(t7_11_SFs, f8),
+	offsetof(t7_11_SFs, f9),
 	offsetof(t7_12, f2),
 	offsetof(t7_13, f2),
-	offsetof(t7_13, f3),
-	offsetof(t7_13, f4),
-	offsetof(t7_13, f5),
 	offsetof(t7_14, f2),
 	offsetof(t7_14, f3),
 	offsetof(t7_14, f4),
 	offsetof(t7_14, f5),
-	offsetof(t7_14, f6),
-	offsetof(t7_14, f7),
-	offsetof(t7_14, f8),
-	offsetof(t7_9, f2),
-	offsetof(t7_9, f3),
-	offsetof(t7_15_SFs, f2),
-	offsetof(t7_15_SFs, f3),
-	offsetof(t7_15_SFs, f4),
-	offsetof(t7_15_SFs, f5),
+	offsetof(t7_15, f2),
+	offsetof(t7_15, f3),
+	offsetof(t7_15, f4),
+	offsetof(t7_15, f5),
 	offsetof(t7_15, f6),
 	offsetof(t7_15, f7),
 	offsetof(t7_15, f8),
-	offsetof(t7_15, f9),
-	offsetof(t7_15, f10),
-	offsetof(t7_16, f2),
-	offsetof(t7_16, f3),
-	offsetof(t7_16, f4),
-	offsetof(t7_16, f5),
+	offsetof(t7_10, f2),
+	offsetof(t7_10, f3),
+	offsetof(t7_16_SFs, f2),
+	offsetof(t7_16_SFs, f3),
+	offsetof(t7_16_SFs, f4),
+	offsetof(t7_16_SFs, f5),
+	offsetof(t7_16, f6),
+	offsetof(t7_16, f7),
+	offsetof(t7_16, f8),
+	offsetof(t7_16, f9),
+	offsetof(t7_16, f10),
 	offsetof(t7_17, f2),
 	offsetof(t7_17, f3),
+	offsetof(t7_17, f4),
+	offsetof(t7_17, f5),
 	offsetof(t7_18, f2),
-	offsetof(t7_19_SFs, f2),
-	offsetof(t7_20, f2),
-	offsetof(t7_20, f3),
-	offsetof(t7_20_SFs, f4),
-	offsetof(t7_20, f5),
-	offsetof(t7_20, f6),
-	offsetof(t7_20, f7),
-	offsetof(t7_20, f8),
-	offsetof(t7_20, f9),
-	offsetof(t7_8, f2),
-	offsetof(t7_8, f3),
-	offsetof(t7_8, f4),
-	offsetof(t7_22, f2),
-	offsetof(t7_22, f3),
-	offsetof(t7_22, f4),
-	offsetof(t7_22, f5),
-	offsetof(t7_22, f6),
-	offsetof(t7_22, f7),
-	offsetof(t7_22, f8),
+	offsetof(t7_18, f3),
+	offsetof(t7_19, f2),
+	offsetof(t7_20_SFs, f2),
+	offsetof(t7_21, f2),
+	offsetof(t7_21, f3),
+	offsetof(t7_21_SFs, f4),
+	offsetof(t7_21, f5),
+	offsetof(t7_21, f6),
+	offsetof(t7_21, f7),
+	offsetof(t7_21, f8),
+	offsetof(t7_21, f9),
+	offsetof(t7_9, f2),
+	offsetof(t7_9, f3),
+	offsetof(t7_9, f4),
 	offsetof(t7_23, f2),
+	offsetof(t7_23, f3),
+	offsetof(t7_23, f4),
+	offsetof(t7_23, f5),
+	offsetof(t7_23, f6),
+	offsetof(t7_23, f7),
+	offsetof(t7_23, f8),
 	offsetof(t7_24, f2),
-	offsetof(t7_24, f3),
-	offsetof(t7_24, f4),
-	offsetof(t7_24, f5),
-	offsetof(t7_24, f6),
-	offsetof(t7_24, f7),
-	offsetof(t7_24, f8),
-	offsetof(t7_24, f9),
+	offsetof(t7_25, f2),
+	offsetof(t7_25, f3),
+	offsetof(t7_25, f4),
+	offsetof(t7_25, f5),
+	offsetof(t7_25, f6),
+	offsetof(t7_25, f7),
+	offsetof(t7_25, f8),
+	offsetof(t7_25, f9),
 };
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1606] = 
+extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1607] = 
 {
 	sizeof (t1_0), -1, 0, 0,
 	sizeof (t1_1), -1, 0, 0,
@@ -9330,23 +9331,24 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[1606] =
 	sizeof (t7_4), -1, 0, 0,
 	sizeof (t7_5), -1, 0, 0,
 	sizeof (t7_6), -1, 0, 0,
-	sizeof (t7_7), -1, sizeof(t7_7_SFs), 0,
-	sizeof (t7_10), -1, sizeof(t7_10_SFs), 0,
-	sizeof (t7_11), -1, 0, 0,
+	sizeof (t7_7), -1, 0, 0,
+	sizeof (t7_8), -1, sizeof(t7_8_SFs), 0,
+	sizeof (t7_11), -1, sizeof(t7_11_SFs), 0,
 	sizeof (t7_12), -1, 0, 0,
 	sizeof (t7_13), -1, 0, 0,
 	sizeof (t7_14), -1, 0, 0,
-	sizeof (t7_9), -1, 0, 0,
-	sizeof (t7_15), -1, sizeof(t7_15_SFs), 0,
-	sizeof (t7_16), -1, 0, 0,
+	sizeof (t7_15), -1, 0, 0,
+	sizeof (t7_10), -1, 0, 0,
+	sizeof (t7_16), -1, sizeof(t7_16_SFs), 0,
 	sizeof (t7_17), -1, 0, 0,
 	sizeof (t7_18), -1, 0, 0,
-	sizeof (t7_19), -1, sizeof(t7_19_SFs), 0,
+	sizeof (t7_19), -1, 0, 0,
 	sizeof (t7_20), -1, sizeof(t7_20_SFs), 0,
-	sizeof (t7_21), -1, 0, 0,
-	sizeof (t7_8), -1, 0, 0,
+	sizeof (t7_21), -1, sizeof(t7_21_SFs), 0,
 	sizeof (t7_22), -1, 0, 0,
+	sizeof (t7_9), -1, 0, 0,
 	sizeof (t7_23), -1, 0, 0,
 	sizeof (t7_24), -1, 0, 0,
 	sizeof (t7_25), -1, 0, 0,
+	sizeof (t7_26), -1, 0, 0,
 };

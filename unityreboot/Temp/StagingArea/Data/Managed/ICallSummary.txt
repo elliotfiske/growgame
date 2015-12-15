@@ -347,6 +347,7 @@ UnityEngine.Screen::get_fullScreen
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width
 UnityEngine.Screen::get_dpi
+UnityEngine.Screen::SetResolution
 UnityEngine.ScriptableObject::Internal_CreateScriptableObject
 UnityEngine.ScriptableObject::CreateInstance
 UnityEngine.ScriptableObject::CreateInstanceFromType

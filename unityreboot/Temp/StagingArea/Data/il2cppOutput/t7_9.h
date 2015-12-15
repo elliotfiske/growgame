@@ -12,9 +12,11 @@
 
 
 #include "t5_75.h"
+#include "t5_35.h"
 
 struct  t7_9  : public t5_75
 {
 	float f2;
-	bool f3;
+	float f3;
+	t5_35  f4;
 };

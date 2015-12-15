@@ -1,4 +1,4 @@
-//Generated on : 12/14/2015 6:50:29 PM
+//Generated on : 12/14/2015 7:04:41 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -1590,6 +1590,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Screen::get_dpi()
 		void Register_UnityEngine_Screen_get_dpi();
 		Register_UnityEngine_Screen_get_dpi();
+
+		//System.Void UnityEngine.Screen::SetResolution(System.Int32,System.Int32,System.Boolean,System.Int32)
+		void Register_UnityEngine_Screen_SetResolution();
+		Register_UnityEngine_Screen_SetResolution();
 
 	//End Registrations for type : UnityEngine.Screen
 

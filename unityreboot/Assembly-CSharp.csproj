@@ -50,6 +50,7 @@
      <Compile Include="Assets\Follow.cs" />
      <Compile Include="Assets\KID.cs" />
      <Compile Include="Assets\KILLER.cs" />
+     <Compile Include="Assets\Res.cs" />
      <Compile Include="Assets\Scripts\AnyKey.cs" />
      <Compile Include="Assets\Scripts\BadTouch.cs" />
      <Compile Include="Assets\Scripts\BanditDialogManager.cs" />

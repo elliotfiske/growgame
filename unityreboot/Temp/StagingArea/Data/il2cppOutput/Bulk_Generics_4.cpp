@@ -965,7 +965,7 @@ extern "C" int32_t m1_7596_gshared (t1_1169 * __this, t5_41  p0, const MethodInf
 
 IL_000d:
 	{
-		int32_t L_1 = m5_230((t5_41 *)(&p0), NULL);
+		int32_t L_1 = m5_232((t5_41 *)(&p0), NULL);
 		return L_1;
 	}
 }
@@ -987,7 +987,7 @@ IL_0015:
 		t5_41  L_4 = p1;
 		t5_41  L_5 = L_4;
 		t1_1 * L_6 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_5);
-		bool L_7 = m5_231((t5_41 *)(&p0), (t1_1 *)L_6, NULL);
+		bool L_7 = m5_233((t5_41 *)(&p0), (t1_1 *)L_6, NULL);
 		return L_7;
 	}
 }
@@ -3959,7 +3959,7 @@ extern "C" int32_t m1_7739_gshared (t1_1179 * __this, t5_34  p0, const MethodInf
 
 IL_000d:
 	{
-		int32_t L_1 = m5_110((t5_34 *)(&p0), NULL);
+		int32_t L_1 = m5_112((t5_34 *)(&p0), NULL);
 		return L_1;
 	}
 }
@@ -3981,7 +3981,7 @@ IL_0015:
 		t5_34  L_4 = p1;
 		t5_34  L_5 = L_4;
 		t1_1 * L_6 = Box(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->declaring_type)->rgctx_data, 2), &L_5);
-		bool L_7 = m5_111((t5_34 *)(&p0), (t1_1 *)L_6, NULL);
+		bool L_7 = m5_113((t5_34 *)(&p0), (t1_1 *)L_6, NULL);
 		return L_7;
 	}
 }
