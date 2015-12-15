@@ -1,1 +1,1 @@
-# Grow, a game about gross growing
+# Grow, a great game about gross growing
