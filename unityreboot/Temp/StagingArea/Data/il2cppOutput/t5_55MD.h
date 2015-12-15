@@ -18,5 +18,5 @@ struct t5_5_marshaled;
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void m5_328 (t5_55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_5 * m5_329 (t5_55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_329 (t5_55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_5 * m5_330 (t5_55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

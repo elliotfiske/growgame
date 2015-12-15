@@ -73,6 +73,7 @@ UnityEngine.CanvasRenderer::get_cull
 UnityEngine.CanvasRenderer::get_hasMoved
 UnityEngine.CanvasRenderer::get_absoluteDepth
 UnityEngine.CanvasRenderer::get_materialCount
+UnityEngine.CanvasRenderer::GetAlpha
 UnityEngine.CanvasRenderer::Clear
 UnityEngine.CanvasRenderer::CreateUIVertexStreamInternal
 UnityEngine.CanvasRenderer::DisableRectClipping
@@ -240,6 +241,7 @@ UnityEngine.Input::GetKeyDownInt
 UnityEngine.Input::GetMouseButton
 UnityEngine.Input::GetMouseButtonDown
 UnityEngine.Input::GetMouseButtonUp
+UnityEngine.Input::get_anyKey
 UnityEngine.Input::get_mousePresent
 UnityEngine.Input::get_touchCount
 UnityEngine.Input::GetAxisRaw

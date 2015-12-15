@@ -45,6 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FadeInText.cs" />
+     <Compile Include="Assets\Feels.cs" />
+     <Compile Include="Assets\Follow.cs" />
+     <Compile Include="Assets\KID.cs" />
+     <Compile Include="Assets\KILLER.cs" />
+     <Compile Include="Assets\Scripts\AnyKey.cs" />
      <Compile Include="Assets\Scripts\BadTouch.cs" />
      <Compile Include="Assets\Scripts\BanditDialogManager.cs" />
      <Compile Include="Assets\Scripts\BanditSplode.cs" />
@@ -63,6 +69,7 @@
      <Compile Include="Assets\Scripts\SinCosMovement.cs" />
      <Compile Include="Assets\Scripts\TextScaler.cs" />
      <Compile Include="Assets\Scripts\Wisp.cs" />
+     <Compile Include="Assets\WWait.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

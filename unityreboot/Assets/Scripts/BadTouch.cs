@@ -53,10 +53,18 @@ public class BadTouch : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
-		yOU_IS_BAD = true;
+		if (other.tag == "Finish") {
+			other.gameObject.GetComponent<Follow> ().shake = true;
+		} else {
+			yOU_IS_BAD = true;
+		}
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
-		yOU_IS_BAD = false;
+		if (other.tag == "Finish") {
+			other.gameObject.GetComponent<Follow> ().shake = false;
+		} else {
+			yOU_IS_BAD = false;
+		}
 	}
 }

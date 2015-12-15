@@ -1,4 +1,4 @@
-//Generated on : 12/14/2015 4:46:50 PM
+//Generated on : 12/14/2015 6:50:29 PM
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.AnimationCurve
@@ -346,6 +346,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.CanvasRenderer::get_materialCount()
 		void Register_UnityEngine_CanvasRenderer_get_materialCount();
 		Register_UnityEngine_CanvasRenderer_get_materialCount();
+
+		//System.Single UnityEngine.CanvasRenderer::GetAlpha()
+		void Register_UnityEngine_CanvasRenderer_GetAlpha();
+		Register_UnityEngine_CanvasRenderer_GetAlpha();
 
 		//System.Void UnityEngine.CanvasRenderer::Clear()
 		void Register_UnityEngine_CanvasRenderer_Clear();
@@ -1094,6 +1098,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Boolean UnityEngine.Input::GetMouseButtonUp(System.Int32)
 		void Register_UnityEngine_Input_GetMouseButtonUp();
 		Register_UnityEngine_Input_GetMouseButtonUp();
+
+		//System.Boolean UnityEngine.Input::get_anyKey()
+		void Register_UnityEngine_Input_get_anyKey();
+		Register_UnityEngine_Input_get_anyKey();
 
 		//System.Boolean UnityEngine.Input::get_mousePresent()
 		void Register_UnityEngine_Input_get_mousePresent();

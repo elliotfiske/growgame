@@ -16,6 +16,6 @@ struct t7_6;
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void m7_14 (t7_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m7_15 (t7_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void m7_16 (t7_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m7_17 (t7_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

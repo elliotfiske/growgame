@@ -24,7 +24,7 @@ public class BanditDialogManager : MonoBehaviour {
 			dialog1_s = 1;
 
 			string[] strings = {
-				"Hey buddy, what's the rush? Me and my friends here, see, we noticed something.",
+				"Hey buddy, what's the rush? Me and my friend here, see, we noticed something.",
 				"We noticed that YOU keep coming down here, every month...",
 				"All by yourself, in this secluded area of the forest...",
 				"With nobody around to hear you if, say...",

@@ -11,6 +11,8 @@ public class Bell : MonoBehaviour {
 	public float fadespeed = 10f;
 	public bool dong = false;
 
+	public bool murderbell = false;
+
 	public string nextScene;
 
 	// Use this for initialization
@@ -23,6 +25,15 @@ public class Bell : MonoBehaviour {
 	void Update () {
 
 		if (dong) {
+			if (murderbell) {
+				if (fade > 0.3f) {
+					GameObject.Find ("splorch").GetComponent<AudioSource> ().Play ();
+					FindObjectOfType<BanditSplode> ().Asplode ();
+					Destroy(FindObjectOfType<BanditSplode>().gameObject);
+					murderbell = false;
+				}
+			}
+
 			if (GetComponent<AudioSource> ().isPlaying) {
 				fadePanel.color = new Color (0, 0, 0, fade);
 				fade += fadespeed;

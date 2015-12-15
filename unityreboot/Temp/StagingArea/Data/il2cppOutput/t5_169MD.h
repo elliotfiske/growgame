@@ -20,14 +20,14 @@ struct t5_25;
 #include "t1_24.h"
 #include "t5_130.h"
 
-extern "C" void m5_1084 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1085 (t5_169 * __this, t5_20 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_169 * m5_1086 (t1_1 * __this , t5_20 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_169 * m5_1087 (t1_1 * __this , t5_20 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1088 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1089 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1090 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_25 * m5_1091 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" t5_25 * m5_1092 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1093 (t5_169 * __this, t5_130  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void m5_1094 (t5_169 * __this, t5_130 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1087 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1088 (t5_169 * __this, t5_20 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_169 * m5_1089 (t1_1 * __this , t5_20 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_169 * m5_1090 (t1_1 * __this , t5_20 * p0, t1_24 p1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1091 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1092 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1093 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_25 * m5_1094 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" t5_25 * m5_1095 (t5_169 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1096 (t5_169 * __this, t5_130  p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void m5_1097 (t5_169 * __this, t5_130 * p0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -2954,7 +2954,7 @@ extern "C" void m1_5745_gshared (t1_1 * __this , const MethodInfo* method)
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		t1_1619_0_0_0_var = il2cpp_codegen_type_from_index(2585);
+		t1_1619_0_0_0_var = il2cpp_codegen_type_from_index(2586);
 		t1_37_TI_var = il2cpp_codegen_type_info_from_index(3);
 		t1_41_TI_var = il2cpp_codegen_type_info_from_index(57);
 		s_Il2CppMethodIntialized = true;
@@ -3123,7 +3123,7 @@ extern "C" void m1_5763_gshared (t1_1 * __this , const MethodInfo* method)
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		t1_1620_0_0_0_var = il2cpp_codegen_type_from_index(2586);
+		t1_1620_0_0_0_var = il2cpp_codegen_type_from_index(2587);
 		t1_37_TI_var = il2cpp_codegen_type_info_from_index(3);
 		t1_41_TI_var = il2cpp_codegen_type_info_from_index(57);
 		s_Il2CppMethodIntialized = true;

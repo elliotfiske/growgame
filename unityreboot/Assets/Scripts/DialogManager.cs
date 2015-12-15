@@ -6,6 +6,7 @@ public class DialogManager : MonoBehaviour {
 
 	public static bool killBandit2 = false;
 	public static bool run_music = false;
+	public static bool KIIID = false;
 
 	public static bool showingDialog = false;
 	public Text dialogText;
@@ -93,6 +94,11 @@ public class DialogManager : MonoBehaviour {
 
 
 			killBandit2 = false;
+		}
+
+		if (KIIID) {
+			FindObjectOfType<Follow> ().speed = 3.2f;
+			KIIID = false;
 		}
 
 		if (run_music) {
