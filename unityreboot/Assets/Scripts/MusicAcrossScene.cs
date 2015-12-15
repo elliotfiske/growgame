@@ -8,10 +8,9 @@ public class MusicAcrossScene : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		DontDestroyOnLoad (this);
-
-		if (!instance) {
+//		if (!instance) {
 			instance = this;
-		}
+//		}
 	}
 
 	public void NewMusic() {

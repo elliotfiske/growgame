@@ -26,6 +26,8 @@ public class PixelPerfectCamera : MonoBehaviour {
 	}
 
 	void Update() {
+		var huh = FindObjectsOfType<AudioSource> ();
+
 		var camera = GetComponent<Camera> ();
 		Vector3 point = camera.WorldToViewportPoint (target.position);
 		Vector3 delta = target.position - camera.ViewportToWorldPoint(new Vector3(point.x, 0.5f, point.z));

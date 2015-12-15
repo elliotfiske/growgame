@@ -8,11 +8,10 @@ public class BanditSpriteAnimator : MonoBehaviour {
 	
 	}
 
-	Vector3 prevPos;
+	public float walking = 100;
 
 	// Update is called once per frame
 	void Update () {
-		
-
+		GetComponent<Animator> ().SetFloat ("walking", walking);
 	}
 }

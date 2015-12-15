@@ -36,7 +36,9 @@ public class BanditDialogManager : MonoBehaviour {
 
 			DialogManager.GlobalShowDialog (strings);
 
+			DialogManager.run_music = true;
 			GetComponent<Animator> ().SetTrigger ("bandit2");
+			GameObject.Find ("bandit-follower-1-mover").GetComponent<Animator> ().SetTrigger ("bandit2");
 		}
 
 
@@ -48,6 +50,7 @@ public class BanditDialogManager : MonoBehaviour {
 				"Something... grabbed me... it's pulling me d-",
 			};
 
+			DialogManager.killBandit2 = true;
 			DialogManager.GlobalShowDialog (strings);
 		}
 	}

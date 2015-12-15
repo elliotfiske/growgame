@@ -13,7 +13,7 @@ public class BanditTrigger : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		bandit_leader = GameObject.Find ("bandit-leader-mover").GetComponent<Animator> ();
-//		bandit_2 = GameObject.Find ("bandit-2").GetComponent<Animator> ();
+		bandit_2 = GameObject.Find ("bandit-follower-1-mover").GetComponent<Animator> ();
 //		bandit_3 = GameObject.Find ("bandit-3").GetComponent<Animator> ();
 	}
 	
@@ -25,7 +25,7 @@ public class BanditTrigger : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other) {
 		CharController2D.cutsceneON ();
 		bandit_leader.SetTrigger (my_trigger);
-//		bandit_2.SetTrigger (my_trigger);
+		bandit_2.SetTrigger (my_trigger);
 //		bandit_3.SetTrigger (my_trigger);
 
 		Destroy (this.gameObject);

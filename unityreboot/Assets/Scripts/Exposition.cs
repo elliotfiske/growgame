@@ -62,16 +62,24 @@ public class Exposition : MonoBehaviour {
 //			"I'll see you by morning. <color=#005B28>May the forest be with you.</color>",
 		};
 
+		string[] introStrings3 = {
+			"Hmm...",
+			"Something seems... off... this time.  The forest is awfully quiet.",
+			"Keep an eye out for anything strange.",
+		};
+
 		if (level == 1) {
 			DialogManager.GlobalShowDialog (introStrings1);
 		} else if (level == 2) {
 			DialogManager.GlobalShowDialog (introStrings2);
 		} else if (level == 3) {
-			DialogManager.GlobalShowDialog (introStrings1);
+			DialogManager.GlobalShowDialog (introStrings3);
 		}
 
 			
 	}
+
+	public string nextScene;
 	
 	// Update is called once per frame
 	void Update () {
@@ -79,6 +87,6 @@ public class Exposition : MonoBehaviour {
 			return;
 		}
 
-		SceneManager.LoadScene ("GameScene1.1");
+		SceneManager.LoadScene (nextScene);
 	}
 }

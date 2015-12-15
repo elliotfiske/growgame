@@ -4,6 +4,9 @@ using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour {
 
+	public static bool killBandit2 = false;
+	public static bool run_music = false;
+
 	public static bool showingDialog = false;
 	public Text dialogText;
 	private float baseFontSize;
@@ -24,7 +27,7 @@ public class DialogManager : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Z)) {
 			dialogNdx++;
 
-			if (dialogNdx == strings.Length) {
+			if (dialogNdx >= strings.Length) {
 				DismissDialog ();
 			} else {
 				var resultString = strings [dialogNdx];
@@ -76,5 +79,19 @@ public class DialogManager : MonoBehaviour {
 		Time.timeScale = 1;
 
 		CharController2D.cutsceneOFF ();
+
+		if (killBandit2) {
+			Destroy (GameObject.Find ("bandit-follower-1-mover"));
+			print ("BLOOD EVERYWHERE AHAHAHA");
+			GameObject.Find ("HintText").GetComponent<Text> ().canvasRenderer.SetAlpha (1f);
+			killBandit2 = false;
+		}
+
+		if (run_music) {
+			GameObject.Find ("music_tension").GetComponent<AudioSource> ().Stop ();
+			GameObject.Find ("music_run").GetComponent<AudioSource> ().Play ();
+			print ("RUN! URN!U! RU!R ");
+			run_music = false;
+		}
 	}
 }
